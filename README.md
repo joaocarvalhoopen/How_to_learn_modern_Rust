@@ -20,46 +20,49 @@ To learn Rust go through the following content **in the listed order**, the majo
 4. **Rust by Example Book** <br>
    [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
 
-5. **Command Line Applications in Rust Book** <br>
+5. **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
+   [https://doc.rust-lang.org/std/option/enum.Option.html](https://doc.rust-lang.org/std/option/enum.Option.html)
+
+6. **Command Line Applications in Rust Book** <br>
    [https://rust-cli.github.io/book/in-depth/docs.html](https://rust-cli.github.io/book/in-depth/docs.html)
 
-6. **The Rust Standard Library documentation** <br>
+7. **The Rust Standard Library documentation** <br>
    [https://doc.rust-lang.org/std/](https://doc.rust-lang.org/std/)
 
-7. **Rust Design Patterns** <br>
+8. **Rust Design Patterns** <br>
    [https://rust-unofficial.github.io/patterns/](https://rust-unofficial.github.io/patterns/)
 
-8. **Guide trough of the Advent of Code 2020** <br>
+9. **Guide trough of the Advent of Code 2020** <br>
    [https://fasterthanli.me/series/advent-of-code-2020](https://fasterthanli.me/series/advent-of-code-2020)
 
-9. **The Rust Reference Book** <br>
-   [https://doc.rust-lang.org/stable/reference/](https://doc.rust-lang.org/stable/reference/)
+10. **The Rust Reference Book** <br>
+    [https://doc.rust-lang.org/stable/reference/](https://doc.rust-lang.org/stable/reference/)
 
-10. **The Rustonomicon - The Dark Arts of Unsafe Rust** <br>
+11. **The Rustonomicon - The Dark Arts of Unsafe Rust** <br>
     [https://doc.rust-lang.org/nomicon/](https://doc.rust-lang.org/nomicon/)
 
-11. **Rust and WebAssembly Book** <br>
+12. **Rust and WebAssembly Book** <br>
     [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
 
-12. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
+13. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
     by Jim Blandy, Jason Orendorff
 
-13. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
+14. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-14. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+15. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-15. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+16. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	by Rahul Sharma, Vesa Kaihlavirta 
 
-16. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+17. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-17. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+18. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-18. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+19. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
 TODO: The current list is lacking a good micro-services book a good web back office server book.
