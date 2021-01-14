@@ -75,7 +75,7 @@ TODO: The current list is lacking a good micro-services book a good web back off
 3. **The Linux Programming Interface: A Linux and UNIX System Programming Handbook** <br>
    by Michael Kerrisk
 
-4. **Linux Device Drivers, Third Edition <br>
+4. **Linux Device Drivers, 3th Edition** <br>
    [https://lwn.net/Kernel/LDD3/](https://lwn.net/Kernel/LDD3/)
 
 5. **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
