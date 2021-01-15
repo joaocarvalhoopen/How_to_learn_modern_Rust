@@ -23,64 +23,79 @@ To learn Rust go through the following content **in the listed order**, the majo
    by Steve Klabnik and Carol Nichols, with contributions from the Rust Community <br>
    [https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
 
-6. **Standard collections - std info and how to choose the correct collection** <br>
+6. **Rust Language Cheat Sheet** <br>
+   [https://cheats.rs/](https://cheats.rs/)
+
+7. **Standard collections - std info and how to choose the correct collection** <br>
    [https://doc.rust-lang.org/std/collections/index.html](https://doc.rust-lang.org/std/collections/index.html)
 
-7. **Video - Understanding Rust Lifetimes** <br>
+8. **Video - Understanding Rust Lifetimes** <br>
    [https://www.youtube.com/watch?v=MSi3E5Z8oRw](https://www.youtube.com/watch?v=MSi3E5Z8oRw)
 
-8. **Video - Unsafe & FFI in Rust** <br>
+9. **Video - Unsafe & FFI in Rust** <br>
    [https://www.youtube.com/watch?v=LFFbTeU25pE](https://www.youtube.com/watch?v=LFFbTeU25pE)
 
-9.  **Rust by Example Book** <br>
-   [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
+10. **Rust by Example Book** <br>
+    [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
 
-10. **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
-   [https://doc.rust-lang.org/beta/std/option/index.html](https://doc.rust-lang.org/beta/std/option/index.html)
+11. **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
+    [https://doc.rust-lang.org/beta/std/option/index.html](https://doc.rust-lang.org/beta/std/option/index.html)
 
-11. **Study carefully the methods of ``` Result<T, E> ``` in the documentation, they are used in all Rust programs** <br>
+12. **Study carefully the methods of ``` Result<T, E> ``` in the documentation, they are used in all Rust programs** <br>
     [https://doc.rust-lang.org/beta/std/result/index.html](https://doc.rust-lang.org/beta/std/result/index.html)
 
-12. **Command Line Applications in Rust Book** <br>
-   [https://rust-cli.github.io/book/in-depth/docs.html](https://rust-cli.github.io/book/in-depth/docs.html)
+13. **Command Line Applications in Rust Book** <br>
+    [https://rust-cli.github.io/book/in-depth/docs.html](https://rust-cli.github.io/book/in-depth/docs.html)
 
-12. **The Rust Standard Library documentation** <br>
+14. **The Rust Standard Library documentation** <br>
     [https://doc.rust-lang.org/std/](https://doc.rust-lang.org/std/)
 
-13. **Rust Design Patterns** <br>
+15. **Rust Design Patterns** <br>
     [https://rust-unofficial.github.io/patterns/](https://rust-unofficial.github.io/patterns/)
 
-14. **Guide trough of the Advent of Code 2020** <br>
+16. **The Rust Cookbook**
+    [https://rust-lang-nursery.github.io/rust-cookbook/](https://rust-lang-nursery.github.io/rust-cookbook/)
+
+17. **Guide trough of the Advent of Code 2020** <br>
     [https://fasterthanli.me/series/advent-of-code-2020](https://fasterthanli.me/series/advent-of-code-2020)
 
-15. **The Rust Reference Book** <br>
+18. **The Rust Reference Book** <br>
     [https://doc.rust-lang.org/stable/reference/](https://doc.rust-lang.org/stable/reference/)
 
-16. **The Rustonomicon - The Dark Arts of Unsafe Rust** <br>
+19. **The Rustonomicon - The Dark Arts of Unsafe Rust** <br>
     [https://doc.rust-lang.org/nomicon/](https://doc.rust-lang.org/nomicon/)
 
-17. **Rust and WebAssembly Book** <br>
+20. **The Rust Performance Book** <br>
+    [https://nnethercote.github.io/perf-book/title-page.html](https://nnethercote.github.io/perf-book/title-page.html)
+
+21. **Writing Interpreters in Rust: a Guide** <br>
+    [https://rust-hosted-langs.github.io/book/introduction.html](https://rust-hosted-langs.github.io/book/introduction.html)
+
+22. **Rust and WebAssembly Book** <br>
     [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
 
-18. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
+23. **Engineering Rust Web Applications** <br>
+    [https://erwabook.com/](https://erwabook.com/)
+
+24. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
     by Jim Blandy, Jason Orendorff
 
-19. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
+25. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-20. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+26. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-21. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+27. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	by Rahul Sharma, Vesa Kaihlavirta 
 
-22. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+28. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-23. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+29. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-24. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+30. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
 TODO: The current list is lacking a good micro-services book a good web back office server book.
@@ -132,9 +147,14 @@ TODO: The current list is lacking a good micro-services book a good web back off
 2. **The Embedded Rust Book** <br>
    [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
 
-3. **The Embedonomicon Book** <br>
+3. **Workbook for Embedded Workshops** <br>
+   [https://embedded-trainings.ferrous-systems.com/](https://embedded-trainings.ferrous-systems.com/)
+
+4. **The Embedonomicon Book** <br>
    [https://docs.rust-embedded.org/embedonomicon/](https://docs.rust-embedded.org/embedonomicon/)
 
+5. **The Embedded Working Group Newsletter or Blog** <br>
+   [https://rust-embedded.github.io/blog/](https://rust-embedded.github.io/blog/)
 
 ## Links
 
@@ -143,14 +163,17 @@ TODO: The current list is lacking a good micro-services book a good web back off
 
 2. **Rust weekly news letter** <br>
    [https://this-week-in-rust.org/](https://this-week-in-rust.org/)
-  
-3. **Awesome-rust** <br>
+
+3. **The Little Book of Rust Books** <br>
+   [https://lborb.github.io/book/title-page.html](https://lborb.github.io/book/title-page.html)
+
+4. **Awesome-rust** <br>
    [https://github.com/rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 
-4. **Awesome-embedded-rust** <br>
+5. **Awesome-embedded-rust** <br>
    [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
-5. **Rust Analyzer - User manual and short cut keys** <br>
+6. **Rust Analyzer - User manual and short cut keys** <br>
    [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
 
 ## Notes
@@ -167,7 +190,6 @@ let s = Murmur2_x86_64::new();
 let mut map = HashMap::with_hasher(s);
 map.insert(1, 2);
 ```
-
 
 ## Have fun!
 Best regards, <br>
