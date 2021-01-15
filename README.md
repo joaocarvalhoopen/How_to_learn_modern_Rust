@@ -53,7 +53,7 @@ To learn Rust go through the following content **in the listed order**, the majo
 15. **Rust Design Patterns** <br>
     [https://rust-unofficial.github.io/patterns/](https://rust-unofficial.github.io/patterns/)
 
-16. **The Rust Cookbook**
+16. **The Rust Cookbook** <br>
     [https://rust-lang-nursery.github.io/rust-cookbook/](https://rust-lang-nursery.github.io/rust-cookbook/)
 
 17. **Guide trough of the Advent of Code 2020** <br>
