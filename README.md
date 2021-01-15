@@ -144,6 +144,8 @@ TODO: The current list is lacking a good micro-services book a good web back off
 4. **Awesome-embedded-rust** <br>
    [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
+5. **Rust Analyzer - User manual** <br>
+   [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
 
 ## Have fun!
 Best regards, <br>
