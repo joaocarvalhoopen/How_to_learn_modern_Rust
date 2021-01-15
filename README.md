@@ -26,52 +26,55 @@ To learn Rust go through the following content **in the listed order**, the majo
 6. **Video - Understanding Rust Lifetimes** <br>
    [https://www.youtube.com/watch?v=MSi3E5Z8oRw](https://www.youtube.com/watch?v=MSi3E5Z8oRw)
 
-7. **Rust by Example Book** <br>
+7. **Video - Unsafe & FFI in Rust** <br>
+   [https://www.youtube.com/watch?v=LFFbTeU25pE](https://www.youtube.com/watch?v=LFFbTeU25pE)
+
+8. **Rust by Example Book** <br>
    [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
 
-8. **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
+9.  **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
    [https://doc.rust-lang.org/std/option/enum.Option.html](https://doc.rust-lang.org/std/option/enum.Option.html)
 
-9. **Command Line Applications in Rust Book** <br>
+10. **Command Line Applications in Rust Book** <br>
    [https://rust-cli.github.io/book/in-depth/docs.html](https://rust-cli.github.io/book/in-depth/docs.html)
 
-10. **The Rust Standard Library documentation** <br>
+11. **The Rust Standard Library documentation** <br>
     [https://doc.rust-lang.org/std/](https://doc.rust-lang.org/std/)
 
-11. **Rust Design Patterns** <br>
+12. **Rust Design Patterns** <br>
     [https://rust-unofficial.github.io/patterns/](https://rust-unofficial.github.io/patterns/)
 
-12. **Guide trough of the Advent of Code 2020** <br>
+13. **Guide trough of the Advent of Code 2020** <br>
     [https://fasterthanli.me/series/advent-of-code-2020](https://fasterthanli.me/series/advent-of-code-2020)
 
-13. **The Rust Reference Book** <br>
+14. **The Rust Reference Book** <br>
     [https://doc.rust-lang.org/stable/reference/](https://doc.rust-lang.org/stable/reference/)
 
-14. **The Rustonomicon - The Dark Arts of Unsafe Rust** <br>
+15. **The Rustonomicon - The Dark Arts of Unsafe Rust** <br>
     [https://doc.rust-lang.org/nomicon/](https://doc.rust-lang.org/nomicon/)
 
-15. **Rust and WebAssembly Book** <br>
+16. **Rust and WebAssembly Book** <br>
     [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
 
-16. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
+17. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
     by Jim Blandy, Jason Orendorff
 
-17. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
+18. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-18. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+19. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-19. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+20. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	by Rahul Sharma, Vesa Kaihlavirta 
 
-20. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+21. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-21. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+22. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-22. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+23. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
 TODO: The current list is lacking a good micro-services book a good web back office server book.
