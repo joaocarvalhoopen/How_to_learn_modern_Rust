@@ -36,9 +36,12 @@ To learn Rust go through the following content **in the listed order**, the majo
    [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
 
 10. **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
-   [https://doc.rust-lang.org/std/option/enum.Option.html](https://doc.rust-lang.org/std/option/enum.Option.html)
+   [https://doc.rust-lang.org/beta/std/option/index.html](https://doc.rust-lang.org/beta/std/option/index.html)
 
-11. **Command Line Applications in Rust Book** <br>
+11. **Study carefully the methods of ``` Result<T, E> ``` in the documentation, they are used in all Rust programs** <br>
+    [https://doc.rust-lang.org/beta/std/result/index.html](https://doc.rust-lang.org/beta/std/result/index.html)
+
+12. **Command Line Applications in Rust Book** <br>
    [https://rust-cli.github.io/book/in-depth/docs.html](https://rust-cli.github.io/book/in-depth/docs.html)
 
 12. **The Rust Standard Library documentation** <br>
@@ -149,6 +152,22 @@ TODO: The current list is lacking a good micro-services book a good web back off
 
 5. **Rust Analyzer - User manual and short cut keys** <br>
    [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
+
+## Notes
+
+* The HashMap in Rust uses strong cryptographic hashing for security reasons, but if the developer needs the fastest HashMap performance it can use an external faster and less secure hash function. <br>
+**HashMap.with_hasher() info** <br>
+[https://doc.rust-lang.org/beta/std/collections/struct.HashMap.html#method.with_hasher](https://doc.rust-lang.org/beta/std/collections/struct.HashMap.html#method.with_hasher) <br>
+Insert crate **fasthash** into ```.toml``` file <br>
+```Rust
+use std::collections::HashMap;
+use fasthash::murmur2::Murmur2_x86_64;
+
+let s = Murmur2_x86_64::new();
+let mut map = HashMap::with_hasher(s);
+map.insert(1, 2);
+```
+
 
 ## Have fun!
 Best regards, <br>
