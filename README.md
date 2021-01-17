@@ -90,7 +90,7 @@ To learn Rust go through the following content **in the listed order**, the majo
     by Brian L. Troutwine 
 
 28. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
-	by Rahul Sharma, Vesa Kaihlavirta 
+	 by Rahul Sharma, Vesa Kaihlavirta 
 
 29. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
@@ -127,17 +127,17 @@ TODO: The current list is lacking a good micro-services book a good web back off
 7. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
    by Randal Bryant, David O'Hallaron
 
-8. **Writing An Interpreter In Go** <br> 
-   by Thorsten Ball
+8. **Computer Networking: A Top-Down Approach** <br> 
+   by James Kurose
 
-9. **Writing A Compiler In Go** <br>
-   by Thorsten Ball
+9. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
+   by Walter Goralski
 
-10. **Computer Networking: A Top-Down Approach** <br> 
-    by James Kurose
+10. **Writing An Interpreter In Go** <br> 
+    by Thorsten Ball
 
-11. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
-    by Walter Goralski
+11. **Writing A Compiler In Go** <br>
+    by Thorsten Ball
 
 12. **Compilers: Principles, Techniques, and Tools** <br>
     by Alfred Aho, Monica Lam, Ravi Sethi
@@ -169,6 +169,7 @@ TODO: The current list is lacking a good micro-services book a good web back off
 5. **The Embedded Working Group Newsletter or Blog** <br>
    [https://rust-embedded.github.io/blog/](https://rust-embedded.github.io/blog/)
 
+
 ## Links
 
 1. **Rust site** <br>
@@ -192,6 +193,11 @@ TODO: The current list is lacking a good micro-services book a good web back off
 
 7. **Rust Analyzer - User manual and short cut keys** <br>
    [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
+
+8. **Tokio** <br>
+   Tokio is an asynchronous runtime for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices. <br>
+   [https://tokio.rs/](https://tokio.rs/)
+
 
 ## Notes
 
