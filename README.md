@@ -127,7 +127,7 @@ TODO: The current list is lacking a good micro-services book a good web back off
 7. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
    by Randal Bryant, David O'Hallaron
 
-8. **Writing An Interpreter In Go** <br>
+8. **Writing An Interpreter In Go** <br> 
    by Thorsten Ball
 
 9. **Writing A Compiler In Go** <br>
