@@ -111,34 +111,44 @@ TODO: The current list is lacking a good micro-services book a good web back off
 2. **How Linux Works, 3rd Edition: What Every Superuser Should Know 3rd Edition** <br>
    by Brian Ward
 
-3. **The Linux Programming Interface: A Linux and UNIX System Programming Handbook** <br>
+3. **Operating Systems: Three Easy Pieces** <br>
+   Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau <br>
+   [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/)  
+
+4. **The Linux Programming Interface: A Linux and UNIX System Programming Handbook** <br>
    by Michael Kerrisk
 
-4. **Linux Device Drivers, 3th Edition** <br>
+5. **Linux Device Drivers, 3th Edition** <br>
    [https://lwn.net/Kernel/LDD3/](https://lwn.net/Kernel/LDD3/)
 
-5. **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
+6. **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
    by Alberto Liberal de los Ríos
 
-6. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
+7. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
    by Randal Bryant, David O'Hallaron
 
-7. **Writing An Interpreter In Go** <br>
+8. **Writing An Interpreter In Go** <br>
    by Thorsten Ball
 
-8. **Writing A Compiler In Go** <br>
+9. **Writing A Compiler In Go** <br>
    by Thorsten Ball
 
-9. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
-   by Walter Goralski
+10. **Computer Networking: A Top-Down Approach** <br> 
+    by James Kurose
 
-10. **C Programming: A Modern Approach, 2nd Edition** <br>
+11. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
+    by Walter Goralski
+
+12. **Compilers: Principles, Techniques, and Tools** <br>
+    by Alfred Aho, Monica Lam, Ravi Sethi
+
+13. **C Programming: A Modern Approach, 2nd Edition** <br>
     by K. N. King
 
-11. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
+14. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
     by Kamran Amini
 
-12. **C++ Crash Course: A Fast-Paced Introduction** <br>
+15. **C++ Crash Course: A Fast-Paced Introduction** <br>
     by Josh Lospinoso
 
 
@@ -161,22 +171,26 @@ TODO: The current list is lacking a good micro-services book a good web back off
 
 ## Links
 
-1. **Crate.io - The Rust community’s crate registry** <br>
+1. **Rust site** <br>
+   A language empowering everyone to build reliable and efficient software. <br>
+   [https://www.rust-lang.org/](https://www.rust-lang.org/)
+
+2. **Crate.io - The Rust community’s crate registry** <br>
   [https://crates.io/](https://crates.io/)
 
-2. **Rust weekly news letter** <br>
+3. **Rust weekly news letter** <br>
    [https://this-week-in-rust.org/](https://this-week-in-rust.org/)
 
-3. **The Little Book of Rust Books** <br>
+4. **The Little Book of Rust Books** <br>
    [https://lborb.github.io/book/title-page.html](https://lborb.github.io/book/title-page.html)
 
-4. **Awesome-rust** <br>
+5. **Awesome-rust** <br>
    [https://github.com/rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 
-5. **Awesome-embedded-rust** <br>
+6. **Awesome-embedded-rust** <br>
    [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
-6. **Rust Analyzer - User manual and short cut keys** <br>
+7. **Rust Analyzer - User manual and short cut keys** <br>
    [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
 
 ## Notes
