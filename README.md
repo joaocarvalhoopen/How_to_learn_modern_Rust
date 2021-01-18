@@ -101,7 +101,6 @@ To learn Rust go through the following content **in the listed order**, the majo
 31. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-TODO: The current list is lacking a good micro-services book a good web back office server book.
 
 ## Background in systems programming
 
@@ -198,6 +197,14 @@ TODO: The current list is lacking a good micro-services book a good web back off
    Tokio is an asynchronous runtime for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices. <br>
    [https://tokio.rs/](https://tokio.rs/)
 
+9. **Actix Web** <br>
+   Web Framework that's blazing fast, secure, asynchronous runs over Tokio and is "similar" to **Flask** of Python. <br>
+   https://actix.rs/ 
+
+10. **Rocket** <br>
+    Web Framework that's fast, secure and more "similar" to **Django** of Python. <br>
+    [https://rocket.rs/](https://rocket.rs/)
+    
 
 ## Notes
 
