@@ -59,49 +59,56 @@ To learn Rust go through the following content **in the listed order**, the majo
 17. **The Rust Cookbook - Book** <br>
     [https://rust-lang-nursery.github.io/rust-cookbook/](https://rust-lang-nursery.github.io/rust-cookbook/)
 
-18. **Guide trough of the Advent of Code 2020** <br>
+18. **The Cargo Book** <br>
+    [https://doc.rust-lang.org/cargo/index.html](https://doc.rust-lang.org/cargo/index.html)
+
+19. **Guide trough of the Advent of Code 2020** <br>
     [https://fasterthanli.me/series/advent-of-code-2020](https://fasterthanli.me/series/advent-of-code-2020)
 
-19. **The Rust Reference Book** <br>
+20. **The Rust Reference Book** <br>
     [https://doc.rust-lang.org/stable/reference/](https://doc.rust-lang.org/stable/reference/)
 
-20. **The Rustonomicon - The Dark Arts of Unsafe Rust - Book** <br>
+21. **The Rustonomicon - The Dark Arts of Unsafe Rust - Book** <br>
     [https://doc.rust-lang.org/nomicon/](https://doc.rust-lang.org/nomicon/)
 
-21. **The Rust Performance Book** <br>
+22. **The Rust Performance Book** <br>
     [https://nnethercote.github.io/perf-book/title-page.html](https://nnethercote.github.io/perf-book/title-page.html)
 
-22. **Writing Interpreters in Rust: a Guide - Book** <br>
+23. **Writing Interpreters in Rust: a Guide - Book** <br>
     [https://rust-hosted-langs.github.io/book/introduction.html](https://rust-hosted-langs.github.io/book/introduction.html)
 
-23. **Rust and WebAssembly - Book** <br>
+24. **Make A Language** <br>
+    A series about making a programming language called **Eldiro** using the Rust programming language. <br>
+    [https://arzg.github.io/lang/](https://arzg.github.io/lang/)
+
+25. **Rust and WebAssembly - Book** <br>
     [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
 
-24. **Engineering Rust Web Applications - Book** <br>
+26. **Engineering Rust Web Applications - Book** <br>
     [https://erwabook.com/](https://erwabook.com/)
 
-25. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
+27. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
     by Jim Blandy, Jason Orendorff
 
-26. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
+28. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-27. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+29. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-28. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+30. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	 by Rahul Sharma, Vesa Kaihlavirta 
 
-29. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+31. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-30. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+32. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-31. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+33. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-32. **Python Extensions in Pure Rust with PyO3** <br>
+34. **Python Extensions in Pure Rust with PyO3** <br>
     [https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/](https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/)   
 
 
