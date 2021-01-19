@@ -101,6 +101,9 @@ To learn Rust go through the following content **in the listed order**, the majo
 31. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
+32. **Python Extensions in Pure Rust with PyO3** <br>
+    [https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/](https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/)   
+
 
 ## Background in systems programming
 
@@ -204,7 +207,7 @@ To learn Rust go through the following content **in the listed order**, the majo
 10. **Rocket** <br>
     Web Framework that's fast, secure and more "similar" to **Django** of Python. <br>
     [https://rocket.rs/](https://rocket.rs/)
-    
+
 
 ## Notes
 
