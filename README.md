@@ -235,6 +235,10 @@ To learn Rust go through the following content **in the listed order**, the majo
     Web Framework that's fast, secure and more "similar" to **Django** of Python. <br>
     [https://rocket.rs/](https://rocket.rs/)
 
+11. **Serde** <br>
+    Serde is a framework for **serializing** and **deserializing** Rust data structures efficiently and generically. <br>
+    [https://serde.rs/](https://serde.rs/) <br>
+    [https://crates.io/crates/serde](https://crates.io/crates/serde)
 
 ## Notes
 
