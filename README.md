@@ -111,13 +111,23 @@ To learn Rust go through the following content **in the listed order**, the majo
 34. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-35. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+35. **Guide to Optimization** <br>
+    Achieving warp speed with Rust <br>
+    [https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1) <br>
+    Optimization - Making Rust Code Go Brrrr <br>
+    [https://aspenuwu.me/blog/rust-optimization/](https://aspenuwu.me/blog/rust-optimization/) <br>
+    Profile Guided Optimization <br>
+    [https://doc.rust-lang.org/rustc/profile-guided-optimization.html](https://doc.rust-lang.org/rustc/profile-guided-optimization.html) <br>
+    Optimizations: the speed size tradeoff <br>
+    [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
+
+36. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-36. **Python Extensions in Pure Rust with PyO3** <br>
+37. **Python Extensions in Pure Rust with PyO3** <br>
     [https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/](https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/)   
 
-37. **The Rust Unstable Book** <br>
+38. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 ## Background in systems programming
