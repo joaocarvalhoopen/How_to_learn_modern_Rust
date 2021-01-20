@@ -117,6 +117,8 @@ To learn Rust go through the following content **in the listed order**, the majo
 36. **Python Extensions in Pure Rust with PyO3** <br>
     [https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/](https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/)   
 
+37. **The Rust Unstable Book** <br>
+    [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 ## Background in systems programming
 
