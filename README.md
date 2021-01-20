@@ -114,6 +114,8 @@ To learn Rust go through the following content **in the listed order**, the majo
 35. **Guide to Optimization** <br>
     Achieving warp speed with Rust <br>
     [https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1) <br>
+    Cheap tricks for high-performance Rust <br>
+    [https://deterministic.space/high-performance-rust.html](https://deterministic.space/high-performance-rust.html)<br>
     Optimization - Making Rust Code Go Brrrr <br>
     [https://aspenuwu.me/blog/rust-optimization/](https://aspenuwu.me/blog/rust-optimization/) <br>
     Profile Guided Optimization <br>
