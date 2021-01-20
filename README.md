@@ -7,108 +7,114 @@ Rust is an incredible powerful programming language. It is fast, compiled, witho
 It is the most beloved language for five years in a row in Stack Overflow users pool. <br> 
 To learn Rust go through the following content **in the listed order**, the majority of the content is free. <br>
 
-1. **Video - Rust Crash Course - Rustlang** <br>
+1. **Why Developers Love Rust** <br>
+   [https://ibraheem.ca/posts/why-devs-love-rust](https://ibraheem.ca/posts/why-devs-love-rust)
+
+2. **Video - Rust Crash Course - Rustlang** <br>
    [https://www.youtube.com/watch?v=zF34dRivLOw](https://www.youtube.com/watch?v=zF34dRivLOw)
 
-2. **Video - Introduction to Rust Part 1** <br>
+3. **Video - Introduction to Rust Part 1** <br>
    [https://www.youtube.com/watch?v=WnWGO-tLtLA](https://www.youtube.com/watch?v=WnWGO-tLtLA)
 
-3. **Video - Introduction to Rust Part 2** <br>
+4. **Video - Introduction to Rust Part 2** <br>
    [https://www.youtube.com/watch?v=lLWchWTUFOQ](https://www.youtube.com/watch?v=lLWchWTUFOQ)
 
-4. **A half-hour to learn Rust** <br>
+5. **A half-hour to learn Rust** <br>
    [https://fasterthanli.me/articles/a-half-hour-to-learn-rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
 
-5. **The Rust Programming Language Book** <br>
+6. **The Rust Programming Language Book** <br>
    by Steve Klabnik and Carol Nichols, with contributions from the Rust Community <br>
    [https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
 
-6. **Rust Language Cheat Sheet** <br>
+7. **Rust Language Cheat Sheet** <br>
    [https://cheats.rs/](https://cheats.rs/)
 
-7. **Standard collections - std info and how to choose the correct collection** <br>
+8. **Standard collections - std info and how to choose the correct collection** <br>
    [https://doc.rust-lang.org/std/collections/index.html](https://doc.rust-lang.org/std/collections/index.html)
 
-8. **Video - Understanding Rust Lifetimes** <br>
+9. **Video - Understanding Rust Lifetimes** <br>
    [https://www.youtube.com/watch?v=MSi3E5Z8oRw](https://www.youtube.com/watch?v=MSi3E5Z8oRw)
 
-9. **Video - Unsafe & FFI in Rust** <br>
-   [https://www.youtube.com/watch?v=LFFbTeU25pE](https://www.youtube.com/watch?v=LFFbTeU25pE)
+10. **Video - Unsafe & FFI in Rust** <br>
+    [https://www.youtube.com/watch?v=LFFbTeU25pE](https://www.youtube.com/watch?v=LFFbTeU25pE)
 
-10. **Rust by Example Book** <br>
+11. **Rust by Example Book** <br>
     [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
 
-11. **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
+12. **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
     [https://doc.rust-lang.org/beta/std/option/index.html](https://doc.rust-lang.org/beta/std/option/index.html)
 
-12. **Study carefully the methods of ``` Result<T, E> ``` in the documentation, they are used in all Rust programs** <br>
+13. **Study carefully the methods of ``` Result<T, E> ``` in the documentation, they are used in all Rust programs** <br>
     [https://doc.rust-lang.org/beta/std/result/index.html](https://doc.rust-lang.org/beta/std/result/index.html)
 
-13. **Command Line Applications in Rust - Book** <br>
+14. **Command Line Applications in Rust - Book** <br>
     [https://rust-cli.github.io/book/in-depth/docs.html](https://rust-cli.github.io/book/in-depth/docs.html)
 
-14. **The Rust Standard Library documentation** <br>
+15. **The Rust Standard Library documentation** <br>
     [https://doc.rust-lang.org/std/](https://doc.rust-lang.org/std/)
 
-15. **Learn Rust With Entirely Too Many Linked Lists - Book** <br>
+16. **Learn Rust With Entirely Too Many Linked Lists - Book** <br>
     [https://rust-unofficial.github.io/too-many-lists/](https://rust-unofficial.github.io/too-many-lists/)
 
-16. **Rust Design Patterns - Book** <br>
+17. **Rust Design Patterns - Book** <br>
     [https://rust-unofficial.github.io/patterns/](https://rust-unofficial.github.io/patterns/)
 
-17. **The Rust Cookbook - Book** <br>
+18. **The Rust Cookbook - Book** <br>
     [https://rust-lang-nursery.github.io/rust-cookbook/](https://rust-lang-nursery.github.io/rust-cookbook/)
 
-18. **The Cargo Book** <br>
+19. **The Cargo Book** <br>
     [https://doc.rust-lang.org/cargo/index.html](https://doc.rust-lang.org/cargo/index.html)
 
-19. **Guide trough of the Advent of Code 2020** <br>
+20. **Guide trough of the Advent of Code 2020** <br>
     [https://fasterthanli.me/series/advent-of-code-2020](https://fasterthanli.me/series/advent-of-code-2020)
 
-20. **The Rust Reference Book** <br>
+21. **The Rust Reference Book** <br>
     [https://doc.rust-lang.org/stable/reference/](https://doc.rust-lang.org/stable/reference/)
 
-21. **The Rustonomicon - The Dark Arts of Unsafe Rust - Book** <br>
+22. **The Rustonomicon - The Dark Arts of Unsafe Rust - Book** <br>
     [https://doc.rust-lang.org/nomicon/](https://doc.rust-lang.org/nomicon/)
 
-22. **The Rust Performance Book** <br>
+23. **The Rust Performance Book** <br>
     [https://nnethercote.github.io/perf-book/title-page.html](https://nnethercote.github.io/perf-book/title-page.html)
 
-23. **Writing Interpreters in Rust: a Guide - Book** <br>
+24. **The Little Book of Rust Macros - Book** <br>
+    [https://veykril.github.io/tlborm/introduction.html](https://veykril.github.io/tlborm/introduction.html)
+
+25. **Writing Interpreters in Rust: a Guide - Book** <br>
     [https://rust-hosted-langs.github.io/book/introduction.html](https://rust-hosted-langs.github.io/book/introduction.html)
 
-24. **Make A Language** <br>
+26. **Make A Language** <br>
     A series about making a programming language called **Eldiro** using the Rust programming language. <br>
     [https://arzg.github.io/lang/](https://arzg.github.io/lang/)
 
-25. **Rust and WebAssembly - Book** <br>
+27. **Rust and WebAssembly - Book** <br>
     [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
 
-26. **Engineering Rust Web Applications - Book** <br>
+28. **Engineering Rust Web Applications - Book** <br>
     [https://erwabook.com/](https://erwabook.com/)
 
-27. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
+29. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
     by Jim Blandy, Jason Orendorff
 
-28. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
+30. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-29. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+31. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-30. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+32. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	 by Rahul Sharma, Vesa Kaihlavirta 
 
-31. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+33. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-32. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+34. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-33. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+35. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-34. **Python Extensions in Pure Rust with PyO3** <br>
+36. **Python Extensions in Pure Rust with PyO3** <br>
     [https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/](https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/)   
 
 
