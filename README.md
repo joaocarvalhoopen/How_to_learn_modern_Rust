@@ -237,6 +237,27 @@ let mut map = HashMap::with_hasher(s);
 map.insert(1, 2);
 ```
 
+* **String continuations** <br>
+  The backslash, the newline and the starting spaces will disappear. <br>
+
+```
+println!(
+    "... the {p}, by the {p}, for the {p}, \
+    will never fall.",
+    p = "people"
+);
+
+Will print: 
+"... the people, by the people, for the people, will never fall."
+```
+
+* **The ASM! macro to insert inline Assembly** <br>
+  New inline assembly syntax <br>
+  [https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html](https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html) <br>
+  ASM! at the Unstable Book <br>
+  [https://doc.rust-lang.org/beta/unstable-book/library-features/asm.html](https://doc.rust-lang.org/beta/unstable-book/library-features/asm.html)
+
+
 ## Have fun!
 Best regards, <br>
 Joao Nuno Carvalho <br>
