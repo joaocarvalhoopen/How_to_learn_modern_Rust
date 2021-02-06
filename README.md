@@ -139,11 +139,9 @@ To learn Rust go through the following content **in the listed order**, the majo
 40. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-41. **Python Extensions in Pure Rust with PyO3** <br>
-    [https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/](https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/)   
-
-42. **The Rust Unstable Book** <br>
+41. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
+
 
 ## Background in systems programming
 
@@ -194,25 +192,40 @@ To learn Rust go through the following content **in the listed order**, the majo
     by Josh Lospinoso
 
 
+## Python extended with Rust and running a Python interpreter inside Rust  
+
+1. **PyO3 - GitHub** <br>
+   [https://github.com/PyO3/pyo3](https://github.com/PyO3/pyo3)
+
+2. **The PyO3 user guide - Book** <br>
+   [https://pyo3.rs/master/](https://pyo3.rs/master/)
+
+3. **Python Extensions in Pure Rust with PyO3** <br>
+   [https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/](https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/)   
+
+4. **RustPython - A Python-3 interpreter written in Rust** <br>
+   [https://github.com/RustPython/RustPython](https://github.com/RustPython/RustPython)
+
+
 ## Rust on or for the Raspberry Pi
 
-* There are two modes of using Rust with the Raspberry Pi. <br>
-  The first one is installing Rust development tools on the Raspberry Pi itself, and the second one is installing on the PC and making cross-compilation to generate a executable that runs on the Raspberry Pi.
+* There are **two modes** of using Rust with the Raspberry Pi. <br>
+  The first one is **installing Rust development tools on the Raspberry Pi** itself, and the second one is **installing on the PC and making cross-compilation** to generate a executable that runs on the Raspberry Pi.
 
 
 ### Developing on the Raspberry Pi and running Rust programs on the Raspberry Pi
 
-1. How to Get Started With Rust on Raspberry Pi <br>
+1. **How to Get Started With Rust on Raspberry Pi** <br>
    [https://www.muo.com/tag/getting-started-rust-raspberry-pi/](https://www.muo.com/tag/getting-started-rust-raspberry-pi/)
 
 
 ### Developing on the PC and cross-compiling to run Rust programs on the Raspberry Pi
 
-1. Cross Compiling Rust for the Raspberry Pi <br>
+1. **Cross Compiling Rust for the Raspberry Pi** <br>
    It also explains a method to automatically coping the file to the Raspberry Pi after compilation. <br> 
    [https://chacin.dev/blog/cross-compiling-rust-for-the-raspberry-pi/](https://chacin.dev/blog/cross-compiling-rust-for-the-raspberry-pi/)
 
-2. Cross compiling Rust for Raspberry Pi <br>
+2. **Cross compiling Rust for Raspberry Pi** <br>
    [https://dev.to/h_ajsf/cross-compiling-rust-for-raspberry-pi-4iai](https://dev.to/h_ajsf/cross-compiling-rust-for-raspberry-pi-4iai)
 
 
