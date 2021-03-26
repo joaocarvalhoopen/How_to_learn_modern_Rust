@@ -96,35 +96,40 @@ To learn Rust go through the following content **in the listed order**, the majo
 29. **Writing Interpreters in Rust: a Guide - Book** <br>
     [https://rust-hosted-langs.github.io/book/introduction.html](https://rust-hosted-langs.github.io/book/introduction.html)
 
-30. **Make A Language** <br>
+30. **Video - Cheaply writing a fast interpreter - Neil Mitchell** <br>
+    [https://www.youtube.com/watch?v=V8dnIw3amLA](https://www.youtube.com/watch?v=V8dnIw3amLA) <br>
+    github <br>
+    [https://github.com/ndmitchell/interpret](https://github.com/ndmitchell/interpret)
+
+31. **Make A Language** <br>
     A series about making a programming language called **Eldiro** using the Rust programming language. <br>
     [https://arzg.github.io/lang/](https://arzg.github.io/lang/)
 
-31. **Rust and WebAssembly - Book** <br>
+32. **Rust and WebAssembly - Book** <br>
     [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
 
-32. **Engineering Rust Web Applications - Book** <br>
+33. **Engineering Rust Web Applications - Book** <br>
     [https://erwabook.com/](https://erwabook.com/)
 
-33. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
+34. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
     by Jim Blandy, Jason Orendorff
 
-34. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
+35. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-35. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+36. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-36. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+37. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	 by Rahul Sharma, Vesa Kaihlavirta 
 
-37. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+38. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-38. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+39. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-39. **Guide to Optimization** <br>
+40. **Guide to Optimization** <br>
     Achieving warp speed with Rust <br>
     [https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1) <br>
     Cheap tricks for high-performance Rust <br>
@@ -136,59 +141,66 @@ To learn Rust go through the following content **in the listed order**, the majo
     Optimizations: the speed size tradeoff <br>
     [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
 
-40. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+41. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-41. **The Rust Unstable Book** <br>
+42. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 
 ## Background in systems programming
 
-1. **The Linux Command Line, 2nd Edition: A Complete Introduction Illustrated Edition** <br>
+1. **How to lean modern Linux** <br>
+   [https://github.com/joaocarvalhoopen/How_to_learn_modern_Linux](https://github.com/joaocarvalhoopen/How_to_learn_modern_Linux)
+
+2. **Safe Systems Programming in Rust** <br>
+   By Ralf Jung, Jacques-Henri Jourdan, Robbert Krebbers, Derek Dreyer <br>
+   [https://cacm.acm.org/magazines/2021/4/251364-safe-systems-programming-in-rust/fulltext](https://cacm.acm.org/magazines/2021/4/251364-safe-systems-programming-in-rust/fulltext)
+
+3. **The Linux Command Line, 2nd Edition: A Complete Introduction Illustrated Edition** <br>
    by William Shotts
 
-2. **How Linux Works, 3rd Edition: What Every Superuser Should Know 3rd Edition** <br>
+4. **How Linux Works, 3rd Edition: What Every Superuser Should Know 3rd Edition** <br>
    by Brian Ward
 
-3. **Operating Systems: Three Easy Pieces** <br>
+5. **Operating Systems: Three Easy Pieces** <br>
    Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau <br>
    [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/)  
 
-4. **The Linux Programming Interface: A Linux and UNIX System Programming Handbook** <br>
+6. **The Linux Programming Interface: A Linux and UNIX System Programming Handbook** <br>
    by Michael Kerrisk
 
-5. **Linux Device Drivers, 3th Edition** <br>
+7. **Linux Device Drivers, 3th Edition** <br>
    [https://lwn.net/Kernel/LDD3/](https://lwn.net/Kernel/LDD3/)
 
-6. **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
+8. **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
    by Alberto Liberal de los Ríos
 
-7. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
+9.  **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
    by Randal Bryant, David O'Hallaron
 
-8. **Computer Networking: A Top-Down Approach** <br> 
+10. **Computer Networking: A Top-Down Approach** <br> 
    by James Kurose
 
-9. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
+11. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
    by Walter Goralski
 
-10. **Writing An Interpreter In Go** <br> 
+12. **Writing An Interpreter In Go** <br> 
     by Thorsten Ball
 
-11. **Writing A Compiler In Go** <br>
+13. **Writing A Compiler In Go** <br>
     by Thorsten Ball
 
-12. **Compilers: Principles, Techniques, and Tools** <br>
+14. **Compilers: Principles, Techniques, and Tools** <br>
     by Alfred Aho, Monica Lam, Ravi Sethi
 
-13. **C Programming: A Modern Approach, 2nd Edition** <br>
+15. **C Programming: A Modern Approach, 2nd Edition** <br>
     by K. N. King
 
-14. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
+16. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
     by Kamran Amini
 
-15. **C++ Crash Course: A Fast-Paced Introduction** <br>
+17. **C++ Crash Course: A Fast-Paced Introduction** <br>
     by Josh Lospinoso
 
 
