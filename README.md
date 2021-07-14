@@ -111,7 +111,7 @@ To learn Rust go through the following content **in the listed order**, the majo
 33. **Engineering Rust Web Applications - Book** <br>
     [https://erwabook.com/](https://erwabook.com/)
 
-34. **Programming Rust: Fast, Safe Systems Development 2th Edition** <br>
+34. **Programming Rust: Fast, Safe Systems Development 2nd Ed** <br>
     by Jim Blandy, Jason Orendorff
 
 35. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
@@ -120,16 +120,37 @@ To learn Rust go through the following content **in the listed order**, the majo
 36. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-37. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+37. **GDB: The GNU Project Debugger** <br>
+    [https://www.gnu.org/software/gdb/documentation/](https://www.gnu.org/software/gdb/documentation/)
+
+38. **The LLDB Debugger** <br>
+    [https://lldb.llvm.org/](https://lldb.llvm.org/)
+
+39. **Valgrind User Manual** <br>
+    [https://valgrind.org/docs/manual/manual.html](https://valgrind.org/docs/manual/manual.html)
+
+40. **The perf Linux profiler - Examples of use** <br>
+    [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
+
+41. **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
+    [https://github.com/BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck)
+
+42. **American Fuzzy Lop - A good fuzzer** <br>
+    [https://lcamtuf.coredump.cx/afl/](https://lcamtuf.coredump.cx/afl/)
+
+43. **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
+    [https://github.com/bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)
+
+44. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	 by Rahul Sharma, Vesa Kaihlavirta 
 
-38. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+45. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-39. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+46. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-40. **Guide to Optimization** <br>
+47. **Guide to Optimization** <br>
     Achieving warp speed with Rust <br>
     [https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1) <br>
     Cheap tricks for high-performance Rust <br>
@@ -141,10 +162,10 @@ To learn Rust go through the following content **in the listed order**, the majo
     Optimizations: the speed size tradeoff <br>
     [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
 
-41. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+48. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-42. **The Rust Unstable Book** <br>
+49. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 
@@ -257,6 +278,9 @@ To learn Rust go through the following content **in the listed order**, the majo
 
 5. **The Embedded Working Group Newsletter or Blog** <br>
    [https://rust-embedded.github.io/blog/](https://rust-embedded.github.io/blog/)
+
+6. **Awesome embedded rust - Github** <br>
+   [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
 
 ## Links
