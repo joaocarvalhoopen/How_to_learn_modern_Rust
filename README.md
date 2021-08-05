@@ -342,8 +342,8 @@ let s = Murmur2_x86_64::new();
 let mut map = HashMap::with_hasher(s);
 map.insert(1, 2);
 ```
-* **But for a even faster HashMap use**, <br>
-  **hashbrown** - **Faster drop in replacement for STD HashMap**, a Rust port of Google's high-performance SwissTable hash map. <br>
+* **But for a even faster HashMap or HashSet use**, <br>
+  **hashbrown** - **Faster drop in replacement for STD HashMap and HashSet**, a Rust port of Google's high-performance SwissTable hash map. <br>
   [https://github.com/Amanieu/hashbrown](https://github.com/Amanieu/hashbrown) <br>
   Insert crate **hashbrown** into ```.toml``` file <br>
 
