@@ -114,43 +114,46 @@ To learn Rust go through the following content **in the listed order**, the majo
 34. **Programming Rust: Fast, Safe Systems Development 2nd Ed** <br>
     by Jim Blandy, Jason Orendorff
 
-35. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
+35. **Rust for Rustaceans: Idiomatic Programming for Experienced Developers** <br>
+    by Jon Gjengset
+
+36. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-36. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+37. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-37. **GDB: The GNU Project Debugger** <br>
+38. **GDB: The GNU Project Debugger** <br>
     [https://www.gnu.org/software/gdb/documentation/](https://www.gnu.org/software/gdb/documentation/)
 
-38. **The LLDB Debugger** <br>
+39. **The LLDB Debugger** <br>
     [https://lldb.llvm.org/](https://lldb.llvm.org/)
 
-39. **Valgrind User Manual** <br>
+40. **Valgrind User Manual** <br>
     [https://valgrind.org/docs/manual/manual.html](https://valgrind.org/docs/manual/manual.html)
 
-40. **The perf Linux profiler - Examples of use** <br>
+41. **The perf Linux profiler - Examples of use** <br>
     [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
 
-41. **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
+42. **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
     [https://github.com/BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck)
 
-42. **American Fuzzy Lop - A good fuzzer** <br>
+43. **American Fuzzy Lop - A good fuzzer** <br>
     [https://lcamtuf.coredump.cx/afl/](https://lcamtuf.coredump.cx/afl/)
 
-43. **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
+44. **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
     [https://github.com/bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)
 
-44. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+45. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	 by Rahul Sharma, Vesa Kaihlavirta 
 
-45. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+46. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-46. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+47. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-47. **Guide to Optimization** <br>
+48. **Guide to Optimization** <br>
     Achieving warp speed with Rust <br>
     [https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1) <br>
     Cheap tricks for high-performance Rust <br>
@@ -162,10 +165,10 @@ To learn Rust go through the following content **in the listed order**, the majo
     Optimizations: the speed size tradeoff <br>
     [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
 
-48. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+49. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-49. **The Rust Unstable Book** <br>
+50. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 
@@ -330,6 +333,7 @@ To learn Rust go through the following content **in the listed order**, the majo
 **HashMap.with_hasher() info** <br>
 [https://doc.rust-lang.org/beta/std/collections/struct.HashMap.html#method.with_hasher](https://doc.rust-lang.org/beta/std/collections/struct.HashMap.html#method.with_hasher) <br>
 Insert crate **fasthash** into ```.toml``` file <br>
+
 ```Rust
 use std::collections::HashMap;
 use fasthash::murmur2::Murmur2_x86_64;
@@ -337,6 +341,15 @@ use fasthash::murmur2::Murmur2_x86_64;
 let s = Murmur2_x86_64::new();
 let mut map = HashMap::with_hasher(s);
 map.insert(1, 2);
+```
+* **But for a even faster HashMap use**, <br>
+  **hashbrown** - **Faster drop in replacement for STD HashMap**, a Rust port of Google's high-performance SwissTable hash map. <br>
+  [https://github.com/Amanieu/hashbrown](https://github.com/Amanieu/hashbrown) <br>
+  Insert crate **hashbrown** into ```.toml``` file <br>
+
+```Rust
+// The fastest HashMap for Rust. HashBrown a drop in replacement for std HashMap.
+use hashbrown::HashMap;
 ```
 
 * **String continuations** <br>
