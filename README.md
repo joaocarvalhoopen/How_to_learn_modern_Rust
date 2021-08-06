@@ -267,23 +267,27 @@ To learn Rust go through the following content **in the listed order**, the majo
 
 ## Embedded Rust
 
-1. **Discovery Book** <br>
+1. **An Overview of the Embedded Rust Ecosystem** <br>
+   [https://www.youtube.com/watch?v=vLYit_HHPaY](https://www.youtube.com/watch?v=vLYit_HHPaY)
+
+2. **Awesome embedded rust - Github** <br>
+   Everything you need to know including drivers to connect external devices to the micro-controller. <br>
+   [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
+
+3. **Discovery Book** <br>
    [https://docs.rust-embedded.org/discovery/](https://docs.rust-embedded.org/discovery/)
 
-2. **The Embedded Rust Book** <br>
+4. **The Embedded Rust Book** <br>
    [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
 
-3. **Workbook for Embedded Workshops - Book** <br>
+5. **Workbook for Embedded Workshops - Book** <br>
    [https://embedded-trainings.ferrous-systems.com/](https://embedded-trainings.ferrous-systems.com/)
 
-4. **The Embedonomicon Book** <br>
+6. **The Embedonomicon Book** <br>
    [https://docs.rust-embedded.org/embedonomicon/](https://docs.rust-embedded.org/embedonomicon/)
 
-5. **The Embedded Working Group Newsletter or Blog** <br>
+7. **The Embedded Working Group Newsletter or Blog** <br>
    [https://rust-embedded.github.io/blog/](https://rust-embedded.github.io/blog/)
-
-6. **Awesome embedded rust - Github** <br>
-   [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
 
 ## Links
