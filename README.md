@@ -341,6 +341,63 @@ To learn Rust go through the following content **in the listed order**, the majo
 
 ## Notes on optimization
 
+* **Removal of bounds checks.** <br>
+  Rust has **slice**, **array** and **Vec** bounds checks for each indices. <br>
+  If you **use iterators** there will be **no bounds check**. <br>
+  But in the common case Rust uses LLVM, and **LLVM** does a very good job at **removing the bounds checks that aren't needed**. <br>
+  But if you need the fastest code implementation and want to **remove bounds check**, you can use ```get_unchecked()``` and ```get_unchecked_mut()```, they must be inside a **unsafe** block. <br>
+
+``` Rust
+let x = &mut [1, 2, 4];
+
+unsafe {
+    let elem = x.get_unchecked_mut(1);
+    *elem = 13;
+}
+assert_eq!(x, &[1, 13, 4]);
+
+```
+
+* For the use case of **2D Vec** ```get_unchecked_mut()``` see the following code and benchmarks. <br>
+  Performance of naive matrices in rust <br>
+  [https://gist.github.com/TianyiShi2001/7f83854b91a94f3eaf3145084db6d627](https://gist.github.com/TianyiShi2001/7f83854b91a94f3eaf3145084db6d627)
+
+``` Rust
+// Normal performance: 84,694,933 ns/iter (+/- 7,412,836)
+
+// This optimization:  41,440,947 ns/iter (+/- 752,463)   [x2 times faster]
+
+fn bench_vec_of_vec_unsafe(b: &mut Bencher) {
+    let (m, n) = (10000, 10000);
+    let mut matrix = vec![vec![0u8; n]; m];
+    b.iter(|| {
+        for i in 0..m {
+            for j in 0..n {
+                unsafe {
+                    *matrix.get_unchecked_mut(i).get_unchecked_mut(j) = 1u8;
+                }
+            }
+        }
+    });
+}
+```
+
+* **ndarray - N dimensional array** <br>
+  Crate ndarray <br>
+  [https://crates.io/crates/ndarray](https://crates.io/crates/ndarray) <br>
+  **Rust by example** - N Dimensional arrays <br>
+  [https://rust-by-example-ext.com/ndarray.html](https://rust-by-example-ext.com/ndarray.html) <br>
+  ndarray for numpy users <br>
+  [https://docs.rs/ndarray/0.12.1/ndarray/doc/ndarray_for_numpy_users/index.html](https://docs.rs/ndarray/0.12.1/ndarray/doc/ndarray_for_numpy_users/index.html) <br>
+  Rust Cookbook - **Linear Algebra** <br>
+  [https://rust-lang-nursery.github.io/rust-cookbook/science/mathematics/linear_algebra.html](https://rust-lang-nursery.github.io/rust-cookbook/science/mathematics/linear_algebra.html) <br>
+  Multidimensional Arrays and Operations with NDArray <br>
+  [https://datacrayon.com/posts/programming/rust-notebooks/multidimensional-arrays-and-operations-with-ndarray/](https://datacrayon.com/posts/programming/rust-notebooks/multidimensional-arrays-and-operations-with-ndarray/) <br>
+  ndarray-examples <br>
+  [https://github.com/rust-ndarray/ndarray-examples](https://github.com/rust-ndarray/ndarray-examples) <br>
+  For examples of usage, see ndarray project **github** in the **folders examples** and **tests** <br>
+  [https://github.com/rust-ndarray/ndarray](https://github.com/rust-ndarray/ndarray)
+
 * **smallvec** - **"Small vector"** optimization for Rust: store up to a small number of items **on the stack**. <br>
   [https://crates.io/crates/smallvec](https://crates.io/crates/smallvec)
 
