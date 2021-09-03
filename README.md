@@ -315,23 +315,34 @@ To learn Rust go through the following content **in the listed order**, the majo
    [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
 
 8. **Tokio** <br>
-   Tokio is an asynchronous runtime for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices. <br>
+   Tokio is an asynchronous runtime (**async** and **await**) for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices. <br>
    [https://tokio.rs/](https://tokio.rs/)
 
-9. **Actix Web** <br>
+9. Best **async** and **await** introduction video. <br>
+   **Video - Crust of Rust: async e await** <br>
+   [https://www.youtube.com/watch?v=ThjvMReOXYM](https://www.youtube.com/watch?v=ThjvMReOXYM)
+
+10. **Tracing - Log tracing platform** <br>
+    [https://github.com/tokio-rs/tracing](https://github.com/tokio-rs/tracing)
+
+11. **Actix Web** <br>
    Web Framework that's blazing fast, secure, asynchronous runs over Tokio and is "similar" to **Flask** of Python. <br>
    https://actix.rs/ 
 
-10. **Rocket** <br>
+11. **Rocket** <br>
     Web Framework that's fast, secure and more "similar" to **Django** of Python. <br>
     [https://rocket.rs/](https://rocket.rs/)
 
-11. **Serde** <br>
+12. **Serde** <br>
     Serde is a framework for **serializing** and **deserializing** Rust data structures efficiently and generically. <br>
     [https://serde.rs/](https://serde.rs/) <br>
     [https://crates.io/crates/serde](https://crates.io/crates/serde)
 
-## Notes
+
+## Notes on optimization
+
+* **smallvec** - **"Small vector"** optimization for Rust: store up to a small number of items **on the stack**. <br>
+  [https://crates.io/crates/smallvec](https://crates.io/crates/smallvec)
 
 * The HashMap in Rust uses strong cryptographic hashing for security reasons, but if the developer needs the fastest HashMap performance it can use an external faster and less secure hash function. <br>
 **HashMap.with_hasher() info** <br>
@@ -346,6 +357,7 @@ let s = Murmur2_x86_64::new();
 let mut map = HashMap::with_hasher(s);
 map.insert(1, 2);
 ```
+
 * **But for a even faster HashMap or HashSet use**, <br>
   **hashbrown** - **Faster drop in replacement for STD HashMap and HashSet**, a Rust port of Google's high-performance SwissTable hash map. <br>
   [https://github.com/Amanieu/hashbrown](https://github.com/Amanieu/hashbrown) <br>
@@ -369,6 +381,12 @@ println!(
 Will print: 
 "... the people, by the people, for the people, will never fall."
 ```
+
+* **bstr** - A **fast string type** that is not required to be valid UTF-8. **No heavy UTF-8 validations.** <br>
+  [https://crates.io/crates/bstr](https://crates.io/crates/bstr)
+
+* **bumpalo - A fast bump heap allocation arena for Rust.** <br>
+  [https://crates.io/crates/bumpalo](https://crates.io/crates/bumpalo)
 
 * **The ASM! macro to insert inline Assembly** <br>
   New inline assembly syntax <br>
