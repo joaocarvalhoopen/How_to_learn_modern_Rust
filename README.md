@@ -371,7 +371,7 @@ use hashbrown::HashMap;
 * **String continuations** <br>
   The backslash, the newline and the starting spaces will disappear. <br>
 
-```
+``` Rust
 println!(
     "... the {p}, by the {p}, for the {p}, \
     will never fall.",
@@ -380,6 +380,35 @@ println!(
 
 Will print: 
 "... the people, by the people, for the people, will never fall."
+```
+
+* For **ASCII Strings (value lower then 127) non UTF-8 strings**, one can process **much faster** the string if it is converted to bytes and then compared to bytes. <br>
+
+``` Rust
+let my_str = "Hello!".to_string();
+for c in my_str.chars() {
+    if c == 'l' {
+        // Do something!
+    }
+}
+
+// A faster implementation for ASCII characters would be.
+
+let my_str_2 = "Hello!".to_string();
+for b in my_str.bytes() {
+    if b == b'l' {
+        // Do something!
+    }
+}
+
+// There is also a slice of bytes.
+
+let my_str_3 = "Hello!".to_string();
+let my_str_as_bytes_slice = my_str_3.as_bytes();
+
+if my_str_as_bytes_slice[2] == b'l' {
+        // Do something!
+}
 ```
 
 * **bstr** - A **fast string type** that is not required to be valid UTF-8. **No heavy UTF-8 validations.** <br>
