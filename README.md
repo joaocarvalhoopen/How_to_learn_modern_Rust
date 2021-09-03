@@ -474,6 +474,9 @@ if my_str_as_bytes_slice[2] == b'l' {
 * **bumpalo - A fast bump heap allocation arena for Rust.** <br>
   [https://crates.io/crates/bumpalo](https://crates.io/crates/bumpalo)
 
+* **How to use multiple variables in Rust's for loop?** <br>
+  [https://stackoverflow.com/questions/43302808/how-to-use-multiple-variables-in-rusts-for-loop](https://stackoverflow.com/questions/43302808/how-to-use-multiple-variables-in-rusts-for-loop)
+
 * **The ASM! macro to insert inline Assembly** <br>
   New inline assembly syntax <br>
   [https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html](https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html) <br>
