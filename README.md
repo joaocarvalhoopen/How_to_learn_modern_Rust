@@ -314,7 +314,7 @@ To learn Rust go through the following content **in the listed order**, the majo
 7. **Rust Analyzer - User manual and short cut keys** <br>
    [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
 
-8. **Jon Gjengset - Rust in deep youtube channel.** <br> 
+8. **Jon Gjengset - Rust in depth Youtube channel.** <br> 
    [https://www.youtube.com/c/JonGjengset](https://www.youtube.com/c/JonGjengset)
 
 9. **Tokio** <br>
