@@ -346,6 +346,12 @@ To learn Rust go through the following content **in the listed order**, the majo
     [https://serde.rs/](https://serde.rs/) <br>
     [https://crates.io/crates/serde](https://crates.io/crates/serde)
 
+16. **BindGen** <br>
+    Automatically generates Rust FFI bindings to C and C++ libraries. <br>
+    [https://crates.io/crates/bindgen](https://crates.io/crates/bindgen) <br>
+    Tutorial guide. <br>
+    [https://rust-lang.github.io/rust-bindgen/](https://rust-lang.github.io/rust-bindgen/)
+
 
 ## Notes on optimization
 
