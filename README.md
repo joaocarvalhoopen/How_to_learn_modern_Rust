@@ -316,24 +316,29 @@ To learn Rust go through the following content **in the listed order**, the majo
 
 8. **Tokio** <br>
    Tokio is an asynchronous runtime (**async** and **await**) for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices. <br>
+   See the tutorials. <br>
    [https://tokio.rs/](https://tokio.rs/)
 
 9. Best **async** and **await** introduction video. <br>
-   **Video - Crust of Rust: async e await** <br>
+   **Video - Crust of Rust: async e await - Jon Gjengset** <br>
    [https://www.youtube.com/watch?v=ThjvMReOXYM](https://www.youtube.com/watch?v=ThjvMReOXYM)
 
-10. **Tracing - Log tracing platform** <br>
+10. **Video - Creating a Chat Server with async Rust and Tokio – Lily Mara** <br>
+    [https://www.youtube.com/watch?v=Iapc-qGTEBQ](https://www.youtube.com/watch?v=Iapc-qGTEBQ)
+
+11. **Tracing - Log tracing platform** <br>
     [https://github.com/tokio-rs/tracing](https://github.com/tokio-rs/tracing)
 
-11. **Actix Web** <br>
-   Web Framework that's blazing fast, secure, asynchronous runs over Tokio and is "similar" to **Flask** of Python. <br>
-   https://actix.rs/ 
+12. **Actix Web** <br>
+    Web Framework that's blazing fast, secure, asynchronous runs over Tokio and is "similar" to **Flask** of Python. <br>
+    Can process **650.000 request per second**. <br>
+    [https://actix.rs/](https://actix.rs/)
 
-11. **Rocket** <br>
+13. **Rocket** <br>
     Web Framework that's fast, secure and more "similar" to **Django** of Python. <br>
     [https://rocket.rs/](https://rocket.rs/)
 
-12. **Serde** <br>
+14. **Serde** <br>
     Serde is a framework for **serializing** and **deserializing** Rust data structures efficiently and generically. <br>
     [https://serde.rs/](https://serde.rs/) <br>
     [https://crates.io/crates/serde](https://crates.io/crates/serde)
