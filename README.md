@@ -314,31 +314,34 @@ To learn Rust go through the following content **in the listed order**, the majo
 7. **Rust Analyzer - User manual and short cut keys** <br>
    [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
 
-8. **Tokio** <br>
+8. **Jon Gjengset - Rust in deep youtube channel.** <br> 
+   [https://www.youtube.com/c/JonGjengset](https://www.youtube.com/c/JonGjengset)
+
+9. **Tokio** <br>
    Tokio is an asynchronous runtime (**async** and **await**) for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices. <br>
    See the tutorials. <br>
    [https://tokio.rs/](https://tokio.rs/)
 
-9. Best **async** and **await** introduction video. <br>
+10. Best **async** and **await** introduction video. <br>
    **Video - Crust of Rust: async e await - Jon Gjengset** <br>
    [https://www.youtube.com/watch?v=ThjvMReOXYM](https://www.youtube.com/watch?v=ThjvMReOXYM)
 
-10. **Video - Creating a Chat Server with async Rust and Tokio – Lily Mara** <br>
+11. **Video - Creating a Chat Server with async Rust and Tokio – Lily Mara** <br>
     [https://www.youtube.com/watch?v=Iapc-qGTEBQ](https://www.youtube.com/watch?v=Iapc-qGTEBQ)
 
-11. **Tracing - Log tracing platform** <br>
+12. **Tracing - Log tracing platform** <br>
     [https://github.com/tokio-rs/tracing](https://github.com/tokio-rs/tracing)
 
-12. **Actix Web** <br>
+13. **Actix Web** <br>
     Web Framework that's blazing fast, secure, asynchronous runs over Tokio and is "similar" to **Flask** of Python. <br>
     Can process **650.000 request per second**. <br>
     [https://actix.rs/](https://actix.rs/)
 
-13. **Rocket** <br>
+14. **Rocket** <br>
     Web Framework that's fast, secure and more "similar" to **Django** of Python. <br>
     [https://rocket.rs/](https://rocket.rs/)
 
-14. **Serde** <br>
+15. **Serde** <br>
     Serde is a framework for **serializing** and **deserializing** Rust data structures efficiently and generically. <br>
     [https://serde.rs/](https://serde.rs/) <br>
     [https://crates.io/crates/serde](https://crates.io/crates/serde)
