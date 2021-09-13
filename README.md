@@ -358,6 +358,24 @@ To learn Rust go through the following content **in the listed order**, the majo
     [https://rust-lang.github.io/rust-bindgen/](https://rust-lang.github.io/rust-bindgen/)
 
 
+## Rust Blogs
+
+1. **pretzelhammer's Rust blog** <br>
+   [https://github.com/pretzelhammer/rust-blog](https://github.com/pretzelhammer/rust-blog)
+
+   1. **RESTful API in Sync & Async Rust - pretzelhammer** <br> 
+      [https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md)
+
+   2. **Common Rust Lifetime Misconceptions - pretzelhammer** <br>
+      [https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md)
+
+   3. **Tour of Rust's Standard Library Traits - pretzelhammer** <br>
+      [https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md)
+
+   4. **Sizedness in Rust – pretzelhammer** <br>
+      [https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
+
+
 ## Notes on optimization
 
 * **Removal of bounds checks.** <br>
