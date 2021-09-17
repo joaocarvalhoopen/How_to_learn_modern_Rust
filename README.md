@@ -357,6 +357,9 @@ To learn Rust go through the following content **in the listed order**, the majo
     Tutorial guide. <br>
     [https://rust-lang.github.io/rust-bindgen/](https://rust-lang.github.io/rust-bindgen/)
 
+17. **Hacking rustc: Contributing to the Compiler by Esteban Kuber** - RustConf 2021 <br>
+    [https://www.youtube.com/watch?v=9H9SO2u6Q20](https://www.youtube.com/watch?v=9H9SO2u6Q20)
+
 
 ## Rust Blogs
 
@@ -377,6 +380,10 @@ To learn Rust go through the following content **in the listed order**, the majo
 
 
 ## Notes on optimization
+
+* A **good example of applying optimization technics** to a high performance Rust program. <br>
+  **Writing the Fastest GBDT Library in Rust by Isabella Tromba** - RustConf 2021 <br>
+  [https://www.youtube.com/watch?v=D1NAREuicNs](https://www.youtube.com/watch?v=D1NAREuicNs)
 
 * **Removal of bounds checks.** <br>
   Rust has **slice**, **array** and **Vec** bounds checks for each indices. <br>
