@@ -379,6 +379,16 @@ To learn Rust go through the following content **in the listed order**, the majo
       [https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
 
 
+## Rust Debugger
+
+1. **Debugging Rust with VS Code** <br>
+   [https://dev.to/rogertorres/debugging-rust-with-vs-code-11dj](https://dev.to/rogertorres/debugging-rust-with-vs-code-11dj)
+
+2. **CodeLLDB - Vadim Chugunov** <br>
+   Plugin for VS Code <br>
+   [https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
+
+
 ## Notes on optimization
 
 * A **good example of applying optimization technics** to a high performance Rust program. <br>
