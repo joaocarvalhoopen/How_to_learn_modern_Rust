@@ -381,10 +381,13 @@ To learn Rust go through the following content **in the listed order**, the majo
 
 ## Rust Debugger
 
-1. **Debugging Rust with VS Code** <br>
+1. **How to Debug Rust with Visual Studio Code** <br>
+   [https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/](https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/) 
+
+2. **Debugging Rust with VS Code** <br>
    [https://dev.to/rogertorres/debugging-rust-with-vs-code-11dj](https://dev.to/rogertorres/debugging-rust-with-vs-code-11dj)
 
-2. **CodeLLDB - Vadim Chugunov** <br>
+3. **CodeLLDB - Vadim Chugunov** <br>
    Plugin for VS Code <br>
    [https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
 
