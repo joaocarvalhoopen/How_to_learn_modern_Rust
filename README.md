@@ -392,6 +392,19 @@ To learn Rust go through the following content **in the listed order**, the majo
    [https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
 
 
+## Rust Error Handling
+
+To define good error types that encapsulate other errors. In the case where you need to return from a function, multiple incompatible types, and you don't want to manually write conversion functions that implement the trait std::convert::From< > . <br>
+
+1. Crate **Anyhow** <br>
+   Use **Anyhow** if you don't care what error type your functions return, you just want it to be easy. This is common in application code. <br>
+   [https://crates.io/crates/anyhow](https://crates.io/crates/anyhow)
+
+2. Crate **thiserror** <br>
+   Use **thiserror** if you are a library that wants to design your own dedicated error type(s) so that on failures the caller gets exactly the information that you choose. <br>
+   [https://crates.io/crates/thiserror](https://crates.io/crates/thiserror)
+
+
 ## Notes on optimization
 
 * A **good example of applying optimization technics** to a high performance Rust program. <br>
