@@ -405,6 +405,15 @@ To define good error types that encapsulate other errors. In the case where you 
    [https://crates.io/crates/thiserror](https://crates.io/crates/thiserror)
 
 
+## Programming Parallel Computers - Optimization guide C++ and Rust
+
+1. **Programming Parallel Computers - In depth lectures notes** <br>
+   [https://ppc.cs.aalto.fi/](https://ppc.cs.aalto.fi/)
+
+2. **Comparing Parallel Rust and C++** <br>
+   [https://parallel-rust-cpp.github.io/](https://parallel-rust-cpp.github.io/)
+
+
 ## Notes on optimization
 
 * A **good example of applying optimization technics** to a high performance Rust program. <br>
