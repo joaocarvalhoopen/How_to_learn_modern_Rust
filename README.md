@@ -92,73 +92,70 @@ To learn Rust go through the following content **in the listed order**, the majo
 27. **The Rustonomicon - The Dark Arts of Unsafe Rust - Book** <br>
     [https://doc.rust-lang.org/nomicon/](https://doc.rust-lang.org/nomicon/)
 
-28. **The Rust Performance Book** <br>
-    [https://nnethercote.github.io/perf-book/title-page.html](https://nnethercote.github.io/perf-book/title-page.html)
-
-29. **The Little Book of Rust Macros - Book** <br>
+28. **The Little Book of Rust Macros - Book** <br>
     [https://veykril.github.io/tlborm/introduction.html](https://veykril.github.io/tlborm/introduction.html)
 
-30. **Writing Interpreters in Rust: a Guide - Book** <br>
+29. **Writing Interpreters in Rust: a Guide - Book** <br>
     [https://rust-hosted-langs.github.io/book/introduction.html](https://rust-hosted-langs.github.io/book/introduction.html)
 
-31. **Video - Cheaply writing a fast interpreter - Neil Mitchell** <br>
+30. **Video - Cheaply writing a fast interpreter - Neil Mitchell** <br>
     [https://www.youtube.com/watch?v=V8dnIw3amLA](https://www.youtube.com/watch?v=V8dnIw3amLA) <br>
     github <br>
     [https://github.com/ndmitchell/interpret](https://github.com/ndmitchell/interpret)
 
-32. **Make A Language** <br>
+31. **Make A Language** <br>
     A series about making a programming language called **Eldiro** using the Rust programming language. <br>
     [https://arzg.github.io/lang/](https://arzg.github.io/lang/)
 
-33. **Rust and WebAssembly - Book** <br>
+32. **Rust and WebAssembly - Book** <br>
     [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
 
-34. **Engineering Rust Web Applications - Book** <br>
+33. **Engineering Rust Web Applications - Book** <br>
     [https://erwabook.com/](https://erwabook.com/)
 
-35. **Programming Rust: Fast, Safe Systems Development 2nd Ed** <br>
+34. **Programming Rust: Fast, Safe Systems Development 2nd Ed** <br>
     by Jim Blandy, Jason Orendorff
 
-36. **Rust for Rustaceans: Idiomatic Programming for Experienced Developers** <br>
+35. **Rust for Rustaceans: Idiomatic Programming for Experienced Developers** <br>
     by Jon Gjengset
 
-37. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
+36. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-38. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+37. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-39. **GDB: The GNU Project Debugger** <br>
+38. **GDB: The GNU Project Debugger** <br>
     [https://www.gnu.org/software/gdb/documentation/](https://www.gnu.org/software/gdb/documentation/)
 
-40. **The LLDB Debugger** <br>
+39. **The LLDB Debugger** <br>
     [https://lldb.llvm.org/](https://lldb.llvm.org/)
 
-41. **Valgrind User Manual** <br>
+40. **Valgrind User Manual** <br>
     [https://valgrind.org/docs/manual/manual.html](https://valgrind.org/docs/manual/manual.html)
 
-42. **The perf Linux profiler - Examples of use** <br>
+41. **The perf Linux profiler - Examples of use** <br>
     [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
 
-43. **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
+42. **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
     [https://github.com/BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck)
 
-44. **American Fuzzy Lop - A good fuzzer** <br>
+43. **American Fuzzy Lop - A good fuzzer** <br>
     [https://lcamtuf.coredump.cx/afl/](https://lcamtuf.coredump.cx/afl/)
 
-45. **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
+44. **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
     [https://github.com/bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)
 
-46. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+45. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	 by Rahul Sharma, Vesa Kaihlavirta 
 
-47. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+46. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-48. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+47. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-49. **Guide to Optimization** <br>
+48. **Guide to Optimization** <br>
     Achieving warp speed with Rust <br>
     [https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1) <br>
     Cheap tricks for high-performance Rust <br>
@@ -170,10 +167,10 @@ To learn Rust go through the following content **in the listed order**, the majo
     Optimizations: the speed size tradeoff <br>
     [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
 
-50. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+49. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-51. **The Rust Unstable Book** <br>
+50. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 
@@ -205,7 +202,7 @@ To learn Rust go through the following content **in the listed order**, the majo
 8. **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
    by Alberto Liberal de los Ríos
 
-9.  **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
+9. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
    by Randal Bryant, David O'Hallaron
 
 10. **Computer Networking: A Top-Down Approach** <br> 
@@ -214,22 +211,27 @@ To learn Rust go through the following content **in the listed order**, the majo
 11. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
    by Walter Goralski
 
-12. **Writing An Interpreter In Go** <br> 
+12. **Crafting Interpreters** <br>
+	by Robert Nystrom <br>
+	The book license is Creative Commons. <br>
+	[https://craftinginterpreters.com/](https://craftinginterpreters.com/)
+
+13. **Writing An Interpreter In Go** <br> 
     by Thorsten Ball
 
-13. **Writing A Compiler In Go** <br>
+14. **Writing A Compiler In Go** <br>
     by Thorsten Ball
 
-14. **Compilers: Principles, Techniques, and Tools** <br>
+15. **Compilers: Principles, Techniques, and Tools** <br>
     by Alfred Aho, Monica Lam, Ravi Sethi
 
-15. **C Programming: A Modern Approach, 2nd Edition** <br>
+16. **C Programming: A Modern Approach, 2nd Edition** <br>
     by K. N. King
 
-16. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
+17. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
     by Kamran Amini
 
-17. **C++ Crash Course: A Fast-Paced Introduction** <br>
+18. **C++ Crash Course: A Fast-Paced Introduction** <br>
     by Josh Lospinoso
 
 
@@ -413,6 +415,19 @@ To define good error types that encapsulate other errors. In the case where you 
 2. **Comparing Parallel Rust and C++** <br>
    [https://parallel-rust-cpp.github.io/](https://parallel-rust-cpp.github.io/)
 
+3. **perf Examples** <br>
+   See also the lecture. <br>
+   [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
+
+4. **perf: Linux profiling with performance counters** <br>
+   [https://perf.wiki.kernel.org/index.php/Main_Page](https://perf.wiki.kernel.org/index.php/Main_Page) 
+
+5. **Systems Performance Enterprise and the Cloud 2nd Ed** <br>
+	by Brendan Gregg
+
+6. **The Rust Performance Book** <br>
+   [https://nnethercote.github.io/perf-book/title-page.html](https://nnethercote.github.io/perf-book/title-page.html)
+
 
 ## Notes on optimization
 
@@ -561,6 +576,27 @@ if my_str_as_bytes_slice[2] == b'l' {
   [https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html](https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html) <br>
   ASM! at the Unstable Book <br>
   [https://doc.rust-lang.org/beta/unstable-book/library-features/asm.html](https://doc.rust-lang.org/beta/unstable-book/library-features/asm.html)
+
+
+## For a good challenge do the NAND To Tetris in Rust
+
+1. **From Nand to Tetris** <br>
+   Building a Modern Computer From First Principles <br>
+   [https://www.nand2tetris.org/](https://www.nand2tetris.org/)
+
+2. **Video - Shimon Schocken: The self-organizing computer course** <br>
+   [https://www.youtube.com/watch?v=iE7YRHxwoDs](https://www.youtube.com/watch?v=iE7YRHxwoDs)
+
+3. **Video - From Nand to Tetris Part I Course Promo** <br>
+   [https://www.youtube.com/watch?v=wTl5wRDT0CU](https://www.youtube.com/watch?v=wTl5wRDT0CU)
+
+4. **Free Course - Build a Modern Computer from First Principles** <br>
+   From Nand to Tetris (Project-Centered Course) <br>
+   [https://www.coursera.org/learn/build-a-computer](https://www.coursera.org/learn/build-a-computer)
+
+5. **Free Course - Build a Modern Computer from First Principles** <br>
+   Nand to Tetris Part II (project-centered course) <br>
+   [https://www.coursera.org/learn/nand2tetris2](https://www.coursera.org/learn/nand2tetris2)
 
 
 # All my other guides
