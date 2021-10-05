@@ -155,22 +155,10 @@ To learn Rust go through the following content **in the listed order**, the majo
 47. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-48. **Guide to Optimization** <br>
-    Achieving warp speed with Rust <br>
-    [https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1) <br>
-    Cheap tricks for high-performance Rust <br>
-    [https://deterministic.space/high-performance-rust.html](https://deterministic.space/high-performance-rust.html)<br>
-    Optimization - Making Rust Code Go Brrrr <br>
-    [https://aspenuwu.me/blog/rust-optimization/](https://aspenuwu.me/blog/rust-optimization/) <br>
-    Profile Guided Optimization <br>
-    [https://doc.rust-lang.org/rustc/profile-guided-optimization.html](https://doc.rust-lang.org/rustc/profile-guided-optimization.html) <br>
-    Optimizations: the speed size tradeoff <br>
-    [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
-
-49. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+48. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-50. **The Rust Unstable Book** <br>
+49. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 
@@ -381,6 +369,35 @@ To learn Rust go through the following content **in the listed order**, the majo
       [https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
 
 
+## Machine Learning for Rust
+
+1. **Taking ML to production with Rust: a 25x speedup** <br>
+   [https://www.lpalmieri.com/posts/2019-12-01-taking-ml-to-production-with-rust-a-25x-speedup/](https://www.lpalmieri.com/posts/2019-12-01-taking-ml-to-production-with-rust-a-25x-speedup/)
+
+2. **Machine learning in Rust using Linfa** <br>
+   [https://blog.logrocket.com/machine-learning-in-rust-using-linfa/](https://blog.logrocket.com/machine-learning-in-rust-using-linfa/)
+
+3. **Crate Linfa** <br>
+   linfa aims to provide a comprehensive toolkit to build Machine Learning applications with Rust. <br>
+   Kin **in spirit to Python's scikit-learn**, it focuses on common preprocessing tasks and classical ML algorithms for your everyday ML tasks. <br>
+   [https://crates.io/crates/linfa](https://crates.io/crates/linfa) <br>
+   [https://github.com/rust-ml/linfa](https://github.com/rust-ml/linfa)
+
+4. **Crate tch-rs** <br>
+   Rust wrappers for the **PyTorch C++ api** (libtorch). <br>
+   [https://crates.io/crates/tch](https://crates.io/crates/tch) <br>
+   [https://docs.rs/tch](https://docs.rs/tch)
+
+5. **Crate Rust TensorFlow** <br>
+   TensorFlow Rust provides idiomatic Rust language **bindings for TensorFlow**. <br>
+   [https://crates.io/crates/tensorflow](https://crates.io/crates/tensorflow) <br>
+   [https://github.com/tensorflow/rust](https://github.com/tensorflow/rust)
+
+6. **Crate rust-xgboost** <br>
+   Rust bindings for the **XGBoost gradient boosting library**. <br>
+   [https://crates.io/crates/xgboost](https://crates.io/crates/xgboost)
+
+
 ## Rust Debugger
 
 1. **How to Debug Rust with Visual Studio Code** <br>
@@ -425,8 +442,62 @@ To define good error types that encapsulate other errors. In the case where you 
 5. **Systems Performance Enterprise and the Cloud 2nd Ed** <br>
 	by Brendan Gregg
 
+To **install Perf** on your Linux system you can do a simple package installation like apt-get if you are on a debian, then execute perf and it will tell you the package that you will have to install that is specific for your Linux kernel version. If your distribution automatically updates your kernel, you will need to download a new and correct version for your new kernel, and install it with your system package manager, ex: apt-get. <br> 
+<br>
+In the Rust .toml file add the 2 following lines, to add the debug symbols table to the Rust executable program file, compiled with ```--release``` flag: <br> 
+
+```
+[profile.release]
+debug = true
+```
+
+To run **Perf profiling** on your Rust executable program. After that you can also use **flamegraph**. <br>
+
+```
+# Temporarily activate this flag perf_event_paranoid.
+
+> echo -1 | sudo tee /proc/sys/kernel/perf_event_paranoid
+
+
+# Record the executable program profiling data in a .data file.
+
+> perf record -F99 --call-graph dwarf <path to the executable>
+
+
+# To see the report use with Up/Down arrow keys, with "+"
+# and with "a" to see the annotated assembly code with the Rust
+# code correspondent code. The report will include the % of time in
+# inside the function and in each group of assembly instructions.
+# Press "tab" key in annotation mode to jump between hot spots.
+
+> perf report
+```
+
+The **Perf profiler** has many command use the **stat** command to get the **IPC – Instruction Per Clock Cycle**, it's an average. <br>
+<br>
+To know **how much peak memory** your executable program uses do: <br>
+
+```
+> /usr/bin/time -v <path to the executable>
+```
+
+Note: There are 2 "time" executables and this is not the bash default time program. That's why you have to write the full path ```/usr/bin/time``` to execute it. <br>
+
+
 6. **The Rust Performance Book** <br>
    [https://nnethercote.github.io/perf-book/title-page.html](https://nnethercote.github.io/perf-book/title-page.html)
+
+7. **Guide to Optimization** <br>
+   Achieving warp speed with Rust <br>
+   [https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1) <br>
+   Cheap tricks for high-performance Rust <br>
+   [https://deterministic.space/high-performance-rust.html](https://deterministic.space/high-performance-rust.html)<br>
+   Optimization - Making Rust Code Go Brrrr <br>
+   [https://aspenuwu.me/blog/rust-optimization/](https://aspenuwu.me/blog/rust-optimization/) <br>
+   Profile Guided Optimization <br>
+   [https://doc.rust-lang.org/rustc/profile-guided-optimization.html](https://doc.rust-lang.org/rustc/profile-guided-optimization.html) <br>
+   Optimizations: the speed size tradeoff <br>
+   [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
 
 
 ## Notes on optimization
