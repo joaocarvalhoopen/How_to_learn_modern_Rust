@@ -248,6 +248,49 @@ To learn Rust go through the following content **in the listed order**, the majo
    [https://github.com/RustPython/RustPython](https://github.com/RustPython/RustPython)
 
 
+## Rust with inline Python
+
+In a program made in Rust, ```use a macro to insert inline Python``` and move easily data (variables) between the two. <br>
+<br>
+
+``` Python
+# Example: 
+
+use inline_python::python;
+
+fn main() {
+    let who = "world";
+    let n = 5;
+    python! {
+        for i in range('n):
+            print(i, "Hello", 'who)
+        print("Goodbye")
+    }
+}
+```
+
+1. Crate **inline-python** <br>
+   Inline Python code directly in your Rust code <br>
+   [https://crates.io/crates/inline-python](https://crates.io/crates/inline-python)
+
+The inner workings and all the development steps of this project are beautifully explained, in detail, on this sequence of blog posts. <br>
+
+2. **Writing Python inside your Rust code - Part 1** - Mara's Blog <br>
+   [https://blog.m-ou.se/writing-python-inside-rust-1/](https://blog.m-ou.se/writing-python-inside-rust-1/)
+
+3. **Writing Python inside your Rust code - Part 1A** - Mara's Blog <br>
+   [https://blog.m-ou.se/writing-python-inside-rust-1a/](https://blog.m-ou.se/writing-python-inside-rust-1a/)
+
+4. **Writing Python inside your Rust code - Part 2** - Mara's Blog <br>
+   [https://blog.m-ou.se/writing-python-inside-rust-2/](https://blog.m-ou.se/writing-python-inside-rust-2/)
+
+5. **Writing Python inside your Rust code - Part 3** - Mara's Blog <br>
+   [https://blog.m-ou.se/writing-python-inside-rust-3/](https://blog.m-ou.se/writing-python-inside-rust-3/)
+
+6. **Writing Python inside your Rust code - Part 4** - Mara's Blog <br>
+   [https://blog.m-ou.se/writing-python-inside-rust-4/](https://blog.m-ou.se/writing-python-inside-rust-4/)
+
+
 ## Rust on or for the Raspberry Pi
 
 * There are **two modes** of using Rust with the Raspberry Pi. <br>
