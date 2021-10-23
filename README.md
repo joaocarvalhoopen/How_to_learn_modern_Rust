@@ -254,7 +254,7 @@ In a program made in Rust, ```use a macro to insert inline Python``` and move ea
 <br>
 
 ``` Python
-# Example: 
+// Example_1 
 
 use inline_python::python;
 
@@ -265,6 +265,22 @@ fn main() {
         for i in range('n):
             print(i, "Hello", 'who)
         print("Goodbye")
+    }
+}
+```
+
+``` Python
+// Example_2 
+// Creates the data in Rust and plots the plot with inline Python with the lib matplotlib.
+
+use inline_python::python;
+
+fn main() {
+    let data = vec![(4, 3), (2, 8), (3, 1), (4, 0)];
+    python! {
+        import matplotlib.pyplot as plt
+        plt.plot('data)
+        plt.show()
     }
 }
 ```
