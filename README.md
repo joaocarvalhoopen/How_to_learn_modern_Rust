@@ -725,8 +725,8 @@ if my_str_as_bytes_slice[2] == b'l' {
 * Fortunately **carlomilanesi** made this code available to all <br>
 [https://users.rust-lang.org/t/how-to-get-a-substring-of-a-string/1351/11](https://users.rust-lang.org/t/how-to-get-a-substring-of-a-string/1351/11)
 
-* But if you have to do many text operations based on the positions of chars inside a strings this isn’t a really good option, because you have to scan all the strings to the correct position, from the start to have the string, dividing it into the correct boundaries of the chars. In this context, you would happily pay a front cost of transforming the code to a Vec<char>, Vec of chars, and process it as positional chars with access cost 1 and then, slice them, range them, append to them at the end (or if you need to append in the start or the middle paying the cost of copy to a new buffer, but you can do it if you need to). **The following code is my expansion** to the code of **carlomilanesi** it that will allow you to do it. <br>
-You can find it in my GitHub repository in…. <br>
+* But if you have to do many text operations based on the positions of chars inside a strings this isn’t a really good option, because you have to scan all the strings to the correct position, from the start, to have the string divided it into the correct boundaries of the chars. In this context, you would happily pay a up front cost of transforming the string into a Vec<char>, Vec of chars with individual chars separated, and process it as positional chars with access cost of 1 and then, slice them, range them, append to them at the end (or if you need to append in the start or the middle paying the cost of copy to a new buffer, but you can do it if you need to). **The following code is my expansion** to the code of **carlomilanesi**. It will allow you to do it. <br>
+You can find it also in my GitHub repository in…. <br>
 
 
 ``` Rust
@@ -826,6 +826,7 @@ fn main() {
         s.slice(3..=7),
         s.slice(3..));
 
+    // Allocating a string from Vec<char>.
     let mut vc = s.get_vec_chars(); 
     println!("{}, {}, {}, {}.",
         vc[..5].to_string(),
@@ -833,17 +834,20 @@ fn main() {
         vc[3..8].to_string(),
         vc[3..].to_string());
 
+    // Reusing a String buffer from a Vec<char>.
     let mut buf = String::new();
     print!("{}, ", vc[..5].to_string_buf(& mut buf));
     print!("{}, ", vc[..].to_string_buf(& mut buf));
     print!("{}, ", vc[3..8].to_string_buf(& mut buf));
     print!("{}.\n", vc[3..].to_string_buf(& mut buf));
     
+    // Random access to the Vec<char>. 
     for i in 0..(vc.len() - 2) {
         print!("{} ", vc[i..i+3].to_string_buf(& mut buf));
     }
     println!("");
     
+    // Random modifications to the Vec<char>.
     for i in (0..(vc.len() / 3) + 1).rev() {
         vc.insert(i*3, '#');
     }
