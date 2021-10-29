@@ -8,7 +8,7 @@ It is the most beloved language for five years in a row in Stack Overflow users 
 To learn Rust go through the following content **in the listed order**, the majority of the content is free. <br>
 
 1. **Why Developers Love Rust** <br>
-   [https://ibraheem.ca/posts/why-devs-love-rust](https://ibraheem.ca/posts/why-devs-love-rust)
+   [https://ibraheem.ca/writings/why-devs-love-rust/](https://ibraheem.ca/writings/why-devs-love-rust/)
 
 2. **Video - Rust Crash Course - Rustlang** <br>
    [https://www.youtube.com/watch?v=zF34dRivLOw](https://www.youtube.com/watch?v=zF34dRivLOw)
@@ -360,63 +360,66 @@ The inner workings and all the development steps of this project are beautifully
    A language empowering everyone to build reliable and efficient software. <br>
    [https://www.rust-lang.org/](https://www.rust-lang.org/)
 
-2. **Crate.io - The Rust community’s crate registry** <br>
+2. **Song - Rust 2021 Edition** <br>
+   [https://www.youtube.com/watch?v=q0aNduqb2Ro](https://www.youtube.com/watch?v=q0aNduqb2Ro)
+
+3. **Crate.io - The Rust community’s crate registry** <br>
   [https://crates.io/](https://crates.io/)
 
-3. **Rust weekly news letter** <br>
+4. **Rust weekly news letter** <br>
    [https://this-week-in-rust.org/](https://this-week-in-rust.org/)
 
-4. **The Little Book of Rust Books** <br>
+5. **The Little Book of Rust Books** <br>
    [https://lborb.github.io/book/title-page.html](https://lborb.github.io/book/title-page.html)
 
-5. **Awesome-rust** <br>
+6. **Awesome-rust** <br>
    [https://github.com/rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 
-6. **Awesome-embedded-rust** <br>
+7. **Awesome-embedded-rust** <br>
    [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
-7. **Rust Analyzer - User manual and short cut keys** <br>
+8. **Rust Analyzer - User manual and short cut keys** <br>
    [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
 
-8. **Jon Gjengset - Rust in depth Youtube channel.** <br> 
+9. **Jon Gjengset - Rust in depth Youtube channel.** <br> 
    [https://www.youtube.com/c/JonGjengset](https://www.youtube.com/c/JonGjengset)
 
-9. **Tokio** <br>
-   Tokio is an asynchronous runtime (**async** and **await**) for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices. <br>
-   See the tutorials. <br>
-   [https://tokio.rs/](https://tokio.rs/)
+10. **Tokio** <br>
+    Tokio is an asynchronous runtime (**async** and **await**) for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices. <br>
+    See the tutorials. <br>
+    [https://tokio.rs/](https://tokio.rs/)
 
-10. Best **async** and **await** introduction video. <br>
+11. Best **async** and **await** introduction video. <br>
    **Video - Crust of Rust: async e await - Jon Gjengset** <br>
    [https://www.youtube.com/watch?v=ThjvMReOXYM](https://www.youtube.com/watch?v=ThjvMReOXYM)
 
-11. **Video - Creating a Chat Server with async Rust and Tokio – Lily Mara** <br>
+12. **Video - Creating a Chat Server with async Rust and Tokio – Lily Mara** <br>
     [https://www.youtube.com/watch?v=Iapc-qGTEBQ](https://www.youtube.com/watch?v=Iapc-qGTEBQ)
 
-12. **Tracing - Log tracing platform** <br>
+13. **Tracing - Log tracing platform** <br>
     [https://github.com/tokio-rs/tracing](https://github.com/tokio-rs/tracing)
 
-13. **Actix Web** <br>
+14. **Actix Web** <br>
     Web Framework that's blazing fast, secure, asynchronous runs over Tokio and is "similar" to **Flask** of Python. <br>
     Can process **650.000 request per second**. <br>
     [https://actix.rs/](https://actix.rs/)
 
-14. **Rocket** <br>
+15. **Rocket** <br>
     Web Framework that's fast, secure and more "similar" to **Django** of Python. <br>
     [https://rocket.rs/](https://rocket.rs/)
 
-15. **Serde** <br>
+16. **Serde** <br>
     Serde is a framework for **serializing** and **deserializing** Rust data structures efficiently and generically. <br>
     [https://serde.rs/](https://serde.rs/) <br>
     [https://crates.io/crates/serde](https://crates.io/crates/serde)
 
-16. **BindGen** <br>
+17. **BindGen** <br>
     Automatically generates Rust FFI bindings to C and C++ libraries. <br>
     [https://crates.io/crates/bindgen](https://crates.io/crates/bindgen) <br>
     Tutorial guide. <br>
     [https://rust-lang.github.io/rust-bindgen/](https://rust-lang.github.io/rust-bindgen/)
 
-17. **Hacking rustc: Contributing to the Compiler by Esteban Kuber** - RustConf 2021 <br>
+18. **Hacking rustc: Contributing to the Compiler by Esteban Kuber** - RustConf 2021 <br>
     [https://www.youtube.com/watch?v=9H9SO2u6Q20](https://www.youtube.com/watch?v=9H9SO2u6Q20)
 
 
