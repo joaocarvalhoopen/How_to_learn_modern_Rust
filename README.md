@@ -493,6 +493,19 @@ To define good error types that encapsulate other errors. In the case where you 
    [https://crates.io/crates/thiserror](https://crates.io/crates/thiserror)
 
 
+## GC for Rust - Garbage Collector
+
+“Cases where one needs to maintain a complicated, dynamic graph “(with cycles)” are where a GC becomes useful. Similarly, if one is writing an interpreter for a GCd language, having a GC in Rust would simplify things a lot.”
+
+* **Designing a GC in Rust** <br>
+  [https://manishearth.github.io/blog/2015/09/01/designing-a-gc-in-rust/](https://manishearth.github.io/blog/2015/09/01/designing-a-gc-in-rust/)
+
+* **Crate rust-gc** <br>
+  [https://crates.io/crates/gc](https://crates.io/crates/gc) <br>
+  **Examples** <br>
+  [https://github.com/Manishearth/rust-gc/tree/master/gc/tests](https://github.com/Manishearth/rust-gc/tree/master/gc/tests)
+
+
 ## Programming Parallel Computers - Optimization guide C++ and Rust
 
 1. **Programming Parallel Computers - In depth lectures notes** <br>
@@ -726,7 +739,11 @@ if my_str_as_bytes_slice[2] == b'l' {
 [https://users.rust-lang.org/t/how-to-get-a-substring-of-a-string/1351/11](https://users.rust-lang.org/t/how-to-get-a-substring-of-a-string/1351/11)
 
 * But if you have to do many text operations based on the positions of chars inside a strings this isn’t a really good option, because you have to scan all the strings to the correct position, from the start, to have the string divided it into the correct boundaries of the chars. In this context, you would happily pay a up front cost of transforming the string into a Vec<char>, Vec of chars with individual chars separated, and process it as positional chars with access cost of 1 and then, slice them, range them, append to them at the end (or if you need to append in the start or the middle paying the cost of copy to a new buffer, but you can do it if you need to). **The following code is my expansion** to the code of **carlomilanesi**. It will allow you to do it. <br>
-You can find it also in my GitHub repository in…. <br>
+You can find it also in my GitHub repository in… <br>
+
+* **SubStrings, Slices and Random String Access in Rust** <br>
+  [https://github.com/joaocarvalhoopen/SubStrings_Slices_and_Random_String_Access_in_Rust](https://github.com/joaocarvalhoopen/SubStrings_Slices_and_Random_String_Access_in_Rust) <br>
+<br>
 
 
 ``` Rust
