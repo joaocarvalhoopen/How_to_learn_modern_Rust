@@ -585,6 +585,61 @@ Note: There are 2 "time" executables and this is not the bash default time progr
    [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
 
 
+## Rust Optimization - Compilation modes and flags
+
+The best way to optimize your code is to choose the right algorithm and the right data structures. <br>
+
+* **How to become dangerous in Algorithms** <br>
+  [https://github.com/joaocarvalhoopen/How_to_become_dangerous_in_algorithms](https://github.com/joaocarvalhoopen/How_to_become_dangerous_in_algorithms)
+
+You can also apply several coding techniques that come from the underling knowledge of how the rust transforms your code structures in memory (stack and heap) and how they are executed, for example avoiding allocation, avoiding cloning large things that aren’t basic types and that are by nature cloned. (More info bellow.)
+You can do profiling to guide you through optimization, identifying the hot-spots to pin point you to the exact code your program spends that 90% of his time. And to allow you to see where you can shave it in the number of instructions that are executed at the same time and to increase your IPC – Instructions Per Clock cycle of your superscaller CPU. And then you can also mess around with compilation flags like the following, see [https://nnethercote.github.io/perf-book/build-configuration.html](https://nnethercote.github.io/perf-book/build-configuration.html) :
+
+* **Add debug symbols table to the release build for profiling.** In ```Cargo.toml```.
+
+```
+[profile.release]
+debug = true
+```
+
+* **Link-time Optimization** <br>
+  Link-time optimization (LTO) is a whole-program optimization technique that can improve runtime performance by 10-20% or more, at the cost of increased build times. In ```Cargo.toml```. <br>
+
+```
+[profile.release]
+lto = true
+```
+
+* **Codegen Units** <br>
+  The Rust compiler splits your crate into multiple codegen units to parallelize (and thus speed up) compilation. However, this might cause it to miss some potential optimizations. This will optimize it as a all, not dividing into more than one units. You have to benchmark it, because it can run faster or in some cases slower. In ```Cargo.toml```. <br>
+
+```
+[profile.release]
+codegen-units = 1
+```
+
+* Using CPU Specific Instructions - **Compiling to native CPU features**. <br>
+  It identifies and optimizes for the features of your CPU used in the compilation machine. <br> 
+
+```    
+$ RUSTFLAGS="-C target-cpu=native" cargo build --release
+```
+
+* **Profile-guided Optimization**
+  Profile-guided optimization (PGO) is a compilation model where you compile your program, run it on sample data while collecting profiling data, and then use that profiling data to guide a second compilation of the program. <br>
+  **Exploring PGO for the Rust compiler** <br>
+  [https://blog.rust-lang.org/inside-rust/2020/11/11/exploring-pgo-for-the-rust-compiler.html](https://blog.rust-lang.org/inside-rust/2020/11/11/exploring-pgo-for-the-rust-compiler.html) <br>
+  **Profile Guided Optimization** <br>
+  [https://doc.rust-lang.org/rustc/profile-guided-optimization.html](https://doc.rust-lang.org/rustc/profile-guided-optimization.html)
+
+* **Optimize for small executable binary size with no vectorization** <br>
+
+```
+[profile.release]
+opt-level = z
+```
+
+
 ## Rust bounds check removal
 
 This forum thread shows well some ways to remove bounds check without the need to do a loop **for**  and **a iterator**, the case where bounds check are automatically removed, or without using the manual way ```get_unchecked()```. <br>
