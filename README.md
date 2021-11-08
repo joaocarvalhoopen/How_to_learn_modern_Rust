@@ -585,13 +585,71 @@ Note: There are 2 "time" executables and this is not the bash default time progr
    [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
 
 
-## Notes on optimization
+## Rust bound checks removal
 
-* A **good example of applying optimization technics** to a high performance Rust program. <br>
-  **Writing the Fastest GBDT Library in Rust by Isabella Tromba** - RustConf 2021 <br>
-  [https://www.youtube.com/watch?v=D1NAREuicNs](https://www.youtube.com/watch?v=D1NAREuicNs)
+This forum thread shows well some ways to remove bounds checks without the need to do a loop **for**  and **a iterator**, the case where bounds checks are automatically removed, or without using the manual way ```get_unchecked()```. <br>
 
-* **Removal of bounds checks.** <br>
+* **Is bound checking the only runtime cost of Rust?** <br>
+  [https://users.rust-lang.org/t/is-bound-checking-the-only-runtime-cost-of-rust/66661](https://users.rust-lang.org/t/is-bound-checking-the-only-runtime-cost-of-rust/66661)
+
+I have put here some examples from the previous forum thread of bound check removal with a simple assert. Imagine that you have a loop with a index array that the compiler can’t easily know that it doesn’t need to bound check a easy way to ensure that the bound check will be removed is with the introduction of an **assert** **that will assure to the compiler it is safe**. In this case the assert only makes one bounds check and it is outside a loop and all the bounds checks inside the look will disappear. <br>
+
+
+``` Rust
+// Instead of….
+for i in array1.len() {
+    println!("{} {}", array1[i], array2[i]);
+}
+
+// Do….
+assert_eq!(array1.len(), array2.len());
+for i in array1.len() {
+    println!("{} {}", array1[i], array2[i]);
+}
+```
+
+
+``` Rust
+// This does three bounds checks
+pub fn demo1(x: &[i32]) -> i32 {
+    x[0] + x[1] + x[2]
+}
+
+// Whereas these two examples each only have one bounds check:
+pub fn demo2(x: &[i32]) -> i32 {
+    assert!(x.len() >= 3);
+    x[0] + x[1] + x[2]
+}
+
+pub fn demo3(x: &[i32]) -> i32 {
+    let x = &x[..3];
+    x[0] + x[1] + x[2]
+}
+```
+
+
+``` Rust
+// Instead of….
+fn get_nth(list: &LinkedList<T>, idx: usize) -> &T {
+    let mut node = list.first;
+    for _ in 0..idx {
+        node = node.next; // no null check here!
+    }
+    node
+}
+
+// Do….
+fn get_nth(list: &LinkedList<T>, idx: usize) -> &T {
+    assert!(idx < list.len())
+    let mut node = list.first;
+    for _ in 0..idx {
+        node = node.next; // no null check here!
+    }
+    node
+}
+```
+
+* **Removal of bounds checks in extreme cases.** <br>
   Rust has **slice**, **array** and **Vec** bounds checks for each indices. <br>
   If you **use iterators** there will be **no bounds check**. <br>
   But in the common case Rust uses LLVM, and **LLVM** does a very good job at **removing the bounds checks that aren't needed**. <br>
@@ -631,6 +689,13 @@ fn bench_vec_of_vec_unsafe(b: &mut Bencher) {
     });
 }
 ```
+
+
+## Notes on optimization
+
+* A **good example of applying optimization technics** to a high performance Rust program. <br>
+  **Writing the Fastest GBDT Library in Rust by Isabella Tromba** - RustConf 2021 <br>
+  [https://www.youtube.com/watch?v=D1NAREuicNs](https://www.youtube.com/watch?v=D1NAREuicNs)
 
 * **ndarray - N dimensional array** <br>
   Crate ndarray <br>
