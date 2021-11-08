@@ -627,28 +627,6 @@ pub fn demo3(x: &[i32]) -> i32 {
 }
 ```
 
-
-``` Rust
-// Instead of….
-fn get_nth(list: &LinkedList<T>, idx: usize) -> &T {
-    let mut node = list.first;
-    for _ in 0..idx {
-        node = node.next; // no null check here!
-    }
-    node
-}
-
-// Do….
-fn get_nth(list: &LinkedList<T>, idx: usize) -> &T {
-    assert!(idx < list.len())
-    let mut node = list.first;
-    for _ in 0..idx {
-        node = node.next; // no null check here!
-    }
-    node
-}
-```
-
 * **Removal of bounds checks in extreme cases.** <br>
   Rust has **slice**, **array** and **Vec** bounds checks for each indices. <br>
   If you **use iterators** there will be **no bounds check**. <br>
