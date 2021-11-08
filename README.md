@@ -585,14 +585,14 @@ Note: There are 2 "time" executables and this is not the bash default time progr
    [https://rust-embedded.github.io/book/unsorted/speed-vs-size.html](https://rust-embedded.github.io/book/unsorted/speed-vs-size.html)
 
 
-## Rust bound checks removal
+## Rust bounds check removal
 
-This forum thread shows well some ways to remove bounds checks without the need to do a loop **for**  and **a iterator**, the case where bounds checks are automatically removed, or without using the manual way ```get_unchecked()```. <br>
+This forum thread shows well some ways to remove bounds check without the need to do a loop **for**  and **a iterator**, the case where bounds check are automatically removed, or without using the manual way ```get_unchecked()```. <br>
 
 * **Is bound checking the only runtime cost of Rust?** <br>
   [https://users.rust-lang.org/t/is-bound-checking-the-only-runtime-cost-of-rust/66661](https://users.rust-lang.org/t/is-bound-checking-the-only-runtime-cost-of-rust/66661)
 
-I have put here some examples from the previous forum thread of bound check removal with a simple assert. Imagine that you have a loop with a index array that the compiler can’t easily know that it doesn’t need to bound check a easy way to ensure that the bound check will be removed is with the introduction of an **assert** **that will assure to the compiler it is safe**. In this case the assert only makes one bounds check and it is outside a loop and all the bounds checks inside the look will disappear. <br>
+I have put here some examples from the previous forum thread of bounds check removal with a simple assert. Imagine that you have a loop with a index array that the compiler can’t easily know that it doesn’t need to bounds check a easy way to ensure that the bounds check will be removed is with the introduction of an **assert** **that will assure to the compiler it is safe**. In this case the assert only makes one bounds check outside a loop and all the bounds checks inside the look will disappear. <br>
 
 
 ``` Rust
