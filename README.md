@@ -470,6 +470,31 @@ The inner workings and all the development steps of this project are beautifully
    [https://crates.io/crates/xgboost](https://crates.io/crates/xgboost)
 
 
+## Rust VSCode plugins
+
+1. **rust-analyzer** <br>
+   Code analyzer while editing <br>
+   [https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer)
+
+2. **Better TOML** <br>
+   .toml syntax hilight. <br>
+   [https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
+
+3. **Error Lens** <br>
+   Better positioning of error messages in editor. <br>
+   [https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+4. **CodeLLDB** - Vadim Chugunov <br>
+   Debugger plugin for Rust. <br>
+   [https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
+
+5. **Code Spell Checker** <br>
+   [https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+6. **Markdown All in One** <br>
+   [https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+
 ## Rust Debugger
 
 1. **How to Debug Rust with Visual Studio Code** <br>
@@ -818,6 +843,29 @@ if my_str_as_bytes_slice[2] == b'l' {
 
 * **bstr** - A **fast string type** that is not required to be valid UTF-8. **No heavy UTF-8 validations.** <br>
   [https://crates.io/crates/bstr](https://crates.io/crates/bstr)
+
+* **SmartString with LTO** (global Link-Time Optimization) <br>
+  It’s a general faster (**2.5x faster**) string replace for small strings <= 23 bytes (23 ASCII characters ex: “Mary had a little lamb!”) that are only stack allocated, but with the same performance as String for longer strings that are heap allocated. <br>
+  **Rust benchmark String vs SmartString and LTO** <br>
+  [https://github.com/joaocarvalhoopen/Rust_benchmark_String_vs_SmartString_and_LTO](https://github.com/joaocarvalhoopen/Rust_benchmark_String_vs_SmartString_and_LTO) <br>
+  **Crate SmartString** <br>
+  [https://crates.io/crates/smartstring](https://crates.io/crates/smartstring)
+
+```
+// In main do.
+smartstring::validate();
+
+{
+   // In the scope, add the alias to replace normal Strings with SmartString.  
+   use smartstring::alias::String;
+
+   // When creating SmartString's from &str instead of doing:
+   "blabla".to_string()
+
+   // Do:
+   String::from("blabla")
+}
+```
 
 * **bumpalo - A fast bump heap allocation arena for Rust.** <br>
   [https://crates.io/crates/bumpalo](https://crates.io/crates/bumpalo)
