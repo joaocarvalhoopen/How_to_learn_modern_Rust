@@ -179,6 +179,14 @@ To learn Rust go through the following content **in the listed order**, the majo
   GitHub **code** <br>
   [https://github.com/eliben/code-for-blog/tree/master/2021/rust-bst](https://github.com/eliben/code-for-blog/tree/master/2021/rust-bst)
 
+The previous link **demonstrated 3 ways to attack the problem**: <br>
+<br>
+**1-** Defer borrow checking to run-time, by using a reference-counted pointer (```std::rc::Rc```) to a ```std::cell:RefCell ```. <br>
+<br>
+**2-** Centralize the ownership (e.g. all nodes are owned by a vector of nodes in the Tree), and then references become handles (indices into the a vector). <br>
+<br>
+**3-** Use raw pointers and unsafe blocks to go around the rules of safe Rust. <br>
+
 
 ## Rust Testing and TDD – Test Driven Development
 
