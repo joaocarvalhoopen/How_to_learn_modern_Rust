@@ -181,7 +181,7 @@ To learn Rust go through the following content **in the listed order**, the majo
 
 The previous link **demonstrated 3 ways to attack the problem**: <br>
 <br>
-**1-** Defer borrow checking to run-time, by using a reference-counted pointer (```std::rc::Rc```) to a ```std::cell:RefCell ```. <br>
+**1-** Defer borrow checking to run-time, by using a reference-counted pointer (```std::rc::Rc```) to a ```std::cell:RefCell```. <br>
 <br>
 **2-** Centralize the ownership (e.g. all nodes are owned by a vector of nodes in the Tree), and then references become handles (indices into the a vector). <br>
 <br>
