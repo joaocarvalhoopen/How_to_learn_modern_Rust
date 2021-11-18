@@ -172,6 +172,20 @@ To learn Rust go through the following content **in the listed order**, the majo
    [https://www.youtube.com/watch?v=rAl-9HwD858](https://www.youtube.com/watch?v=rAl-9HwD858)
 
 
+## How to deal with Circular References and Ownership
+
+* **Rust data structures with circular references** <br>
+  [https://eli.thegreenplace.net/2021/rust-data-structures-with-circular-references/](https://eli.thegreenplace.net/2021/rust-data-structures-with-circular-references/) <br>
+  GitHub **code** <br>
+  [https://github.com/eliben/code-for-blog/tree/master/2021/rust-bst](https://github.com/eliben/code-for-blog/tree/master/2021/rust-bst)
+
+
+## Rust Testing and TDD – Test Driven Development
+
+* Video - Rust Testing and TDD - **An Intro to Testing and Test Driven Development** <br>
+  [https://www.youtube.com/watch?v=2vBQFIWl36k](https://www.youtube.com/watch?v=2vBQFIWl36k)
+
+
 ## Background in systems programming
 
 1. **How to lean modern Linux** <br>
