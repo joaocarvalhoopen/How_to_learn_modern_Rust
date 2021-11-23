@@ -639,6 +639,14 @@ The best way to optimize your code is to choose the right algorithm and the righ
 * **How to become dangerous in Algorithms** <br>
   [https://github.com/joaocarvalhoopen/How_to_become_dangerous_in_algorithms](https://github.com/joaocarvalhoopen/How_to_become_dangerous_in_algorithms)
 
+* **The Algorithms - Rust** <br>
+  [https://github.com/TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust)
+
+* **The Algorithms - Python** <br>
+  For a more complete list of implementations of algorithms <br>
+  [https://github.com/TheAlgorithms/Python/blob/master/DIRECTORY.md](https://github.com/TheAlgorithms/Python/blob/master/DIRECTORY.md)
+
+
 You can also apply several coding techniques that come from the underling knowledge of how the rust transforms your code structures in memory (stack and heap) and how they are executed, for example avoiding allocation, avoiding cloning large things that aren’t basic types and that are by nature cloned. (More info bellow.)
 You can do profiling to guide you through optimization, identifying the hot-spots to pin point you to the exact code your program spends that 90% of his time. And to allow you to see where you can shave it in the number of instructions that are executed at the same time and to increase your IPC – Instructions Per Clock cycle of your superscaller CPU. And then you can also mess around with compilation flags like the following, see [https://nnethercote.github.io/perf-book/build-configuration.html](https://nnethercote.github.io/perf-book/build-configuration.html) :
 
