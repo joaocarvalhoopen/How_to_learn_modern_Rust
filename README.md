@@ -448,6 +448,15 @@ The inner workings and all the development steps of this project are beautifully
     [https://www.youtube.com/watch?v=9H9SO2u6Q20](https://www.youtube.com/watch?v=9H9SO2u6Q20)
 
 
+## Rust Foundation
+
+1. Video - **What Is Rust Foundation?** <br>
+   [https://www.youtube.com/watch?v=AI4lPN0BqGc](https://www.youtube.com/watch?v=AI4lPN0BqGc)
+
+2. **Site - Rust Foundation** <br>
+   [https://foundation.rust-lang.org/](https://foundation.rust-lang.org/)
+
+
 ## Rust Blogs
 
 1. **pretzelhammer's Rust blog** <br>
