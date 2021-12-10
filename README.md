@@ -475,6 +475,52 @@ The inner workings and all the development steps of this project are beautifully
       [https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
 
 
+## GUI programming in Rust
+
+1. **GTK4 - Unlocking the GNOME stack for Rust** <br>
+   [https://gtk-rs.org/](https://gtk-rs.org/)
+
+2. **Book - GUI development with Rust and GTK 4** <br>
+   [https://gtk-rs.org/gtk4-rs/stable/latest/book/](https://gtk-rs.org/gtk4-rs/stable/latest/book/)
+
+3. **Relm4 for GTK4** <br>
+   [https://github.com/AaronErhardt/relm4](https://github.com/AaronErhardt/relm4)
+
+4. **Speedrunning GUI development in Rust** <br>
+   **Hint:** 1.2 seconds compilation technic. <br>
+   [https://aaronerhardt.github.io/blog/posts/gui_speedrun/](https://aaronerhardt.github.io/blog/posts/gui_speedrun/)
+
+5. **egui: an easy-to-use GUI in pure Rust** <br>
+   Normal **desktop** GUI and **WebAssembly** written entirely in Rust, **immediate mode**. <br> 
+   [https://github.com/emilk/egui](https://github.com/emilk/egui)
+
+6. **eGUI - Web Demo** <br>
+   [https://emilk.github.io/egui/index.html](https://emilk.github.io/egui/index.html)
+
+
+## Faster Compilation / Linker times in Linux and Unix's ELF.
+
+**mold** is optimized for **Linux**, **zld** only works on **macOS**. For **production** use, **lld** might be the most mature option. <br>
+<br>
+**mold** is a high-performance drop-in replacement for existing Unix linkers. It is **several times faster than LLVM lld linker** <br>
+In the context of building a Relm4 for GTK-4 GUI application: <br>
+"With mold I was able to **reduce my incremental compile times by factor 7 to only about 1.2 second**. With this, it’s really fun to play with the code of the UI as you can see the result of your changes almost immediately." by the author of Relm4 <br> 
+
+1. **Mold** <br>
+   https://github.com/rui314/mold
+
+```
+// After installing mold, all you need to do is add the
+// prefix mold -run to the command you want to run.
+// Most likely this will be:
+
+mold -run cargo run
+```
+
+2. **Tips for Faster Rust Compile Times** <br>
+   [https://endler.dev/2020/rust-compile-times/](https://endler.dev/2020/rust-compile-times/)
+
+
 ## Machine Learning for Rust
 
 1. **Taking ML to production with Rust: a 25x speedup** <br>
