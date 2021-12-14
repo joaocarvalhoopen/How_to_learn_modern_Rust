@@ -888,6 +888,19 @@ map.insert(1, 2);
 use hashbrown::HashMap;
 ```
 
+* **Macros for hashMap, hashset, btreeMap, btreeSet to look similar to Python** <br>
+  Crate **maplit** <br>
+  [https://crates.io/crates/maplit](https://crates.io/crates/maplit)
+
+```Rust
+#[macro_use] extern crate maplit;
+
+let map = hashmap!{
+    "a" => 1,
+    "b" => 2,
+};
+```  
+
 * **String continuations** <br>
   The backslash, the newline and the starting spaces will disappear. <br>
 
@@ -941,7 +954,7 @@ if my_str_as_bytes_slice[2] == b'l' {
   **Crate SmartString** <br>
   [https://crates.io/crates/smartstring](https://crates.io/crates/smartstring)
 
-```
+```Rust
 // In main do.
 smartstring::validate();
 
