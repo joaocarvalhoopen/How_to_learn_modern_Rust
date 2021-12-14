@@ -899,6 +899,16 @@ let map = hashmap!{
     "a" => 1,
     "b" => 2,
 };
+
+let map1: HashMap<String, String> = convert_args!(hashmap!(
+    "a" => "b",
+    "c" => "d",
+));
+
+let map2 = convert_args!(keys=String::from, hashmap!(
+    "a" => 1,
+    "c" => 2,
+));
 ```  
 
 * **String continuations** <br>
