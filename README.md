@@ -886,29 +886,6 @@ map.insert(1, 2);
 ```Rust
 // The fastest HashMap for Rust. HashBrown a drop in replacement for std HashMap.
 use hashbrown::HashMap;
-```
-
-* **Macros for hashMap, hashset, btreeMap, btreeSet to look similar to Python** <br>
-  Crate **maplit** <br>
-  [https://crates.io/crates/maplit](https://crates.io/crates/maplit)
-
-```Rust
-#[macro_use] extern crate maplit;
-
-let map = hashmap!{
-    "a" => 1,
-    "b" => 2,
-};
-
-let map1: HashMap<String, String> = convert_args!(hashmap!(
-    "a" => "b",
-    "c" => "d",
-));
-
-let map2 = convert_args!(keys=String::from, hashmap!(
-    "a" => 1,
-    "c" => 2,
-));
 ```  
 
 * **String continuations** <br>
@@ -1146,10 +1123,82 @@ fn main() {
 //    #abc#dèf#ghi#j
 ```
 
+## Macros in Rust
+
+1. **Macros for hashMap, hashset, btreeMap, btreeSet to look similar to Python** <br>
+  Crate **maplit** <br>
+  [https://crates.io/crates/maplit](https://crates.io/crates/maplit)
+
+```Rust
+#[macro_use] extern crate maplit;
+
+let map = hashmap!{
+    "a" => 1,
+    "b" => 2,
+};
+
+let map1: HashMap<String, String> = convert_args!(hashmap!(
+    "a" => "b",
+    "c" => "d",
+));
+
+let map2 = convert_args!(keys=String::from, hashmap!(
+    "a" => 1,
+    "c" => 2,
+));
+```
+
+2. **Macro for graph's** <br>
+   See the following post from kaj, on the Rust user foruns. <br>
+   [https://users.rust-lang.org/t/3-things-that-the-rust-standard-library-should-have/68825/9](https://users.rust-lang.org/t/3-things-that-the-rust-standard-library-should-have/68825/9)
+
+```Python
+# When you have the following dictionary Python code...
+
+# Adjacency list of graph
+data = {
+    0: [1, 2],
+    1: [0, 2],
+    2: [0, 1, 3, 5],
+}
+```
+
+```Rust
+// And you implement it in Rust like this...
+
+let data = HashMap::from([
+    (0, vec![1, 2]),
+    (1, vec![0, 2]),
+    (2, vec![0, 1, 3, 5]),
+]);
+
+// ...but you can instead implement it like this...
+
+let data2 = graph![
+    0 => 1, 2;
+    1 => 0, 2;
+    2 => 0, 1, 3, 5
+];
+
+// ...using the following simple Macro...
+
+use std::collections::HashMap;
+
+macro_rules! graph {
+    [$($k:expr => $($v:expr),*);*] => {
+        HashMap::from([
+            $(($k, vec![ $($v),* ])),*
+        ])
+    }
+}
+```
+
+
 ## Good way to learn about the topic of computers and programming
 
 1. **Video - Computer Science - Crash Course** <br> 
    [https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+
 
 ## For a good challenge do the NAND To Tetris in Rust
 
