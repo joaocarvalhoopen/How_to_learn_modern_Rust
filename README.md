@@ -1125,7 +1125,10 @@ fn main() {
 
 ## Macros in Rust
 
-1. **Macros for hashMap, hashset, btreeMap, btreeSet to look similar to Python** <br>
+1. **Macro file visibility rules** <br>
+   [https://users.rust-lang.org/t/3-things-that-the-rust-standard-library-should-have/68825/11](https://users.rust-lang.org/t/3-things-that-the-rust-standard-library-should-have/68825/11)
+
+2. **Macros for hashMap, hashset, btreeMap, btreeSet to look similar to Python** <br>
   Crate **maplit** <br>
   [https://crates.io/crates/maplit](https://crates.io/crates/maplit)
 
@@ -1148,7 +1151,7 @@ let map2 = convert_args!(keys=String::from, hashmap!(
 ));
 ```
 
-2. **Macro for graph's** <br>
+3. **Macro for graph's** <br>
    See the following post from kaj, on the Rust user foruns. <br>
    [https://users.rust-lang.org/t/3-things-that-the-rust-standard-library-should-have/68825/9](https://users.rust-lang.org/t/3-things-that-the-rust-standard-library-should-have/68825/9)
 
