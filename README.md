@@ -607,6 +607,10 @@ To define good error types that encapsulate other errors. In the case where you 
 * **12 Rust Tips and Tricks you might not know yet** - Federico Terzi <br>
   [https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet/](https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet/)
 
+* **sccache - Shared Compilation Cache** <br>
+  sccache includes support for caching the compilation of **C/C++** code, **Rust**, as well as NVIDIA's **CUDA** using nvcc. Avoiding compilation when possible. <br>
+  [https://github.com/mozilla/sccache](https://github.com/mozilla/sccache)
+
 
 ## GC for Rust - Garbage Collector
 
