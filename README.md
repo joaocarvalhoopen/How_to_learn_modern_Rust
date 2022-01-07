@@ -601,6 +601,12 @@ To define good error types that encapsulate other errors. In the case where you 
    [https://crates.io/crates/thiserror](https://crates.io/crates/thiserror)
 
 
+## Tips and Tricks
+
+* **12 Rust Tips and Tricks you might not know yet** - Federico Terzi <br>
+  [https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet/](https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet/)
+
+
 ## GC for Rust - Garbage Collector
 
 “Cases where one needs to maintain a complicated, dynamic graph “(with cycles)” are where a GC becomes useful. Similarly, if one is writing an interpreter for a GCd language, having a GC in Rust would simplify things a lot.”
