@@ -554,7 +554,8 @@ mold -run cargo run
 
 1. **rust-analyzer** <br>
    Code analyzer while editing <br>
-   [https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer)
+   [https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) <br>
+   For **better warnings** in the same user interface, go into the VSCode **settings** > **Rust Analyzer** > **Check On Save**: Command and setting “**clippy**” instead of “check”.
 
 2. **Better TOML** <br>
    .toml syntax hilight. <br>
