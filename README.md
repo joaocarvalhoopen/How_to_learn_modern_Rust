@@ -633,14 +633,22 @@ To define good error types that encapsulate other errors. In the case where you 
 2. **Comparing Parallel Rust and C++** <br>
    [https://parallel-rust-cpp.github.io/](https://parallel-rust-cpp.github.io/)
 
-3. **perf Examples** <br>
+3. **Rayon is a data-parallelism library for Rust** <br>
+   [https://crates.io/crates/rayon](https://crates.io/crates/rayon)
+
+4. **dpc-pariter - Parallel iterator processing** <br>
+   [https://crates.io/crates/dpc-pariter](https://crates.io/crates/dpc-pariter) <br>
+   **Adding parallelism to your Rust iterators** with dpc-pariter <br>
+   [https://dpc.pw/adding-parallelism-to-your-rust-iterators](https://dpc.pw/adding-parallelism-to-your-rust-iterators)
+
+5. **perf Examples** <br>
    See also the lecture. <br>
    [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
 
-4. **perf: Linux profiling with performance counters** <br>
+6. **perf: Linux profiling with performance counters** <br>
    [https://perf.wiki.kernel.org/index.php/Main_Page](https://perf.wiki.kernel.org/index.php/Main_Page) 
 
-5. **Systems Performance Enterprise and the Cloud 2nd Ed** <br>
+7. **Systems Performance Enterprise and the Cloud 2nd Ed** <br>
 	by Brendan Gregg
 
 To **install Perf** on your Linux system you can do a simple package installation like apt-get if you are on a debian, then execute perf and it will tell you the package that you will have to install that is specific for your Linux kernel version. If your distribution automatically updates your kernel, you will need to download a new and correct version for your new kernel, and install it with your system package manager, ex: apt-get. <br> 
@@ -685,10 +693,10 @@ To know **how much peak memory** your executable program uses do: <br>
 Note: There are 2 "time" executables and this is not the bash default time program. That's why you have to write the full path ```/usr/bin/time``` to execute it. <br>
 
 
-6. **The Rust Performance Book** <br>
+8. **The Rust Performance Book** <br>
    [https://nnethercote.github.io/perf-book/title-page.html](https://nnethercote.github.io/perf-book/title-page.html)
 
-7. **Guide to Optimization** <br>
+9. **Guide to Optimization** <br>
    Achieving warp speed with Rust <br>
    [https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1) <br>
    Cheap tricks for high-performance Rust <br>
@@ -720,6 +728,9 @@ The best way to optimize your code is to choose the right algorithm and the righ
 
 You can also apply several coding techniques that come from the underling knowledge of how the rust transforms your code structures in memory (stack and heap) and how they are executed, for example avoiding allocation, avoiding cloning large things that aren’t basic types and that are by nature cloned. (More info bellow.)
 You can do profiling to guide you through optimization, identifying the hot-spots to pin point you to the exact code your program spends that 90% of his time. And to allow you to see where you can shave it in the number of instructions that are executed at the same time and to increase your IPC – Instructions Per Clock cycle of your superscaller CPU. And then you can also mess around with compilation flags like the following, see [https://nnethercote.github.io/perf-book/build-configuration.html](https://nnethercote.github.io/perf-book/build-configuration.html) :
+
+* **rustc book - rustc is the Rust compiler** <br>
+  [https://doc.rust-lang.org/rustc/](https://doc.rust-lang.org/rustc/)
 
 * **Add debug symbols table to the release build for profiling.** In ```Cargo.toml```.
 
