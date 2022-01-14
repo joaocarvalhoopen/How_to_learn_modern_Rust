@@ -191,6 +191,18 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 **3-** Use raw pointers and unsafe blocks to go around the rules of safe Rust. <br>
 
 
+## Polymorphism in Rust
+
+* **Three Kinds of Polymorphism in Rust - Brandon Smith** <br>
+  [https://www.brandons.me/blog/polymorphism-in-rust](https://www.brandons.me/blog/polymorphism-in-rust)
+
+* **Polymorphism in Rust - Matt Oswalt** <br> 
+  [https://oswalt.dev/2021/06/polymorphism-in-rust/](https://oswalt.dev/2021/06/polymorphism-in-rust/)
+
+* **Anti-pattern - Deref polymorphism** <br>
+  [https://rust-unofficial.github.io/patterns/anti_patterns/deref.html](https://rust-unofficial.github.io/patterns/anti_patterns/deref.html)
+
+
 ## Rust Testing and TDD – Test Driven Development
 
 * Video - Rust Testing and TDD - **An Intro to Testing and Test Driven Development** <br>
@@ -217,18 +229,23 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
    [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/)  
 
 6. **The Linux Programming Interface: A Linux and UNIX System Programming Handbook** <br>
-   by Michael Kerrisk
+   by Michael Kerrisk <br>
+   **Note:** Read this book from cover to cover!
 
-7. **Linux Device Drivers, 3th Edition** <br>
+7. **System Programming Vol I and Vol II** <br>
+   by Jin-Jwei Chen <br>
+   **Note:** Read this book from cover to cover!
+
+8. **Linux Device Drivers, 3th Edition** <br>
    [https://lwn.net/Kernel/LDD3/](https://lwn.net/Kernel/LDD3/)
 
-8. **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
+9.  **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
    by Alberto Liberal de los Ríos
 
-9. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
+11. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
    by Randal Bryant, David O'Hallaron
 
-10. **Computer Networking: A Top-Down Approach** <br> 
+11. **Computer Networking: A Top-Down Approach** <br> 
    by James Kurose
 
 11. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
@@ -497,6 +514,10 @@ The inner workings and all the development steps of this project are beautifully
 6. **eGUI - Web Demo** <br>
    [https://emilk.github.io/egui/index.html](https://emilk.github.io/egui/index.html)
 
+7. **pix_engine** <br>
+   It's a cross-platform graphics & UI library for simple games, visualizations, digital art, and graphics applications. A kind of more simple **Processing** or **p5.js** but for Rust. Has a good collection of examples. <br>
+   [https://github.com/lukexor/pix-engine](https://github.com/lukexor/pix-engine) 
+   
 
 ## Faster Compilation / Linker times in Linux and Unix's ELF.
 
