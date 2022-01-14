@@ -634,10 +634,18 @@ To define good error types that encapsulate other errors. In the case where you 
    [https://parallel-rust-cpp.github.io/](https://parallel-rust-cpp.github.io/)
 
 3. **Crossbeam - Tools for concurrent programming** <br>
-   [https://crates.io/crates/crossbeam](https://crates.io/crates/crossbeam)
+   [https://crates.io/crates/crossbeam](https://crates.io/crates/crossbeam) <br>
+   **Crossbeam - Learning Resources** <br>
+   [https://github.com/crossbeam-rs/rfcs/wiki](https://github.com/crossbeam-rs/rfcs/wiki)
 
 4. **Rayon - It is a data-parallelism library for Rust** <br>
-   [https://crates.io/crates/rayon](https://crates.io/crates/rayon)
+   [https://crates.io/crates/rayon](https://crates.io/crates/rayon) <br>
+   **Video** - Rayon: Data Parallelism for Fun and Profit — Nicholas Matsakis <br>
+   [https://www.youtube.com/watch?v=gof_OEv71Aw](https://www.youtube.com/watch?v=gof_OEv71Aw) <br>
+   Rayon: data parallelism in Rust <br>
+   [https://smallcultfollowing.com/babysteps/blog/2015/12/18/rayon-data-parallelism-in-rust/](https://smallcultfollowing.com/babysteps/blog/2015/12/18/rayon-data-parallelism-in-rust/) <br>
+   **Rayon docs** <br>
+   [https://docs.rs/rayon/latest/rayon/](https://docs.rs/rayon/latest/rayon/)
 
 5. **dpc-pariter - Parallel iterator processing** <br>
    [https://crates.io/crates/dpc-pariter](https://crates.io/crates/dpc-pariter) <br>
