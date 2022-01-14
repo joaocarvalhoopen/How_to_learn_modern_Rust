@@ -728,7 +728,7 @@ You can do profiling to guide you through optimization, identifying the hot-spot
 debug = true
 ```
 
-* **Link-time Optimization** <br>
+* **LTO - Link-Time Optimization** <br>
   Link-time optimization (LTO) is a whole-program optimization technique that can improve runtime performance by 10-20% or more, at the cost of increased build times. In ```Cargo.toml```. <br>
 
 ```
@@ -751,12 +751,22 @@ codegen-units = 1
 $ RUSTFLAGS="-C target-cpu=native" cargo build --release
 ```
 
-* **Profile-guided Optimization**
+* **PGO - Profile-Guided Optimization**
   Profile-guided optimization (PGO) is a compilation model where you compile your program, run it on sample data while collecting profiling data, and then use that profiling data to guide a second compilation of the program. <br>
   **Exploring PGO for the Rust compiler** <br>
   [https://blog.rust-lang.org/inside-rust/2020/11/11/exploring-pgo-for-the-rust-compiler.html](https://blog.rust-lang.org/inside-rust/2020/11/11/exploring-pgo-for-the-rust-compiler.html) <br>
   **Profile Guided Optimization** <br>
   [https://doc.rust-lang.org/rustc/profile-guided-optimization.html](https://doc.rust-lang.org/rustc/profile-guided-optimization.html)
+
+* **BOLT - Linux ELF Layout Optimization**  
+  BOLT (Facebook/Meta project) has merged into LLVM code tree. <br>
+  The BOLT + LTO + PGO combination gives a impressive performance uplift (34 % to 68.5 %) to many Clang (LLVM) and GCC compiled programs, see article below. Including the Kernel, and even the Clang and GCC compilers execution. <br>
+  **BOLT Merged Into LLVM To Optimize Binaries For Faster Performance** <br>
+  [https://www.phoronix.com/scan.php?page=news_item&px=LLVM-Lands-BOLT](https://www.phoronix.com/scan.php?page=news_item&px=LLVM-Lands-BOLT) <br>
+  **Facebook Has Been Working On BOLT'ing The Linux Kernel For Greater Performance** <br>
+  [https://www.phoronix.com/scan.php?page=news_item&px=Facebook-BOLTing-The-Kernel](https://www.phoronix.com/scan.php?page=news_item&px=Facebook-BOLTing-The-Kernel) <br>
+  **GitHub - BOLT** <br>
+  [https://github.com/facebookincubator/BOLT/tree/main/bolt](https://github.com/facebookincubator/BOLT/tree/main/bolt)
 
 * **Optimize for small executable binary size with no vectorization** <br>
 
