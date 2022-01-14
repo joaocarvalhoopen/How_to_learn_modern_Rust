@@ -211,7 +211,7 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 
 ## Background in systems programming
 
-1. **How to lean modern Linux** <br>
+1. **How to learn modern Linux** <br>
    [https://github.com/joaocarvalhoopen/How_to_learn_modern_Linux](https://github.com/joaocarvalhoopen/How_to_learn_modern_Linux)
 
 2. **Safe Systems Programming in Rust** <br>
