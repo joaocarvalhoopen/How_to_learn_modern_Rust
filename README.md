@@ -395,6 +395,9 @@ The inner workings and all the development steps of this project are beautifully
 7. **The Embedded Working Group Newsletter or Blog** <br>
    [https://rust-embedded.github.io/blog/](https://rust-embedded.github.io/blog/)
 
+8. **PlayList - Embedded Rust course - JaJakub** <br>
+   [https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI](https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI) 
+
 
 ## Links
 
