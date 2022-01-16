@@ -517,7 +517,23 @@ The inner workings and all the development steps of this project are beautifully
 6. **eGUI - Web Demo** <br>
    [https://emilk.github.io/egui/index.html](https://emilk.github.io/egui/index.html)
 
-7. **pix_engine** <br>
+7. **eframe - It's the official framework library for writing apps using egui** <br>
+   [https://github.com/emilk/egui/tree/master/eframe](https://github.com/emilk/egui/tree/master/eframe)
+
+8. **egui - 7a. Building a GUI app in Rust - Part A - creativcoder** <br>
+   [https://www.youtube.com/watch?v=NtUkr_z7l84](https://www.youtube.com/watch?v=NtUkr_z7l84)
+
+9. **egui - 7b. Building a GUI app in Rust - Part B - creativcoder** <br>
+   [https://www.youtube.com/watch?v=SvFPdgGwzTQ](https://www.youtube.com/watch?v=SvFPdgGwzTQ)
+
+10. **Crate confy** <br>
+    To maintain the state fo the APP in a config file. Serializes and deserializes automatically with Serde. <br> 
+    [https://github.com/rust-cli/confy](https://github.com/rust-cli/confy)
+
+11. **Crate tracing** <br>
+    [https://github.com/tokio-rs/tracing](https://github.com/tokio-rs/tracing)
+
+12. **pix_engine** <br>
    It's a cross-platform graphics & UI library for simple games, visualizations, digital art, and graphics applications. A kind of more simple **Processing** or **p5.js** but for Rust. Has a good collection of examples. <br>
    [https://github.com/lukexor/pix-engine](https://github.com/lukexor/pix-engine) 
    
