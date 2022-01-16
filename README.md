@@ -526,16 +526,19 @@ The inner workings and all the development steps of this project are beautifully
 9. **egui - 7b. Building a GUI app in Rust - Part B - creativcoder** <br>
    [https://www.youtube.com/watch?v=SvFPdgGwzTQ](https://www.youtube.com/watch?v=SvFPdgGwzTQ)
 
-10. **Crate confy** <br>
+10. **egui - 8. Building a web app in Rust - WASM - creativcoder** <br>
+    [https://www.youtube.com/watch?v=4MKcqR9z8AU](https://www.youtube.com/watch?v=4MKcqR9z8AU)
+
+11. **Crate confy** <br>
     To maintain the state fo the APP in a config file. Serializes and deserializes automatically with Serde. <br> 
     [https://github.com/rust-cli/confy](https://github.com/rust-cli/confy)
 
-11. **Crate tracing** <br>
+12. **Crate tracing** <br>
     [https://github.com/tokio-rs/tracing](https://github.com/tokio-rs/tracing)
 
-12. **pix_engine** <br>
-   It's a cross-platform graphics & UI library for simple games, visualizations, digital art, and graphics applications. A kind of more simple **Processing** or **p5.js** but for Rust. Has a good collection of examples. <br>
-   [https://github.com/lukexor/pix-engine](https://github.com/lukexor/pix-engine) 
+13. **pix_engine** <br>
+    It's a cross-platform graphics & UI library for simple games, visualizations, digital art, and graphics applications. A kind of more simple **Processing** or **p5.js** but for Rust. Has a good collection of examples. <br>
+    [https://github.com/lukexor/pix-engine](https://github.com/lukexor/pix-engine) 
    
 
 ## Audio in Rust
