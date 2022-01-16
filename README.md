@@ -538,6 +538,28 @@ The inner workings and all the development steps of this project are beautifully
    [https://github.com/lukexor/pix-engine](https://github.com/lukexor/pix-engine) 
    
 
+## Audio in Rust
+
+1. **RustAudio** <br>
+   Free and useful Audio, DSP and music libraries written in Rust. <br>
+   [https://github.com/RustAudio](https://github.com/RustAudio)
+
+2. **CPAL - Cross-Platform Audio Library** <br>
+   Low-level library for audio input and output in pure Rust. <br>
+   Works aldo in WASM. <br>
+   [https://github.com/RustAudio/cpal](https://github.com/RustAudio/cpal)
+
+3. **Rodio - Audio playback library** <br>
+   MP3, WAV, Vorbis, Flac, MP4 and AAC. <br>
+   [https://github.com/RustAudio/rodio](https://github.com/RustAudio/rodio)
+
+4. **dasp - Digital Audio Signal Processing in Rust** <br>
+   [https://github.com/RustAudio/dasp](https://github.com/RustAudio/dasp)
+
+5. **rust-portaudio - PortAudio bindings and wrappers for Rust.** <br>
+   [https://github.com/RustAudio/rust-portaudio](https://github.com/RustAudio/rust-portaudio)   
+
+
 ## Faster Compilation / Linker times in Linux and Unix's ELF.
 
 **mold** is optimized for **Linux**, **zld** only works on **macOS**. For **production** use, **lld** might be the most mature option. <br>
