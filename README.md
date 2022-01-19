@@ -381,22 +381,23 @@ The inner workings and all the development steps of this project are beautifully
    [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
 3. **Discovery Book** <br>
+   Good starting point for **MicroBit** and **STM32** <br>
    [https://docs.rust-embedded.org/discovery/](https://docs.rust-embedded.org/discovery/)
 
-4. **The Embedded Rust Book** <br>
+4. **PlayList - Embedded Rust course - JaJakub** <br>
+   [https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI](https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI) 
+
+5. **The Embedded Rust Book** <br>
    [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
 
-5. **Workbook for Embedded Workshops - Book** <br>
+6. **Workbook for Embedded Workshops - Book** <br>
    [https://embedded-trainings.ferrous-systems.com/](https://embedded-trainings.ferrous-systems.com/)
 
-6. **The Embedonomicon Book** <br>
+7. **The Embedonomicon Book** <br>
    [https://docs.rust-embedded.org/embedonomicon/](https://docs.rust-embedded.org/embedonomicon/)
 
-7. **The Embedded Working Group Newsletter or Blog** <br>
+8. **The Embedded Working Group Newsletter or Blog** <br>
    [https://rust-embedded.github.io/blog/](https://rust-embedded.github.io/blog/)
-
-8. **PlayList - Embedded Rust course - JaJakub** <br>
-   [https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI](https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI) 
 
 
 ## Links
