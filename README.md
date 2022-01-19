@@ -399,6 +399,11 @@ The inner workings and all the development steps of this project are beautifully
 8. **The Embedded Working Group Newsletter or Blog** <br>
    [https://rust-embedded.github.io/blog/](https://rust-embedded.github.io/blog/)
 
+9. **RTIC** <br>
+   Real-Time Interrupt-driven Concurrency. <br>
+   **A very efficient preemptive multitasking framework** that supports **task prioritization** and **dead lock free execution**. <br>
+   [https://rtic.rs/1.0/book/en/](https://rtic.rs/1.0/book/en/)
+
 
 ## Links
 
