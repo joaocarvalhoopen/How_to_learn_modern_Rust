@@ -436,6 +436,44 @@ The inner workings and all the development steps of this project are beautifully
     [https://github.com/ruabmbua/rlogic](https://github.com/ruabmbua/rlogic)
 
 
+## Embedded Rust with Raspberry Pi Pico - 4 dollars board
+
+1. Raspberry Pi **Pico** - **rp-HAL** <br>
+   [https://github.com/rp-rs/rp-hal](https://github.com/rp-rs/rp-hal) <br>
+   **rp2040-hal** - **Examples** <br>
+   [https://github.com/rp-rs/rp-hal/tree/main/rp2040-hal/examples](https://github.com/rp-rs/rp-hal/tree/main/rp2040-hal/examples) <br>
+   **Documentation** <br>
+   [https://docs.rs/rp2040-hal/latest/rp2040_hal/](https://docs.rs/rp2040-hal/latest/rp2040_hal/)
+
+2. **Site - rp2040 - Chip documentation** <br>
+   [https://www.raspberrypi.com/documentation/microcontrollers/](https://www.raspberrypi.com/documentation/microcontrollers/)
+
+3. **PlayList - Intro to Raspberry Pi Pico and RP2040** - Digi-Key <br>
+   **C/C++** and **MicroPython** <br>
+   [https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
+
+4. **In-depth: Raspberry Pi Pico's PIO - programmable IO** - stacksmashing <br>
+   [https://www.youtube.com/watch?v=yYnQYF_Xa8g](https://www.youtube.com/watch?v=yYnQYF_Xa8g) 
+
+5. **Site - Raspberry Pi Pico** <br>
+   [https://www.raspberrypi.com/products/raspberry-pi-pico/](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+
+6. **Site - Getting started with Raspberry Pi Pico** <br>
+   [https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0)
+
+7. **Book - Get Started with MicroPython on Raspberry Pi Pico** <br>
+   [https://hackspace.raspberrypi.com/books/micropython-pico](https://hackspace.raspberrypi.com/books/micropython-pico)
+
+8. **Book - Adafruit - Getting Started with Raspberry Pi Pico and CircuitPython** <br>
+   [https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf](https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf)
+
+9. **Video - The Raspberry Pi Pico Review - $4 ARM Microcontroller** <br>
+   [https://www.youtube.com/watch?v=dUCgYXF01Do](https://www.youtube.com/watch?v=dUCgYXF01Do)
+
+10. **Video - Raspberry Pi Pico VGA video output using only resistors** <br>
+    [https://www.youtube.com/watch?v=RmPWcsvGSyk](https://www.youtube.com/watch?v=RmPWcsvGSyk)
+
+
 ## Links
 
 1. **Rust site** <br>
