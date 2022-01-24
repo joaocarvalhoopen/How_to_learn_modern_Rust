@@ -390,43 +390,51 @@ The inner workings and all the development steps of this project are beautifully
 5. **PlayList - Embedded Rust course - JaJakub** <br>
    [https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI](https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI) 
 
-6. **The Embedded Rust Book** <br>
+6. Live streams with a **good example of developing with Embedded Rust in STM32 BluePill** <br>
+   Embedded Rust - Vers Binarii <br>
+   [https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU](https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU)
+
+7. **The Embedded Rust Book** <br>
    **Second fantastic book to read** <br>
    Generic for any type of chip brand. <br>
    [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
 
-7. **Workbook for Embedded Workshops - Book** <br>
+8. **Workbook for Embedded Workshops - Book** <br>
    Using the **Nordic nRF52840** Development Kit. <br>
    [https://embedded-trainings.ferrous-systems.com/](https://embedded-trainings.ferrous-systems.com/)
 
-8. **The Embedonomicon Book** <br>
+9.  **The Embedonomicon Book** <br>
    Deep dive into the inner workings. <br>
    [https://docs.rust-embedded.org/embedonomicon/](https://docs.rust-embedded.org/embedonomicon/)
 
-9.  **Video - How can we write the best device driver?** <br>
-   [https://www.youtube.com/watch?v=z9z74VpqO9A](https://www.youtube.com/watch?v=z9z74VpqO9A)
+10. **Video - How can we write the best device driver?** <br>
+    [https://www.youtube.com/watch?v=z9z74VpqO9A](https://www.youtube.com/watch?v=z9z74VpqO9A)
 
-10. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
+11. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
     RTIC is a RTOS - Real Time Operating System. <br>
     [https://www.youtube.com/watch?v=saNdh0m_qHc](https://www.youtube.com/watch?v=saNdh0m_qHc)
 
-11. **RTIC Book** <br>
+12. **RTIC Book** <br>
     Real-Time Interrupt-driven Concurrency. <br>
     **A very efficient preemptive multitasking framework** that supports **task prioritization** and **dead lock free execution**. <br>
     [https://rtic.rs/1.0/book/en/](https://rtic.rs/1.0/book/en/)
 
-12. **Github - rtic-rs - cortex-m-rtic** <br>
+13. **Github - rtic-rs - cortex-m-rtic** <br>
     [https://github.com/rtic-rs/cortex-m-rtic](https://github.com/rtic-rs/cortex-m-rtic)
 
-13. **Video - Grepit about the Rust RTIC framework** <br>
+14. **Video - Grepit about the Rust RTIC framework** <br>
     [https://www.youtube.com/watch?v=sSJ-Md8nwIM](https://www.youtube.com/watch?v=sSJ-Md8nwIM)
 
-14. **Video - Bare Metal Audio Programming With Rust - Antoine van Gelder - ADC20** <br>
+15. **Embedded graphics** <br>
+    It's a 2D graphics library that is focused on memory constrained embedded devices. <br>
+    [https://github.com/embedded-graphics/embedded-graphics](https://github.com/embedded-graphics/embedded-graphics)
+
+16. **Video - Bare Metal Audio Programming With Rust - Antoine van Gelder - ADC20** <br>
     [https://www.youtube.com/watch?v=udlK1LQ3f3g](https://www.youtube.com/watch?v=udlK1LQ3f3g) <br>
     **Slides** <br>
     [https://flowdsp.io/talks/talk-adc20/#1](https://flowdsp.io/talks/talk-adc20/#1)
 
-15. **Video - Building a simple logic analyser in Rust** <br>
+17. **Video - Building a simple logic analyser in Rust** <br>
     Rust Linz, September 2020 - Roland Ruckerbauer - Embedded Rust <br>
     Board used **stm32** compatible **bluepill**. <br>
     [https://www.youtube.com/watch?v=xY342ACNXFg](https://www.youtube.com/watch?v=xY342ACNXFg) <br>
