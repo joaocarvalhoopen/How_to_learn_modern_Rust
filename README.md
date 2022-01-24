@@ -455,6 +455,13 @@ The inner workings and all the development steps of this project are beautifully
     [https://github.com/ruabmbua/rlogic](https://github.com/ruabmbua/rlogic)
 
 
+## Embedded Rust with STM32 BluePill - STM32F103
+
+1. STM32 BluePill in Rust - **Project template and info** <br>
+   This is the project template I use in my BluePill projects. <br>
+   [https://github.com/joaocarvalhoopen/stm32_bluepill_in_rust__Template](https://github.com/joaocarvalhoopen/stm32_bluepill_in_rust__Template)
+
+
 ## Embedded Rust with Raspberry Pi Pico - 4 dollars board
 
 1. Raspberry Pi **Pico** - **rp-HAL** <br>
