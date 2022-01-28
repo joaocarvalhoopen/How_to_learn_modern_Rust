@@ -432,20 +432,24 @@ The inner workings and all the development steps of this project are beautifully
 16. **Video - Grepit about the Rust RTIC framework** <br>
     [https://www.youtube.com/watch?v=sSJ-Md8nwIM](https://www.youtube.com/watch?v=sSJ-Md8nwIM)
 
-17. **LCD 16x2 - Crate hd44780-driver** <br>
+17. Good **RTIC** project **example** <br>
+    **Rust firmware for IR thermometer in STM32 with LCD** - geomatsi - rust-ir-thermo <br>
+    [https://github.com/geomatsi/rust-ir-thermo](https://github.com/geomatsi/rust-ir-thermo)
+
+18. **LCD 16x2 - Crate hd44780-driver** <br>
     Implementation of the **embedded-hal traits for the HD44780**, 16x1, **16x2** and 16x4. <br>
     [https://github.com/JohnDoneth/hd44780-driver](https://github.com/JohnDoneth/hd44780-driver)
 
-18. **Crate Embedded graphics** <br>
+19. **Crate Embedded graphics** <br>
     It's a 2D graphics library that is focused on memory constrained embedded devices. <br>
     [https://github.com/embedded-graphics/embedded-graphics](https://github.com/embedded-graphics/embedded-graphics)
 
-19. **Video - Bare Metal Audio Programming With Rust - Antoine van Gelder - ADC20** <br>
+20. **Video - Bare Metal Audio Programming With Rust - Antoine van Gelder - ADC20** <br>
     [https://www.youtube.com/watch?v=udlK1LQ3f3g](https://www.youtube.com/watch?v=udlK1LQ3f3g) <br>
     **Slides** <br>
     [https://flowdsp.io/talks/talk-adc20/#1](https://flowdsp.io/talks/talk-adc20/#1)
 
-20. **Video - Building a simple logic analyser in Rust** <br>
+21. **Video - Building a simple logic analyser in Rust** <br>
     Rust Linz, September 2020 - Roland Ruckerbauer - Embedded Rust <br>
     Board used **stm32** compatible **bluepill**. <br>
     [https://www.youtube.com/watch?v=xY342ACNXFg](https://www.youtube.com/watch?v=xY342ACNXFg) <br>
