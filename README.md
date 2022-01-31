@@ -436,20 +436,12 @@ The inner workings and all the development steps of this project are beautifully
     **Rust firmware for IR thermometer in STM32 with LCD** - geomatsi - rust-ir-thermo <br>
     [https://github.com/geomatsi/rust-ir-thermo](https://github.com/geomatsi/rust-ir-thermo)
 
-18. **LCD 16x2 - Crate hd44780-driver** <br>
-    Implementation of the **embedded-hal traits for the HD44780**, 16x1, **16x2** and 16x4. <br>
-    [https://github.com/JohnDoneth/hd44780-driver](https://github.com/JohnDoneth/hd44780-driver)
-
-19. **Crate Embedded graphics** <br>
-    It's a 2D graphics library that is focused on memory constrained embedded devices. <br>
-    [https://github.com/embedded-graphics/embedded-graphics](https://github.com/embedded-graphics/embedded-graphics)
-
-20. **Video - Bare Metal Audio Programming With Rust - Antoine van Gelder - ADC20** <br>
+18. **Video - Bare Metal Audio Programming With Rust - Antoine van Gelder - ADC20** <br>
     [https://www.youtube.com/watch?v=udlK1LQ3f3g](https://www.youtube.com/watch?v=udlK1LQ3f3g) <br>
     **Slides** <br>
     [https://flowdsp.io/talks/talk-adc20/#1](https://flowdsp.io/talks/talk-adc20/#1)
 
-21. **Video - Building a simple logic analyser in Rust** <br>
+19. **Video - Building a simple logic analyser in Rust** <br>
     Rust Linz, September 2020 - Roland Ruckerbauer - Embedded Rust <br>
     Board used **stm32** compatible **bluepill**. <br>
     [https://www.youtube.com/watch?v=xY342ACNXFg](https://www.youtube.com/watch?v=xY342ACNXFg) <br>
@@ -457,6 +449,51 @@ The inner workings and all the development steps of this project are beautifully
     [https://github.com/ruabmbua/rlogic/blob/master/presentation.pdf](https://github.com/ruabmbua/rlogic/blob/master/presentation.pdf) <br>
     **Github - ruabmbua - rlogic** <br>
     [https://github.com/ruabmbua/rlogic](https://github.com/ruabmbua/rlogic)
+
+
+## Crates and code size optimization
+
+1. **Crate heapless** <br>
+   [https://github.com/japaric/heapless](https://github.com/japaric/heapless)
+
+```
+   Arc         - Thread-safe reference-counting pointer backed by a memory pool
+   BinaryHeap  - Priority queue
+   IndexMap    - Hash table
+   IndexSet    - Hash set
+   LinearMap
+   Pool        - Lock-free memory pool
+   String
+   Vec
+   mpmc::Q*    - Multiple producer multiple consumer lock-free queue
+   spsc::Queue - Single producer single consumer lock-free queue
+```
+
+2. **Crate ufmt** <br>
+   A (6-40x) smaller, (2-9x) faster and panic-free alternative to core::fmt <br>
+   [https://github.com/japaric/ufmt](https://github.com/japaric/ufmt)
+
+3. **LCD 16x2 - Crate hd44780-driver** <br>
+   Implementation of the **embedded-hal traits for the HD44780**, 16x1, **16x2** and 16x4. <br>
+   [https://github.com/JohnDoneth/hd44780-driver](https://github.com/JohnDoneth/hd44780-driver)
+
+4. **Crate Embedded graphics** <br>
+   It's a 2D graphics library that is focused on memory constrained embedded devices. <br>
+   [https://github.com/embedded-graphics/embedded-graphics](https://github.com/embedded-graphics/embedded-graphics)
+
+5. **TOML compilation flag options to generate smaller code size**
+
+```
+....
+
+[profile.release.package."*"]
+opt-level = "z"
+
+[profile.release]
+codegen-units = 1
+debug = true
+opt-level = "z"
+```
 
 
 ## Embedded Rust with STM32 BluePill - STM32F103
