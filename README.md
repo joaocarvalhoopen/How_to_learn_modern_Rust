@@ -590,35 +590,40 @@ opt-level = "z"
 7. **Crate usb-device** - Experimental device-side USB stack for embedded devices. <br>
    [https://crates.io/crates/usb-device](https://crates.io/crates/usb-device)
 
-8. PlayList - **Rust Pico - Low Level Learning** <br>
+8. **Way to easily Reboot the Pico to USB-PEN mode to program it** <br>
+   You can have a easy reboot without needing to disconnecting and while pressing the boot button reconnecting the cable. <br> 
+   Just add a switch from pin RUN to GND and while pressing the Boot Button press the Run Button and release the Run switch and them the Boot Button. It will enter the USB-PEN mode, that allows you to program by just coping the Rust or C binary from the PC to the Raspberry Pico micro-controller. <br>
+   See official documentation for details.
+
+9. PlayList - **Rust Pico - Low Level Learning** <br>
    [https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6](https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6)
 
-9. Play List - **Raspberry Pi Pico in C - Low Level Learning** <br>
-   [https://www.youtube.com/playlist?list=PLc7W4b0WHTAV6EYRVayb9c9dEsq-NeXAt](https://www.youtube.com/playlist?list=PLc7W4b0WHTAV6EYRVayb9c9dEsq-NeXAt)
+10. Play List - **Raspberry Pi Pico in C - Low Level Learning** <br>
+    [https://www.youtube.com/playlist?list=PLc7W4b0WHTAV6EYRVayb9c9dEsq-NeXAt](https://www.youtube.com/playlist?list=PLc7W4b0WHTAV6EYRVayb9c9dEsq-NeXAt)
 
-10. **PlayList - Intro to Raspberry Pi Pico and RP2040** - Digi-Key <br>
+11. **PlayList - Intro to Raspberry Pi Pico and RP2040** - Digi-Key <br>
     **C/C++** and **MicroPython** <br>
     [https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
 
-11. **In-depth: Raspberry Pi Pico's PIO - programmable IO** - stacksmashing <br>
+12. **In-depth: Raspberry Pi Pico's PIO - programmable IO** - stacksmashing <br>
     [https://www.youtube.com/watch?v=yYnQYF_Xa8g](https://www.youtube.com/watch?v=yYnQYF_Xa8g) 
 
-12. **Site - Raspberry Pi Pico** <br>
+13. **Site - Raspberry Pi Pico** <br>
     [https://www.raspberrypi.com/products/raspberry-pi-pico/](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 
-13. **Site - Getting started with Raspberry Pi Pico** <br>
+14. **Site - Getting started with Raspberry Pi Pico** <br>
     [https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0)
 
-14. **Book - Get Started with MicroPython on Raspberry Pi Pico** <br>
+15. **Book - Get Started with MicroPython on Raspberry Pi Pico** <br>
     [https://hackspace.raspberrypi.com/books/micropython-pico](https://hackspace.raspberrypi.com/books/micropython-pico)
 
-15. **Book - Adafruit - Getting Started with Raspberry Pi Pico and CircuitPython** <br>
+16. **Book - Adafruit - Getting Started with Raspberry Pi Pico and CircuitPython** <br>
     [https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf](https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf)
 
-16. **Video - The Raspberry Pi Pico Review - $4 ARM Microcontroller** <br>
+17. **Video - The Raspberry Pi Pico Review - $4 ARM Microcontroller** <br>
     [https://www.youtube.com/watch?v=dUCgYXF01Do](https://www.youtube.com/watch?v=dUCgYXF01Do)
 
-17. **Video - Raspberry Pi Pico VGA video output using only resistors** <br>
+18. **Video - Raspberry Pi Pico VGA video output using only resistors** <br>
     [https://www.youtube.com/watch?v=RmPWcsvGSyk](https://www.youtube.com/watch?v=RmPWcsvGSyk)
 
 
