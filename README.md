@@ -1,6 +1,48 @@
 # How to learn modern Rust
 A guide to the adventurer.
 
+Table of Contents
+=================
+
+   * [Learn Rust deeply one step after the other](#learn-rust-deeply-one-step-after-the-other)
+   * [How Rust maps to memory and lifetimes annotations in Rust](#how-rust-maps-to-memory-and-lifetimes-annotations-in-rust)
+   * [How to deal with Circular References and Ownership](#how-to-deal-with-circular-references-and-ownership)
+   * [Polymorphism in Rust](#polymorphism-in-rust)
+   * [Rust Testing and TDD - Test Driven Development](#rust-testing-and-tdd---test-driven-development) 
+   * [Background in systems programming](#background-in-systems-programming)
+   * [WebAssembly in Rust - WASM](#webassembly-in-rust---wasm)
+   * [Python extended with Rust and running a Python interpreter inside Rust](#python-extended-with-rust-and-running-a-python-interpreter-inside-rust)
+   * [Rust with inline Python](#rust-with-inline-python)
+   * [Rust on or for the Raspberry Pi](#rust-on-or-for-the-raspberry-pi)
+      * [Developing on the Raspberry Pi and running Rust programs on the Raspberry Pi](#developing-on-the-raspberry-pi-and-running-rust-programs-on-the-raspberry-pi)
+      * [Developing on the PC and cross-compiling to run Rust programs on the Raspberry Pi](#developing-on-the-pc-and-cross-compiling-to-run-rust-programs-on-the-raspberry-pi)
+   * [Embedded Rust](#embedded-rust)
+   * [Crates and code size optimization](#crates-and-code-size-optimization)
+   * [Embedded Rust with STM32 BluePill - STM32F103](#embedded-rust-with-stm32-bluepill---stm32f103)
+   * [Links](#links)
+   * [Rust Foundation](#rust-foundation)
+   * [Rust Blogs](#rust-blogs)
+   * [GUI programming in Rust](#gui-programming-in-rust)
+   * [Audio in Rust](#audio-in-rust)
+   * [Faster Compilation - Linker times in Linux and Unix ELF](#faster-compilation---linker-times-in-linux-and-unix-elf)
+   * [Machine Learning for Rust](#machine-learning-for-rust)
+   * [Rust VSCode plugins](#rust-vscode-plugins)
+   * [Rust Debugger](#rust-debugger)
+   * [Rust Error Handling](#rust-error-handling)
+   * [Tips and Tricks](#tips-and-tricks)
+   * [GC for Rust - Garbage Collector](#gc-for-rust---garbage-collector)
+   * [Programming Parallel Computers - Optimization guide C Plus Plus and Rust](#programming-parallel-computers---optimization-guide-c-plus-plus-and-rust)
+   * [Rust Optimization - Compilation modes and flags](#rust-optimization---compilation-modes-and-flags)
+   * [Rust bounds check removal](#rust-bounds-check-removal)
+   * [Notes on optimization](#notes-on-optimization)
+   * [Rust substring processing](#rust-substring-processing)
+   * [Macros in Rust](#macros-in-rust)
+   * [Good way to learn about the topic of computers and programming](#good-way-to-learn-about-the-topic-of-computers-and-programming)
+   * [For a good challenge do the NAND To Tetris in Rust](#for-a-good-challenge-do-the-nand-to-tetris-in-rust)
+   * [All my other guides](#all-my-other-guides)
+   * [Have fun!](#have-fun)  
+
+
 ## Learn Rust deeply one step after the other
 
 Rust is an incredible powerful programming language. It is fast, compiled, without a runtime and it brings new concepts of safety to programming. <br>
@@ -200,7 +242,7 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
   [https://rust-unofficial.github.io/patterns/anti_patterns/deref.html](https://rust-unofficial.github.io/patterns/anti_patterns/deref.html)
 
 
-## Rust Testing and TDD – Test Driven Development
+## Rust Testing and TDD - Test Driven Development
 
 * Video - Rust Testing and TDD - **An Intro to Testing and Test Driven Development** <br>
   [https://www.youtube.com/watch?v=2vBQFIWl36k](https://www.youtube.com/watch?v=2vBQFIWl36k)
@@ -358,7 +400,7 @@ The inner workings and all the development steps of this project are beautifully
 ## Rust on or for the Raspberry Pi
 
 * There are **two modes** of using Rust with the Raspberry Pi. <br>
-  The first one is **installing Rust development tools on the Raspberry Pi** itself, and the second one is **installing on the PC and making cross-compilation** to generate a executable that runs on the Raspberry Pi.
+  The first one is **installing Rust development tools on the Raspberry Pi** it self, and the second one is **installing on the PC and making cross-compilation** to generate a executable that runs on the Raspberry Pi.
 
 
 ### Developing on the Raspberry Pi and running Rust programs on the Raspberry Pi
@@ -523,35 +565,59 @@ opt-level = "z"
    [https://github.com/rp-rs/rp-hal](https://github.com/rp-rs/rp-hal) <br>
    **rp2040-hal** - **Examples** <br>
    [https://github.com/rp-rs/rp-hal/tree/main/rp2040-hal/examples](https://github.com/rp-rs/rp-hal/tree/main/rp2040-hal/examples) <br>
+   **Examples** for the **board rp-pico**. <br>
+   [https://github.com/rp-rs/rp-hal/tree/main/boards/rp-pico](https://github.com/rp-rs/rp-hal/tree/main/boards/rp-pico) <br>
    **Documentation** <br>
    [https://docs.rs/rp2040-hal/latest/rp2040_hal/](https://docs.rs/rp2040-hal/latest/rp2040_hal/)
 
 2. **Site - rp2040 - Chip documentation** <br>
    [https://www.raspberrypi.com/documentation/microcontrollers/](https://www.raspberrypi.com/documentation/microcontrollers/)
 
-3. **PlayList - Intro to Raspberry Pi Pico and RP2040** - Digi-Key <br>
-   **C/C++** and **MicroPython** <br>
-   [https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
+3. Getting Started with **Rust on a Raspberry Pi Pico - Part 1** <br>
+   [https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry)
 
-4. **In-depth: Raspberry Pi Pico's PIO - programmable IO** - stacksmashing <br>
-   [https://www.youtube.com/watch?v=yYnQYF_Xa8g](https://www.youtube.com/watch?v=yYnQYF_Xa8g) 
+4. Getting Started with **Rust on a Raspberry Pi Pico - Part 2** <br>
+   [https://reltech.substack.com/p/getting-started-with-raspberry-pi](https://reltech.substack.com/p/getting-started-with-raspberry-pi)
 
-5. **Site - Raspberry Pi Pico** <br>
-   [https://www.raspberrypi.com/products/raspberry-pi-pico/](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+5. Getting Started with **Rust on a Raspberry Pi Pico - Part 3** <br>
+   [https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry-a88](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry-a88)
 
-6. **Site - Getting started with Raspberry Pi Pico** <br>
-   [https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0)
+6. **Oleg Eterevsky comment on the previous page** - Slightly simpler setup. Instead of using a separate controller for handling the debug, he have just set up **debug logging via USB serial port**. This requires a bit more boilerplate (handling the USB interrupt and such), but is much simpler from the hardware perspective: you need to just plug in a single Pico board in your USB, flash it and you can immediately see the debug output. <br>
+   **USB_Serial - repo** <br>
+   [https://github.com/eterevsky/rp2040-blink](https://github.com/eterevsky/rp2040-blink)
 
-7. **Book - Get Started with MicroPython on Raspberry Pi Pico** <br>
-   [https://hackspace.raspberrypi.com/books/micropython-pico](https://hackspace.raspberrypi.com/books/micropython-pico)
+7. **Crate usb-device** - Experimental device-side USB stack for embedded devices. <br>
+   [https://crates.io/crates/usb-device](https://crates.io/crates/usb-device)
 
-8. **Book - Adafruit - Getting Started with Raspberry Pi Pico and CircuitPython** <br>
-   [https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf](https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf)
+8. PlayList - **Rust Pico - Low Level Learning** <br>
+   [https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6](https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6)
 
-9. **Video - The Raspberry Pi Pico Review - $4 ARM Microcontroller** <br>
-   [https://www.youtube.com/watch?v=dUCgYXF01Do](https://www.youtube.com/watch?v=dUCgYXF01Do)
+9. Play List - **Raspberry Pi Pico in C - Low Level Learning** <br>
+   [https://www.youtube.com/playlist?list=PLc7W4b0WHTAV6EYRVayb9c9dEsq-NeXAt](https://www.youtube.com/playlist?list=PLc7W4b0WHTAV6EYRVayb9c9dEsq-NeXAt)
 
-10. **Video - Raspberry Pi Pico VGA video output using only resistors** <br>
+10. **PlayList - Intro to Raspberry Pi Pico and RP2040** - Digi-Key <br>
+    **C/C++** and **MicroPython** <br>
+    [https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
+
+11. **In-depth: Raspberry Pi Pico's PIO - programmable IO** - stacksmashing <br>
+    [https://www.youtube.com/watch?v=yYnQYF_Xa8g](https://www.youtube.com/watch?v=yYnQYF_Xa8g) 
+
+12. **Site - Raspberry Pi Pico** <br>
+    [https://www.raspberrypi.com/products/raspberry-pi-pico/](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+
+13. **Site - Getting started with Raspberry Pi Pico** <br>
+    [https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0)
+
+14. **Book - Get Started with MicroPython on Raspberry Pi Pico** <br>
+    [https://hackspace.raspberrypi.com/books/micropython-pico](https://hackspace.raspberrypi.com/books/micropython-pico)
+
+15. **Book - Adafruit - Getting Started with Raspberry Pi Pico and CircuitPython** <br>
+    [https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf](https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf)
+
+16. **Video - The Raspberry Pi Pico Review - $4 ARM Microcontroller** <br>
+    [https://www.youtube.com/watch?v=dUCgYXF01Do](https://www.youtube.com/watch?v=dUCgYXF01Do)
+
+17. **Video - Raspberry Pi Pico VGA video output using only resistors** <br>
     [https://www.youtube.com/watch?v=RmPWcsvGSyk](https://www.youtube.com/watch?v=RmPWcsvGSyk)
 
 
@@ -719,7 +785,7 @@ opt-level = "z"
    [https://github.com/RustAudio/rust-portaudio](https://github.com/RustAudio/rust-portaudio)   
 
 
-## Faster Compilation / Linker times in Linux and Unix's ELF.
+## Faster Compilation - Linker times in Linux and Unix ELF
 
 **mold** is optimized for **Linux**, **zld** only works on **macOS**. For **production** use, **lld** might be the most mature option. <br>
 <br>
@@ -846,7 +912,7 @@ To define good error types that encapsulate other errors. In the case where you 
   [https://github.com/Manishearth/rust-gc/tree/master/gc/tests](https://github.com/Manishearth/rust-gc/tree/master/gc/tests)
 
 
-## Programming Parallel Computers - Optimization guide C++ and Rust
+## Programming Parallel computers - Optimization guide C Plus Plus and Rust
 
 1. **Programming Parallel Computers - In depth lectures notes** <br>
    [https://ppc.cs.aalto.fi/](https://ppc.cs.aalto.fi/)
@@ -1495,7 +1561,7 @@ macro_rules! graph {
   [https://github.com/joaocarvalhoopen/Guides_Linux-Programming-Electronics-Aeronautics](https://github.com/joaocarvalhoopen/Guides_Linux-Programming-Electronics-Aeronautics)
 
 
-# Have fun!
+# Have fun
 Best regards, <br>
 Joao Nuno Carvalho <br>
 
