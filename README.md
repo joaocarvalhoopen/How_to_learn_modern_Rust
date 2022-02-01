@@ -104,61 +104,58 @@ To learn Rust go through the following content **in the listed order**, the majo
     A series about making a programming language called **Eldiro** using the Rust programming language. <br>
     [https://arzg.github.io/lang/](https://arzg.github.io/lang/)
 
-31. **Rust and WebAssembly - Book** <br>
-    [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
-
-32. **Engineering Rust Web Applications - Book** <br>
+31. **Engineering Rust Web Applications - Book** <br>
     [https://erwabook.com/](https://erwabook.com/)
 
-33. **Programming Rust: Fast, Safe Systems Development 2nd Ed** <br>
+32. **Programming Rust: Fast, Safe Systems Development 2nd Ed** <br>
     by Jim Blandy, Jason Orendorff
 
-34. **Rust for Rustaceans: Idiomatic Programming for Experienced Developers** <br>
+33. **Rust for Rustaceans: Idiomatic Programming for Experienced Developers** <br>
     by Jon Gjengset
 
-35. **Refactoring to Rust** <br>
+34. **Refactoring to Rust** <br>
     by Lily Mara
 
-36. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
+35. **Practical System Programming for Rust Developers**: Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-37. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+36. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-38. **GDB: The GNU Project Debugger** <br>
+37. **GDB: The GNU Project Debugger** <br>
     [https://www.gnu.org/software/gdb/documentation/](https://www.gnu.org/software/gdb/documentation/)
 
-39. **The LLDB Debugger** <br>
+38. **The LLDB Debugger** <br>
     [https://lldb.llvm.org/](https://lldb.llvm.org/)
 
-40. **Valgrind User Manual** <br>
+39. **Valgrind User Manual** <br>
     [https://valgrind.org/docs/manual/manual.html](https://valgrind.org/docs/manual/manual.html)
 
-41. **The perf Linux profiler - Examples of use** <br>
+40. **The perf Linux profiler - Examples of use** <br>
     [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
 
-42. **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
+41. **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
     [https://github.com/BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck)
 
-43. **American Fuzzy Lop - A good fuzzer** <br>
+42. **American Fuzzy Lop - A good fuzzer** <br>
     [https://lcamtuf.coredump.cx/afl/](https://lcamtuf.coredump.cx/afl/)
 
-44. **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
+43. **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
     [https://github.com/bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)
 
-45. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+44. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	 by Rahul Sharma, Vesa Kaihlavirta 
 
-46. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+45. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-47. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+46. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-48. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+47. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-49. **The Rust Unstable Book** <br>
+48. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 
@@ -273,6 +270,15 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 
 18. **C++ Crash Course: A Fast-Paced Introduction** <br>
     by Josh Lospinoso
+
+
+## WebAssembly in Rust - WASM
+
+1. **Rust and WebAssembly - Book** <br>
+   [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
+
+2. **Video - Rust + Yew + WASM + Canvas - Vers Binarii** <br>
+   [https://www.youtube.com/watch?v=7Smco8araSo](https://www.youtube.com/watch?v=7Smco8araSo)
 
 
 ## Python extended with Rust and running a Python interpreter inside Rust  
@@ -481,7 +487,15 @@ The inner workings and all the development steps of this project are beautifully
    It's a 2D graphics library that is focused on memory constrained embedded devices. <br>
    [https://github.com/embedded-graphics/embedded-graphics](https://github.com/embedded-graphics/embedded-graphics)
 
-5. **TOML compilation flag options to generate smaller code size**
+5. **Crate flip-link** <br>
+   Adds zero-cost stack overflow protection to your embedded programs. <br>
+   [https://github.com/knurling-rs/flip-link/](https://github.com/knurling-rs/flip-link/)
+
+6. **Crate defmt** <br>
+   defmt ("de format", short for "deferred formatting") is a highly efficient logging framework that targets resource-constrained devices, like micro-controllers. <br>
+   [https://github.com/knurling-rs/defmt/](https://github.com/knurling-rs/defmt/)
+
+7. **TOML compilation flag options to generate smaller code size**
 
 ```
 ....
@@ -498,7 +512,7 @@ opt-level = "z"
 
 ## Embedded Rust with STM32 BluePill - STM32F103
 
-1. STM32 BluePill in Rust - **Project template and info** <br>
+1. STM32 BluePill in Rust - **Project template and lot's of info** <br>
    This is the project template I use in my BluePill projects. <br>
    [https://github.com/joaocarvalhoopen/stm32_bluepill_in_rust__Template](https://github.com/joaocarvalhoopen/stm32_bluepill_in_rust__Template)
 
