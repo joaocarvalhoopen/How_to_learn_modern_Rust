@@ -19,6 +19,7 @@ Table of Contents
    * [Embedded Rust](#embedded-rust)
    * [Crates and code size optimization](#crates-and-code-size-optimization)
    * [Embedded Rust with STM32 BluePill - STM32F103](#embedded-rust-with-stm32-bluepill---stm32f103)
+   * [Embedded Rust with Raspberry Pi Pico - 4 dollars board](#embedded-rust-with-raspberry-pi-pico---4-dollars-board)
    * [Links](#links)
    * [Rust Foundation](#rust-foundation)
    * [Rust Blogs](#rust-blogs)
