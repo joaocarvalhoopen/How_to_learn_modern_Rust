@@ -17,9 +17,10 @@ Table of Contents
       * [Developing on the Raspberry Pi and running Rust programs on the Raspberry Pi](#developing-on-the-raspberry-pi-and-running-rust-programs-on-the-raspberry-pi)
       * [Developing on the PC and cross-compiling to run Rust programs on the Raspberry Pi](#developing-on-the-pc-and-cross-compiling-to-run-rust-programs-on-the-raspberry-pi)
    * [Embedded Rust](#embedded-rust)
-   * [Crates and code size optimization](#crates-and-code-size-optimization)
+   * [Embedded Rust crates and code size optimization](#embedded-rust-crates-and-code-size-optimization)
    * [Embedded Rust with STM32 BluePill - STM32F103](#embedded-rust-with-stm32-bluepill---stm32f103)
    * [Embedded Rust with Raspberry Pi Pico - 4 dollars board](#embedded-rust-with-raspberry-pi-pico---4-dollars-board)
+   * [Embedded Rust with ESP32](#embedded-rust-with-esp32)
    * [Links](#links)
    * [Rust Foundation](#rust-foundation)
    * [Rust Blogs](#rust-blogs)
@@ -503,7 +504,7 @@ The inner workings and all the development steps of this project are beautifully
     [https://github.com/ruabmbua/rlogic](https://github.com/ruabmbua/rlogic)
 
 
-## Crates and code size optimization
+## Embedded Rust crates and code size optimization
 
 1. **Crate heapless** <br>
    [https://github.com/japaric/heapless](https://github.com/japaric/heapless)
@@ -633,6 +634,21 @@ opt-level = "z"
 
 19. **Video - Raspberry Pi Pico VGA video output using only resistors** <br>
     [https://www.youtube.com/watch?v=RmPWcsvGSyk](https://www.youtube.com/watch?v=RmPWcsvGSyk)
+
+
+## Embedded Rust with ESP32
+
+1. **esp-rs - Rust on ESP-IDF "Hello, World" template** <br>
+   [https://github.com/esp-rs/esp-idf-template](https://github.com/esp-rs/esp-idf-template)
+
+2. **Video - Embedded Rust: Wifi and I2C on a ESP32-C3 - Andrei Litvin** <br>
+   [https://www.youtube.com/watch?v=CXm7NdBBegk](https://www.youtube.com/watch?v=CXm7NdBBegk) <br>
+   **GitHub andy31415 - rust-esp32-c3-demos** <br>
+   [https://github.com/andy31415/rust-esp32-c3-demos/tree/oled_wifi](https://github.com/andy31415/rust-esp32-c3-demos/tree/oled_wifi)
+
+3. **ivmarkov - rust-esp32-std-demo** <br>
+   A complex demo of ESP32 in Rust <br>
+   [https://github.com/ivmarkov/rust-esp32-std-demo](https://github.com/ivmarkov/rust-esp32-std-demo)
 
 
 ## Links
