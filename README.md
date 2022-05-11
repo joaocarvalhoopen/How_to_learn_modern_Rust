@@ -5,6 +5,7 @@ Table of Contents
 =================
 
    * [Learn Rust deeply one step after the other](#learn-rust-deeply-one-step-after-the-other)
+   * [Text Processing in Rust](#text-processing-in-rust)
    * [How Rust maps to memory and lifetimes annotations in Rust](#how-rust-maps-to-memory-and-lifetimes-annotations-in-rust)
    * [How to deal with Circular References and Ownership](#how-to-deal-with-circular-references-and-ownership)
    * [Polymorphism in Rust](#polymorphism-in-rust)
@@ -24,6 +25,7 @@ Table of Contents
    * [Links](#links)
    * [Rust Foundation](#rust-foundation)
    * [Rust Blogs](#rust-blogs)
+   * [Rust Youtube Channels](#rust-youtube-channels)
    * [GUI programming in Rust](#gui-programming-in-rust)
    * [Audio in Rust](#audio-in-rust)
    * [Faster Compilation - Linker times in Linux and Unix ELF](#faster-compilation---linker-times-in-linux-and-unix-elf)
@@ -63,7 +65,7 @@ To learn Rust go through the following content **in the listed order**, the majo
 4. **Video - Introduction to Rust Part 2** <br>
    [https://www.youtube.com/watch?v=lLWchWTUFOQ](https://www.youtube.com/watch?v=lLWchWTUFOQ)
 
-5. **A half-hour to learn Rust** <br>
+5. **A half-hour to learn Rust** - **fasterThanLime Blog** <br>
    [https://fasterthanli.me/articles/a-half-hour-to-learn-rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
 
 6. **The Rust Programming Language Book** <br>
@@ -204,6 +206,65 @@ To learn Rust go through the following content **in the listed order**, the majo
 
 49. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
+
+
+## Text Processing in Rust
+
+1. **Text Processing in Rust** <br>
+   by Mihalis Tsoukalos <br>
+   [https://www.linuxjournal.com/content/text-processing-rust](https://www.linuxjournal.com/content/text-processing-rust) 
+
+2. **Working with strings in Rust** - **fasterThanLime** Blog <br> 
+   [https://fasterthanli.me/articles/working-with-strings-in-rust](https://fasterthanli.me/articles/working-with-strings-in-rust)
+
+3. **String continuations** <br>
+   The backslash, the newline and the starting spaces will disappear. <br>
+
+``` Rust
+println!(
+    "... the {p}, by the {p}, for the {p}, \
+    will never fall.",
+    p = "people"
+);
+
+Will print: 
+"... the people, by the people, for the people, will never fall."
+```
+
+4. For **ASCII Strings (value lower then 127) non UTF-8 strings**, one can process **much faster** the string if it is converted to bytes and then compared to bytes. <br>
+
+``` Rust
+let my_str = "Hello!".to_string();
+for c in my_str.chars() {
+    if c == 'l' {
+        // Do something!
+    }
+}
+
+// A faster implementation for ASCII characters would be.
+
+let my_str_2 = "Hello!".to_string();
+for b in my_str.bytes() {
+    if b == b'l' {
+        // Do something!
+    }
+}
+
+// There is also a slice of bytes.
+
+let my_str_3 = "Hello!".to_string();
+let my_str_as_bytes_slice = my_str_3.as_bytes();
+
+if my_str_as_bytes_slice[2] == b'l' {
+        // Do something!
+}
+```
+
+5. **Kibi - A text editor in ≤1024 lines of code, written in Rust** <br>
+   [https://github.com/ilai-deutel/kibi](https://github.com/ilai-deutel/kibi)
+
+6. [Rust substring processing](#rust-substring-processing) <br>
+   My section below on it.
 
 
 ## How Rust maps to memory and lifetimes annotations in Rust
@@ -746,6 +807,57 @@ opt-level = "z"
    4. **Sizedness in Rust – pretzelhammer** <br>
       [https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
 
+2. **fasterThanLime Blog** - Amos Wenger <br>
+   [https://fasterthanli.me](https://fasterthanli.me)
+
+
+## Rust Youtube Channels
+
+1. **Channel Rust** <br>
+   [https://www.youtube.com/c/RustVideos/videos](https://www.youtube.com/c/RustVideos/videos)
+
+2. **Channel Rust Foundation** <br>
+   [https://www.youtube.com/channel/UC0jzvznwtnsdXYIp415oC9g/videos](https://www.youtube.com/channel/UC0jzvznwtnsdXYIp415oC9g/videos)
+
+3. **Channel fasterthanlime - Amos Wegner** <br>
+   [https://www.youtube.com/c/fasterthanlime/videos](https://www.youtube.com/c/fasterthanlime/videos)
+
+4. **Channel Jon Gjengset - Rust in depth Youtube channel.** <br> 
+   [https://www.youtube.com/c/JonGjengset/videos](https://www.youtube.com/c/JonGjengset/videos)
+
+5. **Channel Tensor Programming - Intro to Rust** <br>
+   [https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW)
+
+6. **Channel Tensor Programming - Rust Projects** <br>
+   [https://www.youtube.com/playlist?list=PLJbE2Yu2zumDD5vy2BuSHvFZU0a6RDmgb](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDD5vy2BuSHvFZU0a6RDmgb)
+
+7. **Channel Let's Get Rusty** <br>
+   [https://www.youtube.com/c/LetsGetRusty/videos](https://www.youtube.com/c/LetsGetRusty/videos)
+
+8. **Channel Uncle Scientist** <br>
+   [https://www.youtube.com/channel/UClnm0enwPt9iPWGZ5uh3Bfw/videos](https://www.youtube.com/channel/UClnm0enwPt9iPWGZ5uh3Bfw/videos)
+
+9. **Channel Ryan Levick** <br>
+   [https://www.youtube.com/c/RyanLevicksVideos/videos](https://www.youtube.com/c/RyanLevicksVideos/videos)
+
+10. **Channel Tantan** <br>
+    [https://www.youtube.com/c/Tantandev/videos](https://www.youtube.com/c/Tantandev/videos)
+
+11. **Channel Crazcalm's Tech Stack** <br>
+    [https://www.youtube.com/c/CrazcalmsTechStack/videos](https://www.youtube.com/c/CrazcalmsTechStack/videos)
+
+12. **Channel Ferrous Systems GmbH** <br>
+    Embedded Rust <br>
+    [https://www.youtube.com/c/FerrousSystemsGmbH/videos](https://www.youtube.com/c/FerrousSystemsGmbH/videos)
+
+13. **Channel JaJakub** <br>
+    Embedded Rust <br>
+    [https://www.youtube.com/c/JaJakubYT/videos](https://www.youtube.com/c/JaJakubYT/videos)
+
+14. **Channel Vers Binarii** <br>
+    Embedded Rust <br>
+    [https://www.youtube.com/channel/UCgLxnJi8BU476a3uZO29H4w/videos](https://www.youtube.com/channel/UCgLxnJi8BU476a3uZO29H4w/videos)
+
 
 ## GUI programming in Rust
 
@@ -1247,49 +1359,6 @@ map.insert(1, 2);
 // The fastest HashMap for Rust. HashBrown a drop in replacement for std HashMap.
 use hashbrown::HashMap;
 ```  
-
-* **String continuations** <br>
-  The backslash, the newline and the starting spaces will disappear. <br>
-
-``` Rust
-println!(
-    "... the {p}, by the {p}, for the {p}, \
-    will never fall.",
-    p = "people"
-);
-
-Will print: 
-"... the people, by the people, for the people, will never fall."
-```
-
-* For **ASCII Strings (value lower then 127) non UTF-8 strings**, one can process **much faster** the string if it is converted to bytes and then compared to bytes. <br>
-
-``` Rust
-let my_str = "Hello!".to_string();
-for c in my_str.chars() {
-    if c == 'l' {
-        // Do something!
-    }
-}
-
-// A faster implementation for ASCII characters would be.
-
-let my_str_2 = "Hello!".to_string();
-for b in my_str.bytes() {
-    if b == b'l' {
-        // Do something!
-    }
-}
-
-// There is also a slice of bytes.
-
-let my_str_3 = "Hello!".to_string();
-let my_str_as_bytes_slice = my_str_3.as_bytes();
-
-if my_str_as_bytes_slice[2] == b'l' {
-        // Do something!
-}
-```
 
 * **bstr** - A **fast string type** that is not required to be valid UTF-8. **No heavy UTF-8 validations.** <br>
   [https://crates.io/crates/bstr](https://crates.io/crates/bstr)
