@@ -388,7 +388,17 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 2. **Write Your First WASM Module using Rust** <br>
    [https://www.youtube.com/watch?v=nW71Mlbmxt8](https://www.youtube.com/watch?v=nW71Mlbmxt8)
 
-3. **Video - Rust + Yew + WASM + Canvas - Vers Binarii** <br>
+3. **Getting Started with WebAssembly and Rust: A First Look** <br>
+   [https://www.youtube.com/watch?v=YHJjmsw_Sx0](https://www.youtube.com/watch?v=YHJjmsw_Sx0)
+
+4. **Crate wasm-bindgen** <br>
+   Facilitating high-level interactions between Wasm modules and JavaScript. <br>
+   GitHub <br> 
+   [https://github.com/rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) <br>
+   **The wasm-bindgen guide** - Book <br>
+   [https://rustwasm.github.io/docs/wasm-bindgen/](https://rustwasm.github.io/docs/wasm-bindgen/)
+
+5. **Video - Rust + Yew + WASM + Canvas - Vers Binarii** <br>
    [https://www.youtube.com/watch?v=7Smco8araSo](https://www.youtube.com/watch?v=7Smco8araSo)
 
 
