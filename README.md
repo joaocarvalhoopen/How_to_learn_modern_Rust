@@ -385,7 +385,10 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 1. **Rust and WebAssembly - Book** <br>
    [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
 
-2. **Video - Rust + Yew + WASM + Canvas - Vers Binarii** <br>
+2. **Write Your First WASM Module using Rust** <br>
+   [https://www.youtube.com/watch?v=nW71Mlbmxt8](https://www.youtube.com/watch?v=nW71Mlbmxt8)
+
+3. **Video - Rust + Yew + WASM + Canvas - Vers Binarii** <br>
    [https://www.youtube.com/watch?v=7Smco8araSo](https://www.youtube.com/watch?v=7Smco8araSo)
 
 
