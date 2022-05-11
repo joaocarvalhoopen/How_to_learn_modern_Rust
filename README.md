@@ -398,7 +398,12 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
    **The wasm-bindgen guide** - Book <br>
    [https://rustwasm.github.io/docs/wasm-bindgen/](https://rustwasm.github.io/docs/wasm-bindgen/)
 
-5. **Video - Rust + Yew + WASM + Canvas - Vers Binarii** <br>
+5. **Project WASM Fourier** <br>
+   Example of **browser audio microphone data** passed to Rust WASM module. <br>
+   Note: **Really cool example** to study and for example do APP's with audio processing on Rust. <br>
+   [https://github.com/linanova/wasm-fourier](https://github.com/linanova/wasm-fourier)
+
+6. **Video - Rust + Yew + WASM + Canvas - Vers Binarii** <br>
    [https://www.youtube.com/watch?v=7Smco8araSo](https://www.youtube.com/watch?v=7Smco8araSo)
 
 
