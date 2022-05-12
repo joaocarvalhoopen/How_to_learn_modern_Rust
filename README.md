@@ -11,6 +11,8 @@ Table of Contents
    * [Polymorphism in Rust](#polymorphism-in-rust)
    * [Rust Testing and TDD - Test Driven Development](#rust-testing-and-tdd---test-driven-development) 
    * [Background in systems programming](#background-in-systems-programming)
+   * [Writing Compilers in Rust](#writing-compilers-in-rust)
+   * [Contributing to the Rust compiler rustc](#contributing-to-the-rust-compiler-rustc)
    * [WebAssembly in Rust - WASM](#webassembly-in-rust---wasm)
    * [Python extended with Rust and running a Python interpreter inside Rust](#python-extended-with-rust-and-running-a-python-interpreter-inside-rust)
    * [Rust with inline Python](#rust-with-inline-python)
@@ -347,37 +349,79 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 9.  **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
    by Alberto Liberal de los Ríos
 
-11. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
+10. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
    by Randal Bryant, David O'Hallaron
 
 11. **Computer Networking: A Top-Down Approach** <br> 
    by James Kurose
 
-11. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
+12. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
    by Walter Goralski
 
-12. **Crafting Interpreters** <br>
-	by Robert Nystrom <br>
-	The book license is Creative Commons. <br>
-	[https://craftinginterpreters.com/](https://craftinginterpreters.com/)
-
-13. **Writing An Interpreter In Go** <br> 
-    by Thorsten Ball
-
-14. **Writing A Compiler In Go** <br>
-    by Thorsten Ball
-
-15. **Compilers: Principles, Techniques, and Tools** <br>
-    by Alfred Aho, Monica Lam, Ravi Sethi
-
-16. **C Programming: A Modern Approach, 2nd Edition** <br>
+13. **C Programming: A Modern Approach, 2nd Edition** <br>
     by K. N. King
 
-17. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
+14. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
     by Kamran Amini
 
-18. **C++ Crash Course: A Fast-Paced Introduction** <br>
+15. **C++ Crash Course: A Fast-Paced Introduction** <br>
     by Josh Lospinoso
+
+
+## Writing Compilers in Rust
+
+1. **Crafting Interpreters** <br>
+   by Robert Nystrom <br>
+   The book license is Creative Commons. <br>
+   [https://craftinginterpreters.com/](https://craftinginterpreters.com/) <br>
+   **Lox Implementations** <br>
+   [https://github.com/munificent/craftinginterpreters/wiki/Lox-implementations](https://github.com/munificent/craftinginterpreters/wiki/Lox-implementations) <br>
+   **Crafting Interpreters in Rust - tdp2110** <br>
+   [https://github.com/tdp2110/crafting-interpreters-rs](https://github.com/tdp2110/crafting-interpreters-rs) <br>
+   **Crafting A Lox Interpreter In Rust, Part 1 - Diego Freijo** <br>
+   [https://www.diegofreijo.com/blog/rlox-vm-a-lox-interpreter-in-rust-part-1/](https://www.diegofreijo.com/blog/rlox-vm-a-lox-interpreter-in-rust-part-1/)
+
+2. **Video Play List - Crafting Interpreters - Uncle Scientist** <br>
+   [https://www.youtube.com/playlist?list=PLib6-zlkjfXluRjBgK8grQH2IUSZjn-YN](https://www.youtube.com/playlist?list=PLib6-zlkjfXluRjBgK8grQH2IUSZjn-YN) 
+
+3.  **Writing An Interpreter In Go** <br> 
+    by Thorsten Ball
+
+4.  **Writing A Compiler In Go** <br>
+    by Thorsten Ball
+
+5. **Compilers: Principles, Techniques, and Tools** <br>
+   by Alfred Aho, Monica Lam, Ravi Sethi
+
+
+## Contributing to the Rust compiler rustc
+
+1. **Video - RustConf 2021 - Hacking rustc: Contributing to the Compiler by Esteban Kuber** <br>
+   [https://www.youtube.com/watch?v=9H9SO2u6Q20](https://www.youtube.com/watch?v=9H9SO2u6Q20)
+
+2. **Video - rustc - A talk by Mark Mansi about the Rust programming language and compiler** <br>
+   [https://www.youtube.com/watch?v=68U8ZZ1EnEQ](https://www.youtube.com/watch?v=68U8ZZ1EnEQ)
+
+3. **Video - Hacking on rustc - Negative literals in indexing expressions** <br>
+   [https://www.youtube.com/watch?v=OGihuce8rl8](https://www.youtube.com/watch?v=OGihuce8rl8) 
+
+4. **Rust Lang - Compiler Team** <br>
+   [https://rust-lang.github.io/compiler-team/](https://rust-lang.github.io/compiler-team/)
+
+5. **The Rust Compiler - rustc** <br>
+   [https://github.com/rust-lang/rust](https://github.com/rust-lang/rust)
+
+6. **Zulip Chat - rust-lang** <br>
+   [https://rust-lang.zulipchat.com/](https://rust-lang.zulipchat.com/)
+
+7. **Forum Rust Internals** <br> 
+   [https://internals.rust-lang.org/](https://internals.rust-lang.org/)
+
+8. **Guide to Rustc Development - Book** <br>
+   [https://rustc-dev-guide.rust-lang.org/](https://rustc-dev-guide.rust-lang.org/)
+
+9.  **Video Play List - rustc lecture series** <br>
+    [https://www.youtube.com/playlist?list=PL85XCvVPmGQhOL-J2Ng7qlPvDVOwYpGTN](https://www.youtube.com/playlist?list=PL85XCvVPmGQhOL-J2Ng7qlPvDVOwYpGTN)
 
 
 ## WebAssembly in Rust - WASM
