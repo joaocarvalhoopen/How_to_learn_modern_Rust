@@ -394,7 +394,7 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
    by Alfred Aho, Monica Lam, Ravi Sethi
 
 
-## Contributing to the Rust compiler rustc
+## Contributing to the Rust Compiler rustc
 
 1. **Video - RustConf 2021 - Hacking rustc: Contributing to the Compiler by Esteban Kuber** <br>
    [https://www.youtube.com/watch?v=9H9SO2u6Q20](https://www.youtube.com/watch?v=9H9SO2u6Q20)
@@ -411,16 +411,19 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 5. **The Rust Compiler - rustc** <br>
    [https://github.com/rust-lang/rust](https://github.com/rust-lang/rust)
 
-6. **Zulip Chat - rust-lang** <br>
+6. **rustc API docs - rustdoc documentation for the compiler** <br>
+   [https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/](https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/)
+
+7. **Zulip Chat - rust-lang** <br>
    [https://rust-lang.zulipchat.com/](https://rust-lang.zulipchat.com/)
 
-7. **Forum Rust Internals** <br> 
+8. **Forum Rust Internals** <br> 
    [https://internals.rust-lang.org/](https://internals.rust-lang.org/)
 
-8. **Guide to Rustc Development - Book** <br>
+9. **Guide to Rustc Development - Book** <br>
    [https://rustc-dev-guide.rust-lang.org/](https://rustc-dev-guide.rust-lang.org/)
 
-9.  **Video Play List - rustc lecture series** <br>
+10. **Video Play List - rustc lecture series** <br>
     [https://www.youtube.com/playlist?list=PL85XCvVPmGQhOL-J2Ng7qlPvDVOwYpGTN](https://www.youtube.com/playlist?list=PL85XCvVPmGQhOL-J2Ng7qlPvDVOwYpGTN)
 
 
