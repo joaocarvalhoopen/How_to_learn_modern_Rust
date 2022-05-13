@@ -12,7 +12,7 @@ Table of Contents
    * [Rust Testing and TDD - Test Driven Development](#rust-testing-and-tdd---test-driven-development) 
    * [Background in systems programming](#background-in-systems-programming)
    * [Writing Compilers in Rust](#writing-compilers-in-rust)
-   * [Contributing to the Rust compiler rustc](#contributing-to-the-rust-compiler-rustc)
+   * [Contributing to the Rust Compiler rustc](#contributing-to-the-rust-compiler-rustc)
    * [WebAssembly in Rust - WASM](#webassembly-in-rust---wasm)
    * [Python extended with Rust and running a Python interpreter inside Rust](#python-extended-with-rust-and-running-a-python-interpreter-inside-rust)
    * [Rust with inline Python](#rust-with-inline-python)
@@ -384,13 +384,16 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 2. **Video Play List - Crafting Interpreters - Uncle Scientist** <br>
    [https://www.youtube.com/playlist?list=PLib6-zlkjfXluRjBgK8grQH2IUSZjn-YN](https://www.youtube.com/playlist?list=PLib6-zlkjfXluRjBgK8grQH2IUSZjn-YN) 
 
-3.  **Writing An Interpreter In Go** <br> 
+3. **LISP interpreter in Rust** <br>
+   [https://vishpat.github.io/lisp-rs/](https://vishpat.github.io/lisp-rs/)
+
+4.  **Writing An Interpreter In Go** <br> 
     by Thorsten Ball
 
-4.  **Writing A Compiler In Go** <br>
+5.  **Writing A Compiler In Go** <br>
     by Thorsten Ball
 
-5. **Compilers: Principles, Techniques, and Tools** <br>
+6. **Compilers: Principles, Techniques, and Tools** <br>
    by Alfred Aho, Monica Lam, Ravi Sethi
 
 
