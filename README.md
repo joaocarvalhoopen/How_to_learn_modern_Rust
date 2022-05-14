@@ -1382,13 +1382,47 @@ fn bench_vec_of_vec_unsafe(b: &mut Bencher) {
 
 ## Notes - General
 
-* Method Option.copied() 
+* Enum Option - Option.copied() 
 
 ```rust
+// y_copy is a new Option of the cloned char 'a'.
+// x is Option<&T> and the y_copy is Option<T> . 
 let c: char = 'a';
 let x: Option<&char> = Some(&c);
-let y: Option<char>  = x.copied();  // =>  Option<char>
-// y is a new Option of the cloned char 'a'.
+let y_copy: Option<char>  = x.copied();  // =>  Option<char>
+```
+
+* Trait Iterator - Iterator.copied() <br>
+  Example modified from std lib docs.
+
+```rust
+// Trait Iterator - Iterator.copied()
+// Creates an iterator which copies all of its elements.
+// This is useful when you have an iterator over &T, but you need an iterator over T.
+
+let a = [1, 2, 3];
+
+{
+    // Vector of references &T , &i32
+    let v_copied_ref: Vec<&i32> = a.iter().collect();
+}
+
+// Vector of copied items T , i32
+let v_copied: Vec<i32> = a.iter().copied().collect();
+
+// You should write the Vec type like this "vec<_>".
+// let v_copied: Vec<_> = a.iter().copied().collect();
+
+// Copied is the same as .map(|&x| x)
+let v_map: Vec<_> = a.iter().map(|&x| x).collect();
+
+assert_eq!(v_copied, vec![1, 2, 3]);
+assert_eq!(v_map, vec![1, 2, 3]);
+
+// Better and faster to just transform an array into a Vec.
+let v_copied_2 = a.to_vec();
+assert_eq!(v_copied_2, vec![1, 2, 3]);
+
 ```
 
 
