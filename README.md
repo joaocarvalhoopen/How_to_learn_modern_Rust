@@ -1385,10 +1385,10 @@ fn bench_vec_of_vec_unsafe(b: &mut Bencher) {
 * Method Option.copied() 
 
 ```rust
-let c = 'a';
+let c: char = 'a';
 let x: Option<&char> = Some(&c);
 let y: Option<char>  = x.copied();  // =>  Option<char>
-// y is a new Option of cloned char.
+// y is a new Option of the cloned char 'a'.
 ```
 
 
