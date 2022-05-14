@@ -40,6 +40,7 @@ Table of Contents
    * [Programming Parallel Computers - Optimization guide C Plus Plus and Rust](#programming-parallel-computers---optimization-guide-c-plus-plus-and-rust)
    * [Rust Optimization - Compilation modes and flags](#rust-optimization---compilation-modes-and-flags)
    * [Rust bounds check removal](#rust-bounds-check-removal)
+   * [Notes - General](#notes---general)
    * [Notes on optimization](#notes-on-optimization)
    * [Rust substring processing](#rust-substring-processing)
    * [Macros in Rust](#macros-in-rust)
@@ -1376,6 +1377,18 @@ fn bench_vec_of_vec_unsafe(b: &mut Bencher) {
         }
     });
 }
+```
+
+
+## Notes - General
+
+* Method Option.copied() 
+
+```rust
+let c = 'a';
+let x: Option<&char> = Some(&c);
+let y: Option<char>  = x.copied();  // =>  Option<char>
+// y is a new Option of cloned char.
 ```
 
 
