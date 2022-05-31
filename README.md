@@ -285,6 +285,10 @@ if my_str_as_bytes_slice[2] == b'l' {
 3. **Video - Crust of Rust: Lifetime Annotations - Jon Gjengset** <br>
    [https://www.youtube.com/watch?v=rAl-9HwD858](https://www.youtube.com/watch?v=rAl-9HwD858)
 
+4. **Implementing a HashMap in Rust.** <br>
+   Video - Live-coding a linked hash map in Rust - **Jon Gjengset** <br>
+   [https://www.youtube.com/watch?v=k6xR2kf9hlA](https://www.youtube.com/watch?v=k6xR2kf9hlA)
+
 
 ## How to deal with Circular References and Ownership
 
