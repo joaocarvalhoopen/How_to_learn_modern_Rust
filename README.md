@@ -105,119 +105,122 @@ To learn Rust go through the following content **in the listed order**, the majo
 14. **Standard collections - std info and how to choose the correct collection** <br>
     [https://doc.rust-lang.org/std/collections/index.html](https://doc.rust-lang.org/std/collections/index.html)
 
-15. **Video - Unsafe & FFI in Rust** <br>
+15. **Trivia About Rust Types: An Authorized Transcription of Jon Gjengset’s Twitter Thread** <br>
+    [https://www.thecodedmessage.com/posts/trivia-rust-types/](https://www.thecodedmessage.com/posts/trivia-rust-types/)
+
+16. **Video - Unsafe & FFI in Rust** <br>
     [https://www.youtube.com/watch?v=LFFbTeU25pE](https://www.youtube.com/watch?v=LFFbTeU25pE)
 
-16. **Rust by Example Book** <br>
+17. **Rust by Example Book** <br>
     [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
 
-17. **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
+18. **Study carefully the methods of ``` Option<T> ``` in the documentation, they are used in all Rust programs** <br>
     [https://doc.rust-lang.org/beta/std/option/index.html](https://doc.rust-lang.org/beta/std/option/index.html)
 
-18. **Study carefully the methods of ``` Result<T, E> ``` in the documentation, they are used in all Rust programs** <br>
+19. **Study carefully the methods of ``` Result<T, E> ``` in the documentation, they are used in all Rust programs** <br>
     [https://doc.rust-lang.org/beta/std/result/index.html](https://doc.rust-lang.org/beta/std/result/index.html)
 
-19. **Command Line Applications in Rust - Book** <br>
+20. **Command Line Applications in Rust - Book** <br>
     [https://rust-cli.github.io/book/in-depth/docs.html](https://rust-cli.github.io/book/in-depth/docs.html)
 
-20. **The Rust Standard Library documentation** <br>
+21. **The Rust Standard Library documentation** <br>
     [https://doc.rust-lang.org/std/](https://doc.rust-lang.org/std/)
 
-21. **Learn Rust With Entirely Too Many Linked Lists - Book** <br>
+22. **Learn Rust With Entirely Too Many Linked Lists - Book** <br>
     [https://rust-unofficial.github.io/too-many-lists/](https://rust-unofficial.github.io/too-many-lists/)
 
-22. **Rust Design Patterns - Book** <br>
+23. **Rust Design Patterns - Book** <br>
     [https://rust-unofficial.github.io/patterns/](https://rust-unofficial.github.io/patterns/)
 
-23. **Effective Rust - Book** <br>
+24. **Effective Rust - Book** <br>
     [https://www.lurklurk.org/effective-rust/](https://www.lurklurk.org/effective-rust/)
 
-24. **The Rust Cookbook - Book** <br>
+25. **The Rust Cookbook - Book** <br>
     [https://rust-lang-nursery.github.io/rust-cookbook/](https://rust-lang-nursery.github.io/rust-cookbook/)
 
-25. **The Cargo Book** <br>
+26. **The Cargo Book** <br>
     [https://doc.rust-lang.org/cargo/index.html](https://doc.rust-lang.org/cargo/index.html)
 
-26. **Guide trough of the Advent of Code 2020** <br>
+27. **Guide trough of the Advent of Code 2020** <br>
     [https://fasterthanli.me/series/advent-of-code-2020](https://fasterthanli.me/series/advent-of-code-2020)
 
-27. **Rust API Guidelines Book** <br>
+28. **Rust API Guidelines Book** <br>
     [https://rust-lang.github.io/api-guidelines/about.html](https://rust-lang.github.io/api-guidelines/about.html)
 
-28. **The Rust Reference Book** <br>
+29. **The Rust Reference Book** <br>
     [https://doc.rust-lang.org/stable/reference/](https://doc.rust-lang.org/stable/reference/)
 
-29. **The Rustonomicon - The Dark Arts of Unsafe Rust - Book** <br>
+30. **The Rustonomicon - The Dark Arts of Unsafe Rust - Book** <br>
     [https://doc.rust-lang.org/nomicon/](https://doc.rust-lang.org/nomicon/)
 
-30. **The Little Book of Rust Macros - Book** <br>
+31. **The Little Book of Rust Macros - Book** <br>
     [https://veykril.github.io/tlborm/introduction.html](https://veykril.github.io/tlborm/introduction.html)
 
-31. **Writing Interpreters in Rust: a Guide - Book** <br>
+32. **Writing Interpreters in Rust: a Guide - Book** <br>
     [https://rust-hosted-langs.github.io/book/introduction.html](https://rust-hosted-langs.github.io/book/introduction.html)
 
-32. **Video - Cheaply writing a fast interpreter - Neil Mitchell** <br>
+33. **Video - Cheaply writing a fast interpreter - Neil Mitchell** <br>
     [https://www.youtube.com/watch?v=V8dnIw3amLA](https://www.youtube.com/watch?v=V8dnIw3amLA) <br>
     github <br>
     [https://github.com/ndmitchell/interpret](https://github.com/ndmitchell/interpret)
 
-33. **Make A Language** <br>
+34. **Make A Language** <br>
     A series about making a programming language called **Eldiro** using the Rust programming language. <br>
     [https://arzg.github.io/lang/](https://arzg.github.io/lang/)
 
-34. **Engineering Rust Web Applications - Book** <br>
+35. **Engineering Rust Web Applications - Book** <br>
     [https://erwabook.com/](https://erwabook.com/)
 
-35. **Programming Rust: Fast, Safe Systems Development 2nd Ed** <br>
+36. **Programming Rust: Fast, Safe Systems Development 2nd Ed** <br>
     by Jim Blandy, Jason Orendorff
 
-36. **Rust for Rustaceans: Idiomatic Programming for Experienced Developers** <br>
+37. **Rust for Rustaceans: Idiomatic Programming for Experienced Developers** <br>
     by Jon Gjengset
 
-37. **Refactoring to Rust** <br>
+38. **Refactoring to Rust** <br>
     by Lily Mara
 
-38. **Practical System Programming for Rust Developers** <br>
+39. **Practical System Programming for Rust Developers** <br>
     Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
     by Prabhu Eshwarla
 
-39. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
+40. **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
     by Brian L. Troutwine 
 
-40. **GDB: The GNU Project Debugger** <br>
+41. **GDB: The GNU Project Debugger** <br>
     [https://www.gnu.org/software/gdb/documentation/](https://www.gnu.org/software/gdb/documentation/)
 
-41. **The LLDB Debugger** <br>
+42. **The LLDB Debugger** <br>
     [https://lldb.llvm.org/](https://lldb.llvm.org/)
 
-42. **Valgrind User Manual** <br>
+43. **Valgrind User Manual** <br>
     [https://valgrind.org/docs/manual/manual.html](https://valgrind.org/docs/manual/manual.html)
 
-43. **The perf Linux profiler - Examples of use** <br>
+44. **The perf Linux profiler - Examples of use** <br>
     [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
 
-44. **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
+45. **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
     [https://github.com/BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck)
 
-45. **American Fuzzy Lop - A good fuzzer** <br>
+46. **American Fuzzy Lop - A good fuzzer** <br>
     [https://lcamtuf.coredump.cx/afl/](https://lcamtuf.coredump.cx/afl/)
 
-46. **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
+47. **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
     [https://github.com/bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)
 
-47. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
+48. **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
 	 by Rahul Sharma, Vesa Kaihlavirta 
 
-48. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
+49. **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
     by Carlo Milanesi
 
-49. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
+50. **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
     by Iban Eguia Moraza 
 
-50. **Writing an OS in Rust Philipp Oppermann's blog** <br>
+51. **Writing an OS in Rust Philipp Oppermann's blog** <br>
     [https://os.phil-opp.com/](https://os.phil-opp.com/)
 
-51. **The Rust Unstable Book** <br>
+52. **The Rust Unstable Book** <br>
     [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 
