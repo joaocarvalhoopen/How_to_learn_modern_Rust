@@ -10,10 +10,12 @@ Table of Contents
    * [How to deal with Circular References and Ownership](#how-to-deal-with-circular-references-and-ownership)
    * [Polymorphism in Rust](#polymorphism-in-rust)
    * [Rust Testing and TDD - Test Driven Development](#rust-testing-and-tdd---test-driven-development) 
+   * [Systems programming in Rust](#systems-programming-in-rust)
    * [Background in systems programming](#background-in-systems-programming)
    * [Writing Compilers in Rust](#writing-compilers-in-rust)
    * [Contributing to the Rust Compiler rustc](#contributing-to-the-rust-compiler-rustc)
    * [WebAssembly in Rust - WASM](#webassembly-in-rust---wasm)
+   * [WebFrameworks in Rust - Similar to React Angular or Vue](#webframeworks-in-rust---similar-to-react-angular-or-vue)
    * [Python extended with Rust and running a Python interpreter inside Rust](#python-extended-with-rust-and-running-a-python-interpreter-inside-rust)
    * [Rust with inline Python](#rust-with-inline-python)
    * [Rust on or for the Raspberry Pi](#rust-on-or-for-the-raspberry-pi)
@@ -334,6 +336,24 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
   [https://www.youtube.com/watch?v=2vBQFIWl36k](https://www.youtube.com/watch?v=2vBQFIWl36k)
 
 
+## Systems programming in Rust
+
+* **Crate libc - Raw FFI bindings to platforms system libraries** <br>
+  [https://crates.io/crates/libc](https://crates.io/crates/libc)
+
+* **Crate nix - Rust friendly bindings to _nix APIs** <br>
+  [https://crates.io/crates/nix](https://crates.io/crates/nix)
+
+* **How to use ptrace() system call to trace system calls and CPU registers on a external program**, <br>
+  by running it as a child process or by attachment to a running process. <br>
+  Blog post - Implementing strace in Rust - jakobwaibel <br>
+  [https://jakobwaibel.com/2022/06/06/ptrace/](https://jakobwaibel.com/2022/06/06/ptrace/)
+
+* **How to use ptrace() system call implement a debugger.** <br>
+  System programming in Rust, take 2 - carstein <br>
+  [https://carstein.github.io/2022/05/29/rust-system-programming-2.html](https://carstein.github.io/2022/05/29/rust-system-programming-2.html)
+
+
 ## Background in systems programming
 
 1. **How to learn modern Linux** <br>
@@ -473,6 +493,16 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 
 6. **Video - Rust + Yew + WASM + Canvas - Vers Binarii** <br>
    [https://www.youtube.com/watch?v=7Smco8araSo](https://www.youtube.com/watch?v=7Smco8araSo)
+
+
+## WebFrameworks in Rust - Similar to React Angular or Vue
+
+* **Crate Yew.rs - A framework similar to React, Angular or Vue,** <br>
+  **but without Javascript, the development is all made in Rust.** <br>
+  [https://yew.rs/](https://yew.rs/)
+
+* **Video Playlist - Introduction to Yew.rs Course - Brooks Builds** <br>
+  [https://www.youtube.com/playlist?list=PLrmY5pVcnuE_R5qJ0o30eGw77bWmnrUtL](https://www.youtube.com/playlist?list=PLrmY5pVcnuE_R5qJ0o30eGw77bWmnrUtL)
 
 
 ## Python extended with Rust and running a Python interpreter inside Rust  
