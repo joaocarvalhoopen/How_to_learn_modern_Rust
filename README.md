@@ -349,7 +349,7 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
   Blog post - Implementing strace in Rust - jakobwaibel <br>
   [https://jakobwaibel.com/2022/06/06/ptrace/](https://jakobwaibel.com/2022/06/06/ptrace/)
 
-* **How to use ptrace() system call implement a debugger.** <br>
+* **How to use ptrace() system call to implement a debugger.** <br>
   System programming in Rust, take 2 - carstein <br>
   [https://carstein.github.io/2022/05/29/rust-system-programming-2.html](https://carstein.github.io/2022/05/29/rust-system-programming-2.html)
 
