@@ -21,6 +21,7 @@ Table of Contents
    * [Rust on or for the Raspberry Pi](#rust-on-or-for-the-raspberry-pi)
       * [Developing on the Raspberry Pi and running Rust programs on the Raspberry Pi](#developing-on-the-raspberry-pi-and-running-rust-programs-on-the-raspberry-pi)
       * [Developing on the PC and cross-compiling to run Rust programs on the Raspberry Pi](#developing-on-the-pc-and-cross-compiling-to-run-rust-programs-on-the-raspberry-pi)
+   * [Raspberry Pi Bare Metal](#Raspberry-Pi-Bare-Metal)
    * [Embedded Rust](#embedded-rust)
    * [Embedded Rust crates and code size optimization](#embedded-rust-crates-and-code-size-optimization)
    * [Embedded Rust with STM32 BluePill - STM32F103](#embedded-rust-with-stm32-bluepill---stm32f103)
@@ -384,28 +385,42 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
    by Jin-Jwei Chen <br>
    **Note:** Read this book from cover to cover!
 
-8. **Linux Device Drivers, 3th Edition** <br>
+8. **Dive into Systems** <br>
+   by Suzanne J. Matthews, Tia Newhall, Kevin C. Webb <br>
+   [https://diveintosystems.org/](https://diveintosystems.org/) <br>
+   **Note:** Read this book from cover to cover!
+
+9. **Linux Device Drivers, 3th Edition** <br>
    [https://lwn.net/Kernel/LDD3/](https://lwn.net/Kernel/LDD3/)
 
-9.  **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
-   by Alberto Liberal de los Ríos
+10. **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
+    by Alberto Liberal de los Ríos
 
-10. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
+11. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
    by Randal Bryant, David O'Hallaron
 
-11. **Computer Networking: A Top-Down Approach** <br> 
+12. **Computer Networking: A Top-Down Approach** <br> 
    by James Kurose
 
-12. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
+13. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
    by Walter Goralski
 
-13. **C Programming: A Modern Approach, 2nd Edition** <br>
+14. **C Programming: A Modern Approach, 2nd Edition** <br>
     by K. N. King
 
-14. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
+15. **Effective C - An Introduction to Professional C Programming** <br>
+    by Robert C. Seacord
+
+16. **CERT C Coding Standard - The 98 Rules for Developing Safe, Reliable, and Secure Systems 2nd Edition** <br>
+    by Robert C. Seacord  (Author)**
+
+17. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
     by Kamran Amini
 
-15. **C++ Crash Course: A Fast-Paced Introduction** <br>
+18. **Programming - Principles and Practice Using C++ 2nd Edition, C++ 14** <br>
+    by Bjarne Stroustrup
+
+19. **C++ Crash Course: A Fast-Paced Introduction, C++ 17** <br>
     by Josh Lospinoso
 
 
@@ -602,6 +617,25 @@ The inner workings and all the development steps of this project are beautifully
 
 2. **Cross compiling Rust for Raspberry Pi** <br>
    [https://dev.to/h_ajsf/cross-compiling-rust-for-raspberry-pi-4iai](https://dev.to/h_ajsf/cross-compiling-rust-for-raspberry-pi-4iai)
+
+
+## Raspberry Pi Bare Metal
+
+1. **Github - Zoltan Baldaszti - Bare metal Raspberry Pi 3 tutorials** <br>
+   [https://github.com/bztsrc/raspi3-tutorial/](https://github.com/bztsrc/raspi3-tutorial/)
+
+2. **Writing a bare metal operating system for Raspberry Pi 4** <br>
+   [https://www.rpi4os.com/](https://www.rpi4os.com/)
+
+3. **Video Playlist - Low Level Devel - Raspberry Pi Bare Metal** <br>
+   [https://www.youtube.com/playlist?list=PLVxiWMqQvhg9FCteL7I0aohj1_YiUx1x8](https://www.youtube.com/playlist?list=PLVxiWMqQvhg9FCteL7I0aohj1_YiUx1x8)
+
+4. **Video BAREMETAL RUST Runs on EVERYTHING, Including the Raspberry Pi - Embedded Rust Tutorial** <br>
+   by Low Level Learning <br>
+   [https://www.youtube.com/watch?v=jZT8APrzvc4](https://www.youtube.com/watch?v=jZT8APrzvc4)
+
+5. **Github - Operating System development tutorials in Rust on the Raspberry Pi** <br>
+   [https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
 
 
 ## Embedded Rust
