@@ -630,7 +630,7 @@ The inner workings and all the development steps of this project are beautifully
 3. **Video Playlist - Low Level Devel - Raspberry Pi Bare Metal** <br>
    [https://www.youtube.com/playlist?list=PLVxiWMqQvhg9FCteL7I0aohj1_YiUx1x8](https://www.youtube.com/playlist?list=PLVxiWMqQvhg9FCteL7I0aohj1_YiUx1x8)
 
-4. **Video BAREMETAL RUST Runs on EVERYTHING, Including the Raspberry Pi - Embedded Rust Tutorial** <br>
+4. **Video baremetal Rust Runs on everything, Including the Raspberry Pi - Embedded Rust Tutorial** <br>
    by Low Level Learning <br>
    [https://www.youtube.com/watch?v=jZT8APrzvc4](https://www.youtube.com/watch?v=jZT8APrzvc4)
 
