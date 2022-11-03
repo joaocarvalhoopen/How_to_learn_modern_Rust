@@ -16,6 +16,7 @@ Table of Contents
    * [Contributing to the Rust Compiler rustc](#contributing-to-the-rust-compiler-rustc)
    * [WebAssembly in Rust - WASM](#webassembly-in-rust---wasm)
    * [WebFrameworks in Rust - Similar to React Angular or Vue](#webframeworks-in-rust---similar-to-react-angular-or-vue)
+   * [SQL Databases in Rust](#sql-databases-in-rust)
    * [Rapid Prototyping in Rust - Write fast like Python - Run fast like C](#rapid-prototyping-in-rust---write-fast-like-python---run-fast-like-c)
    * [Python extended with Rust and running a Python interpreter inside Rust](#python-extended-with-rust-and-running-a-python-interpreter-inside-rust)
    * [Rust with inline Python](#rust-with-inline-python)
@@ -507,6 +508,18 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 
 * **Video Playlist - Introduction to Yew.rs Course - Brooks Builds** <br>
   [https://www.youtube.com/playlist?list=PLrmY5pVcnuE_R5qJ0o30eGw77bWmnrUtL](https://www.youtube.com/playlist?list=PLrmY5pVcnuE_R5qJ0o30eGw77bWmnrUtL)
+
+
+## SQL Databases in Rust
+
+1. **Video - 5 MUST know Rust database libraries** <br>
+   [https://www.youtube.com/watch?v=Vl06SzD-PDY](https://www.youtube.com/watch?v=Vl06SzD-PDY)
+
+2. **Video - Rust & SQL Databases - With Diesel** <br>
+   [https://www.youtube.com/watch?v=tRC4EIKhMzw](https://www.youtube.com/watch?v=tRC4EIKhMzw)
+
+3. **11 database drivers and ORMs for Rust that are ready for production** <br>
+   [https://blog.logrocket.com/11-database-drivers-and-orms-for-rust-that-are-ready-for-production/](https://blog.logrocket.com/11-database-drivers-and-orms-for-rust-that-are-ready-for-production/)
 
 
 ## Rapid Prototyping in Rust - Write fast like Python - Run fast like C
