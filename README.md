@@ -523,7 +523,7 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
 ## SQL Databases in Rust
 
 1. **Video - 5 MUST know Rust database libraries** <br>
-   [https://www.youtube.com/watch?v=Vl06SzD-PDY](https://www.youtube.com/watch?v=Vl06SzD-PDY)
+   [https://www.youtube.com/watch?v=Vl06SzD-PDY](https://www.youtube.com/watch?v=FW4oUXHly8c)
 
 2. **Video - Rust & SQL Databases - With Diesel** <br>
    [https://www.youtube.com/watch?v=tRC4EIKhMzw](https://www.youtube.com/watch?v=tRC4EIKhMzw)
