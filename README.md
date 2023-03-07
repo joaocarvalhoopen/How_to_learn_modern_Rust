@@ -63,7 +63,7 @@ It is the most beloved language for five years in a row in Stack Overflow users 
 To learn Rust go through the following content **in the listed order**, the majority of the content is free. <br>
 
 1. **Why Developers Love Rust** <br>
-   [https://ibraheem.ca/posts/why-devs-love-rust/](https://ibraheem.ca/posts/why-devs-love-rust/)
+   [https://ibraheem.ca/posts/why-devs-love-rust/](http://web.archive.org/web/20201113062124/https://ibraheem.ca/posts/why-devs-love-rust/) (web archive)
 
 2. **Video - Rust Crash Course - Rustlang** <br>
    [https://www.youtube.com/watch?v=zF34dRivLOw](https://www.youtube.com/watch?v=zF34dRivLOw)
